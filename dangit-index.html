@@ -1,0 +1,333 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width" />
+	<title>Dangit, git!</title>
+	<meta name="lolz" content="My git site brings all the mansplainers to the yard." />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet" />
+	<style type="text/css">body {
+                font-family: 'Source Sans Pro', sans-serif;
+                color: #222;
+                line-height: 1.5;
+            }
+            h1, h2, h3, h4, h5, h6 {
+                font-family: 'Montserrat', serif;
+            }
+            h1 {
+                line-height: 1.2;
+                font-size: 3em;
+            }
+            p {
+                margin: 0 0 1em 0;
+            }
+            .max-width {
+                margin: 1em;
+            }
+            @media screen and (min-width: 680px) {
+                .max-width {
+                    margin: 0 100px 0 170px;
+                    max-width: 640px;
+                }
+            }
+            @media screen and (min-width: 980px) {
+                .max-width {
+                    margin: 0 auto;
+                }
+            }
+            .centered {
+                text-align: center;
+            }
+            .spaced {
+                margin: 2em 0;
+            }
+            .no-bottom-margin {
+            	margin-bottom: 0;
+            }
+            .top-lined {
+                padding-top: 2em;
+                border-top: 1px solid #000;
+            }
+            .bottom-lined {
+                padding-bottom: 2em;
+                border-bottom: 1px solid #000;
+            }
+            .intro {
+                display: flex;
+                flex-direction: column;
+            }
+            .ads {
+                order: 1;
+            }
+            @media screen and (min-width: 680px) {
+                .ads {
+                    order: inherit;
+                }
+            }
+            .permalinked {
+                color: #222;
+                text-decoration: none;
+            }
+            .permalinked:hover,
+            .permalinked:focus {
+                text-decoration: underline;
+            }
+            .flattr-note {
+            	vertical-align: top;
+            }
+            #carbonads {
+              position: absolute;
+              display: block;
+              overflow: hidden;
+              margin-left: -160px;
+              max-width: 130px;
+              text-align: right;
+              font-size: 14px;
+              line-height: 1.5;
+            }
+            #carbonads a {
+              color: inherit;
+              text-decoration: none;
+            }
+            #carbonads a:hover {
+              color: inherit;
+            }
+            #carbonads span {
+              display: block;
+              overflow: hidden;
+            }
+            .carbon-img {
+              display: block;
+              margin: 0 auto 8px;
+              line-height: 1;
+            }
+            .carbon-text {
+              display: block;
+              margin-bottom: 8px;
+            }
+            .carbon-poweredby {
+              display: block;
+              text-transform: uppercase;
+              letter-spacing: 1px;
+              font-size: 10px;
+              line-height: 1;
+            }
+            @media only screen and (min-width: 320px) and (max-width: 679px) {
+              #carbonads {
+                position: relative;
+                float: none;
+                margin: 0 auto;
+                padding: 10px;
+                max-width: 330px;
+                border: solid 1px #8f8f8f;
+                text-align: left;
+              }
+              #carbonads span {
+                position: relative;
+              }
+              #carbonads > span {
+                max-width: none;
+              }
+              .carbon-img {
+                float: left;
+                margin: 0 1em 0 0;
+              }
+              .carbon-text {
+                float: left;
+                margin-bottom: 0;
+                max-width: calc(100% - 130px - 1em);
+              }
+              .carbon-poweredby {
+                position: absolute;
+                bottom: 0;
+                left: 144px;
+                display: block;
+              }
+            }
+	</style>
+	<link href="/prism.css" rel="stylesheet" />
+	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /><script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-8206228-2', 'auto');
+	  ga('send', 'pageview');
+	</script>
+</head>
+<body>
+<div class="max-width">
+<header class="spaced">
+<h1 class="centered">Dangit, git!</h1>
+</header>
+
+<article>
+<section class="intro">
+<aside class="ads"><script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=ohshitgitcom" id="_carbonads_js"></script></aside>
+
+<p>Git is hard: screwing up is easy, and figuring out how to fix your mistakes is nigh on impossible. Git documentation has this chicken and egg problem where you can&#39;t search for how to get yourself out of a mess, unless you <em>already know the name of the thing you need to know about</em> in order to fix your problem.</p>
+
+<p>So here are some bad situations I&#39;ve gotten myself into, and how I eventually got myself out of them <i>in plain english</i>*.</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#magic-time-machine" id="magic-time-machine">Dangit, I did something terribly wrong, please tell me git has a magic time machine!?!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                git reflog
+                # you will see a list of every thing you&#39;ve done in git, across all branches!
+                # each one has an index HEAD@{index}
+                # find the one before you broke everything
+                git reset HEAD@{index}
+                # magic time machine
+               </code></pre>
+
+<p>You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use <code>reflog</code> A LOT. Mega hat tip to the many many many many many people who suggested adding it!</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#change-last-commit" id="change-last-commit">Dangit, I committed and immediately realized I need to make one small change!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                    # make your change
+                    git add . # or add individual files
+                    git commit --amend
+                    # follow prompts to change or keep the commit message
+                    # now your last commit contains that change!
+                </code></pre>
+
+<p>This usually happens to me if I commit, then run tests/linters... and ugh, I didn&#39;t put a space after the equals sign. You could also make the change as a new commit and then do <code>rebase -i</code> in order to squash them both together, but this is about a million times faster.</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#change-last-commit-message" id="change-last-commit-message">Dangit, I need to change the message on my last commit!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                	git commit --amend
+                	# follow prompts to change the commit message
+                </code></pre>
+
+<p>Stupid commit message formatting requirements.</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#accidental-commit-master" id="accidental-commit-master">Dangit, I accidentally committed something to master that should have been on a brand new branch!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                    # create a new branch from the current state of master
+                    git branch some-new-branch-name
+                    # remove the commit from the master branch
+                    git reset HEAD~ --hard
+                    git checkout some-new-branch-name
+                    # your commit lives in this branch now :)
+                </code></pre>
+
+<p>Note: this doesn&#39;t work if you&#39;ve already pushed to origin, and if you tried other things first, you might need to <code>git reset HEAD@{number}</code> instead of <code>HEAD~</code>. Infinite sadness. Also, many many many people suggested an awesome way to make this shorter that I didn&#39;t know myself. Thank you all!</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#accidental-commit-wrong-branch" id="accidental-commit-wrong-branch">Dangit, I accidentally committed to the wrong branch!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                    # undo the last commit, but leave the changes available
+                    git reset HEAD~ --soft
+                    git stash
+                    # move to the correct branch
+                    git checkout name-of-the-correct-branch
+                    git stash pop
+                    git add . # or add individual files
+                    git commit -m &quot;your message here&quot;
+                    # now your changes are on the correct branch
+                </code></pre>
+
+<p>A lot of people have suggested using cherry-pick for this situation too, so take your pick on whatever one makes the most sense to you!</p>
+
+<pre class="language-git">
+<code class="language-git">
+                    git checkout name-of-the-correct-branch
+                    # grab the last commit to master
+                    git cherry-pick master
+                    # delete it from master
+                    git checkout master
+                    git reset HEAD~ --hard
+                </code></pre>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#dude-wheres-my-diff" id="dude-wheres-my-diff">Dangit, I tried to run a diff but nothing happened?!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">git diff --staged</code></pre>
+
+<p>Git won&#39;t do a diff of files that have been <code>add</code>-ed to your staging area without this flag. File under &macr;\_(ツ)_/&macr; (yes, this is a feature, not a bug, but it&#39;s baffling and non-obvious the first time it happens to you!)</p>
+
+<p></p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#undo-a-commit" id="undo-a-commit">Dangit, I need to undo a commit from like 5 commits ago!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+# find the commit you need to undo
+git log
+# use the arrow keys to scroll up and down in history
+# once you've found your commit, save the hash
+git revert [saved hash]
+# git will create a new commit that undos that commit
+# edit the commit message or save the commit
+</code></pre>
+<p>Turns out you don't have to copy-paste the contents of the old file into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with our friend <code>revert</code>.</p>
+
+<p>You can even revert a single file! But of course, in true git fashion, it's a completely different set of commands...</p>
+</section>
+
+<section class="spaced">
+<h2><a class="permalinked" href="#undo-a-file" id="undo-a-file">Dangit, I need to undo my changes to a file!</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+# find a hash for a commit before the file was changed
+git log
+# use the arrow keys to scroll up and down in history
+# once you've found your commit, save the hash
+git checkout [saved hash] -- path/to/file
+# the old version of the file will be in your index
+git commit -m "Wow, you don't have to copy-paste to undo"
+</code>
+</pre>
+
+<p>When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously, on what planet does <code>checkout</code> make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+</section>
+
+
+<section class="spaced">
+<h2><a class="permalinked" href="#fuck-this-noise" id="fuck-this-noise">Forget all of this, I give up.</a></h2>
+
+<pre class="language-git">
+<code class="language-git">
+                    cd ..
+                    sudo rm -r dang-git-repo-dir
+                    git clone https://some.github.url/dang-git-repo-dir.git
+                    cd dang-git-repo-dir
+                </code></pre>
+
+<p>Thanks to Eric V. for this one.</p>
+</section>
+
+<footer class="spaced centered">
+<p class="top-lined bottom-lined"><small>*Disclaimer: I am not, nor do I even remotely claim to be, an expert at git. This site is not intended to be an exhaustive reference. And yes, there are other ways to do these same things with more theoretical purity or whatever, but I&#39;ve come to these steps through trial and error and lots of swearing and table flipping, and I had this crazy idea to share them with a healthy dose of levity. Take it or leave it as you will!</small></p>
+
+<p><small>What&#39;s your &quot;Dangit, git&quot; moment? Share them with me:<br />
+<a href="https://twitter.com/ohshitgit">@ohshitgit</a>. (I&#39;m also <a href="https://twitter.com/ksylor">@ksylor</a>, but that&#39;s mostly for stupid jokes about my kids)</small></p>
+<p><small>copyright 2016-2019 Katie Sylor-Miller</small></p>
+</footer>
+</article>
+</div>
+<script src="/prism.js"></script></body>
+</html>
