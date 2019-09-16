@@ -1,0 +1,9 @@
+[[headers]]
+for = "/*"
+X-Clacks-Overhead = "GNU Terry Pratchett"
+
+[[redirects]]
+from = "/"
+to = "/en/swears/index.html"
+status = 200
+force = true

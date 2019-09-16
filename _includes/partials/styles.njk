@@ -1,0 +1,8 @@
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet" />
+{% set css %}
+    {% include "site.css" %}
+{% endset %}
+<style>
+    {{ css | cssmin | safe }}
+</style>
+<link href="/prism.css" rel="stylesheet" />

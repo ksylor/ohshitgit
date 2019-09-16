@@ -1,0 +1,10 @@
+{
+    "url_swears": "https://ohshitgit.com",
+    "url_noswears": "https://dangitgit.com",
+    "copyright": "&copy; 2016-2019 Katie Sylor-Miller",
+    "languages": [
+        { "label": "english", "code": "en" }
+    ],
+    "twitter_ksylor": "<a href='https://twitter.com/ksylor'>@ksylor</a>",
+    "twitter_ohshitgit": "<a href='https://twitter.com/ohshitgit'>@ohshitgit</a>"
+}
