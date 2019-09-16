@@ -1,0 +1,9 @@
+<nav class="langpicker">
+    <ul>
+    {% for lang in site.languages %}
+        {% if lang.code != locale %}
+            <li><a href="/{{lang.code}}" title="{{lang.label}}">{{lang.code}}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</nav>

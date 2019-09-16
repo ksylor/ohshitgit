@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="{{locale}}">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+	<title>{{title}}</title>
+	<meta name="lolz" content="My git site brings all the mansplainers to the yard." />
+    <!-- hi this is coming from netlify & 11ty-->
+
+	{% include "partials/styles.njk" %}
+
+	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
+	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
+    
+    {% include "partials/ga.njk" %}
+</head>
+<body>
+    {% if contentType == "swears" %}
+        {% set banner = locale + "/" + contentType + "/" + "partials/banner.njk" %}
+        {% include banner %}
+    {% endif %}
+
+    {% include "partials/langpicker.njk" %}
+
+    <div class="max-width">
+        <header class="spaced">
+            <h1 class="centered">{{title}}</h1>
+        </header>
+
+        <main>
+            {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
+            {% include intro %}
+
+            {% set tips = collections["tips_" + contentType + "_" + locale] %}
+            {% for tip in tips %}
+                <section class="spaced">
+                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{tip.data.title}}</a></h2>
+                    {{tip.templateContent | safe}}
+                </section>
+            {% endfor %}
+        </main>
+
+        {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
+        {% include footer %}
+    </div>
+    <script src="/prism.js"></script>
+</body>
+</html>
