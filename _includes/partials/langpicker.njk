@@ -1,3 +1,4 @@
+{% if site.languages.length > 1 %}
 <nav class="langpicker">
     <ul>
     {% for lang in site.languages %}
@@ -7,3 +8,4 @@
     {% endfor %}
     </ul>
 </nav>
+{% endif %}
