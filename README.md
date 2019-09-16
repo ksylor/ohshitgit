@@ -13,10 +13,10 @@ The following commands will all need to be run in a terminal/command line prompt
 
 3. Make sure you have the dependencies installed by running `npm install`.
 
-4. Turn on the development server to preview your changes
-`eleventy --serve`
+4. Turn on the development server to preview your changes via
+`eleventy --serve` (if you have Eleventy installed globally) or `npx @11ty/eleventy --serve`(if you only installed it locally)
 
-5. Copy/paste the `Local Access` url into your browser. You will get an error, but that's okay! In order to generate the swear-filled and non-swear-filled content, there isn't a single access point, and we use redirects on the server to show the correct content from the language sub-directories to folks.
+5. Copy/paste the `Local Access` url from the Eleventy console output into your browser. You will get an error, but that's okay! In order to generate the swear-filled and non-swear-filled content, there isn't a single access point, and we use redirects on the server to show the correct content from the language sub-directories to folks.
 
 6. Navigate to `[localhost url from step 5]/en/swears/index.html` to see the english version of ohshitgit.com, or `[localhost url from step 5]/en/noswears/index.html` to see the english version of dangitgit.com (without swears!).
 
@@ -46,11 +46,11 @@ There are a few general rules for translation:
 
 Okay, now for some code changes so that we can see this content on the site! 
 
-7. in the `_data` folder, open up `site.json` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutch) and the standard language code.
+7. in the `_data` folder, open up `site.json` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutsch) and the standard language code.
 ```
 "languages": [
     { "label": "english", "code": "en" },
-    { "label": "deutch", "code": "de }
+    { "label": "deutsch", "code": "de }
 ],
 ```
 
