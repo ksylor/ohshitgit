@@ -1,6 +1,6 @@
 {
-    "url_swears": "ohshitgit.com",
-    "url_noswears": "dangitgit.com",
+    "url_swears": "https://ohshitgit.com",
+    "url_noswears": "https://dangitgit.com",
     "copyright": "&copy; 2016-2019 Katie Sylor-Miller",
     "languages": [
         { "label": "english", "code": "en" }
