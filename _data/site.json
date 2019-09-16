@@ -3,7 +3,8 @@
     "url_noswears": "https://dangitgit.com",
     "copyright": "&copy; 2016-2019 Katie Sylor-Miller",
     "languages": [
-        { "label": "english", "code": "en" }
+        { "label": "english", "code": "en" },
+        { "label": "deutsch", "code": "de" }
     ],
     "twitter_ksylor": "<a href='https://twitter.com/ksylor'>@ksylor</a>",
     "twitter_ohshitgit": "<a href='https://twitter.com/ohshitgit'>@ohshitgit</a>"
