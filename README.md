@@ -32,9 +32,9 @@ There are a few general rules for translation:
 - Do translate content faithfully and to the best of your ability! Use all the swears you want for the swear-filled content. Remove swears for the noswear content. 
 - Have fun! If I've used english idioms that don't translate well, replace them with funnier ones from your language! 
 
-1. I've (most likely) created a new folder with the language code of your language - e.g. `/de/` for German. In this folder you will find copies of the english-language files for the site, broken down into sub-groups of files with `/swears/` and `/noswears/`. 
+1. Find the `/en/` folder in the directory and make a copy of it (and all of it's children) renamed with the language code of your language - e.g. `/de/` for German. In this folder you will find copies of the english-language files for the site, broken down into sub-groups of files with `/swears/` and `/noswears/`. 
 
-2. Each directory contains an `index.html` file which defines some 11ty "front matter" metadata for the language & site version - make sure that this file references the correct language code under the `locale` metadata item.
+2. Each directory contains an `index.html` file which defines some 11ty "front matter" metadata for the language & site version - make sure that this file references the correct language code under the `locale` metadata item. The other metadata should not be updated.
 
 3. In the `/partials/` directory you will find 2-3 nunjucks (`.njk`) files for global site elements. Please translate the content of these files, but keep the markup intact. Remember not to translate the site name, thanks! 
 
