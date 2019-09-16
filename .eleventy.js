@@ -7,17 +7,18 @@ module.exports = function(config) {
 
     config.addPassthroughCopy({"assets": "/"});
 
-    // collection of tips sorted
-    config.addCollection('tips_swears_en', function(collection) {
-        let tips = collection.getFilteredByGlob('en/swears/tips/*.md');
+    function getTipCollection(collection, contentType, lang) {
+        let tips = collection.getFilteredByGlob(lang + "/" + contentType + "/tips/*.md");
         tips.sort((a, b) => (a.order > b.order) ? 1 : -1);
         return tips;
+    }
+
+    // collection of tips sorted
+    config.addCollection('tips_swears_en', function(collection) {
+        return getTipCollection(collection, "swears", "en");
     });
 
     config.addCollection('tips_noswears_en', function(collection) {
-        let tips = collection.getFilteredByGlob('en/noswears/tips/*.md');
-        tips.sort((a, b) => (a.order > b.order) ? 1 : -1);
-        return tips;
+        return getTipCollection(collection, "noswears", "en");
     });
-
 };
