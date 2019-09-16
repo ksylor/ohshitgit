@@ -25,8 +25,11 @@
         </header>
 
         <main>
-            {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
-            {% include intro %}
+            <section class="intro">
+                {%include "partials/carbonads.njk"%} 
+                {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
+                {% include intro %}
+            </section>
 
             {% set tips = collections["tips_" + contentType + "_" + locale] %}
             {% for tip in tips %}
