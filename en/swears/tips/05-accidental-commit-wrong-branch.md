@@ -13,7 +13,7 @@ git stash
 git checkout name-of-the-correct-branch
 git stash pop
 git add . # or add individual files
-git commit -m &quot;your message here&quot;
+git commit -m "your message here";
 # now your changes are on the correct branch
 ```
 
