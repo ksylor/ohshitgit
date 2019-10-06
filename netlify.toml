@@ -7,3 +7,9 @@ from = "/"
 to = "/en/swears/index.html"
 status = 200
 force = true
+
+[[redirects]]
+from = "/de"
+to = "/de/swears/index.html"
+status = 200
+force = true
