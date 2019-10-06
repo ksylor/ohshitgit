@@ -46,11 +46,20 @@ There are a few general rules for translation:
 
 Okay, now for some code changes so that we can see this content on the site! 
 
-7. in the `_data` folder, open up `site.json` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutsch) and the standard language code.
+7. in the `_data` folder, open up `site.js` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutsch), the standard language code, and then a translation of the phrase "View in other languages" which will be used as an `aria-label` for the language picker when that language is selected.
+
 ```
 "languages": [
-    { "label": "english", "code": "en" },
-    { "label": "deutsch", "code": "de }
+    {
+        "label": "english",
+        "code": "en",
+        "arialabel": "View in other languages"
+    },
+    {
+        "label": "deutsch",
+        "code": "de",
+        "arialabel": "In anderen Sprachen anzeigen"
+    }
 ],
 ```
 
@@ -69,7 +78,23 @@ config.addCollection('tips_noswears_en', function(collection) {
 
 9. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
 
-10. Make sure to `git commit` your changes along the way so you don't lose your work :D
+10. Add a new redirect rule to the `netlify.toml` file that will tell netlify the proper file to load for each language code in the URL. Yours should go underneath the other redirects and in this same format:
+
+```
+[[redirects]]
+from = "/en"
+to = "/en/swears/index.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/de"
+to = "/de/swears/index.html"
+status = 200
+force = true
+```
+
+11. Make sure to `git commit` your changes along the way so you don't lose your work :D
 
 
 ## Previewing your changes in netlify
@@ -81,7 +106,9 @@ Once you're happy with the state of your branch, we can preview the changes live
 
 3. Once you've reviewed the changes and clicked the "Create Pull Request" button in the github UI, Netlify will automatically run checks on the new code. If all is well, you'll see a check for "Deploy preview", click on the "details" link, and if all is well, it should take you to the preview site. Please don't share this URL with anyone else.
 
-4. Then, I'll take over from here and review the PR as per usual and either request changes or approve the PR. Once it's approved I'll merge it in and Netlify will automatically deploy the changes! 
+4. Test that your new language appears in the language picker on the english site, and review your content one last time. 
+
+5. Then, I'll take over from here and review the PR as per usual and either request changes or approve the PR. Once it's approved I'll merge it in and Netlify will automatically deploy the changes! 
 
 # Questions? Problems? 
 Feel free to message me on twitter or push up a WIP PR with questions! Thanks again for your help!
