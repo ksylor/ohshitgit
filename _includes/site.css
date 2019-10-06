@@ -102,8 +102,9 @@ p {
 .permalinked:focus {
     text-decoration: underline;
 }
-.flattr-note {
-    vertical-align: top;
+.thanks {
+  font-weight: bold;
+  font-size: 1.5em;
 }
 #carbonads {
   position: absolute;
