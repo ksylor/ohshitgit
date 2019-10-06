@@ -24,7 +24,13 @@ p {
     color: white;
 }
 .langpicker {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+.langpicker-icon {
+  height: 1.5em;
 }
 .langpicker a {
   display: inline-block;

@@ -7,6 +7,12 @@ module.exports = function (config) {
 
     config.addPassthroughCopy({ "assets": "/" });
 
+    /** get the aria label for the language picker for the current locale **/
+    config.addNunjucksShortcode("langpicker_arialabel", function(locale, languageData){
+        let lang = languageData.find(function(el){ return el.code == locale});
+        return lang["arialabel"];
+    });
+
     function getTipCollection(collection, contentType, lang) {
         let tips = collection.getFilteredByGlob(lang + "/" + contentType + "/tips/*.md");
         tips.sort((a, b) => (a.order > b.order) ? 1 : -1);
