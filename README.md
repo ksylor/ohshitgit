@@ -6,7 +6,7 @@ The site is built using the Eleventy (11ty) static site generator, and is deploy
 ## Local development
 The following commands will all need to be run in a terminal/command line prompt.
 
-1. Clone the project repo to your computer. Instructions are up and to the left of this file in the github ui. Then `cd ohshitgit` to open the cloned repo.
+1. Clone the project repo to your computer. Instructions are up and to the right of this file in the github ui (it's a big green button that says "clone or download"). Then `cd ohshitgit` to open the cloned repo.
 
 2. Before you start work, create a new branch for your changes using:
 `git checkout -b new-branch-name` Please choose a descriptive branch name such as `add-language-fr` or similar. Netlify will use this branch later to create a test environment for your changes!
