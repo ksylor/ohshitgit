@@ -23,7 +23,8 @@ Aber mal ernsthaft: wenn dein Branch soo verhunzt ist, dass du den Stand deines 
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# Lösche alle Dateien und Ordner, die noch nicht eingecheckt wurden
+# Lösche alle Dateien und Ordner, die noch nicht 
+# eingecheckt wurden
 git clean -d --force
 # Wiederhole checkout/reset/clean für jeden verhunzten Branch
 ```

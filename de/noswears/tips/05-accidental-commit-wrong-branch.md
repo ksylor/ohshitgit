@@ -6,7 +6,7 @@ order: 5
 ---
 
 ```git
-# Mach den letzten Commit rückgängig, erhalte die Änderungen
+# Mach den letzten Commit rückgängig, aber erhalte die Änderungen
 git reset HEAD~ --soft
 git stash
 # Navigiere zum richtigen Branch

@@ -15,7 +15,7 @@ git commit --amend --no-edit
 # du bist der einzige Entwickler in dem Repo)
 ```
 
-Normalerweise passiert mir das, wenn ich commite und dann erst Tests oder Linter laufen lasse. Dann fallen irgendwelche kleinen Formatierungsfehler auf, zum Beispiel ein vergessenes Leerzeichen. Man könnte die Änderung auch als neuen Commit erstellen und dann mit `rebase -i` beide Commits zusammenführen, aber das hier ist tausend mal schneller.
+Normalerweise passiert mir das, wenn ich commite und dann erst Tests oder Linter laufen lasse. Dann fallen irgendwelche kleinen Formatierungsfehler auf, zum Beispiel ein vergessenes Leerzeichen. Man könnte die Änderung auch als neuen Commit erstellen und dann mit <nobr>`rebase -i`</nobr> beide Commits zusammenführen, aber das hier ist tausend mal schneller.
 
 
-*Warnung: Du solltest niemals die "--amend"-Flag verwenden, wenn dein Commit schon gepusht wurde. Verwende das nur bei lokalen Commits, ansonsten wird es kompliziert.*
+*Warnung: Du solltest niemals das "--amend"-Flag verwenden, wenn dein Commit schon gepusht wurde. Verwende das nur bei lokalen Commits, ansonsten wird es kompliziert.*
