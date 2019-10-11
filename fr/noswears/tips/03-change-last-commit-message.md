@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
-id: change-last-commit-message
+title: Flûte, je veux corriger le message de mon dernier commit !
+id: corriger-dernier-message-commit
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# suivre les instructions pour modifier le message de commit
 ```
 
-Stupid commit message formatting requirements.
+Encore ces règles de formatage des messages de commit.
