@@ -13,6 +13,11 @@ module.exports = function() {
                 "label": "deutsch",
                 "code": "de",
                 "arialabel": "In anderen Sprachen anzeigen"
+            },
+            {
+                "label": "français",
+                "code": "fr",
+                "arialabel": "Choisir une autre langue"
             }
         ],
         "twitter_ksylor": `<a href="https://twitter.com/ksylor">@ksylor</a>`,
