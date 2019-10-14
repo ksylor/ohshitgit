@@ -15,7 +15,7 @@ cd depot-git-tortueux
 
 Merci à Eric V. pour ce conseil. Par conséquent, en cas de réclamation à cause du `sudo`, voyez-ça directement avec lui...
 
-Plus sérieusement, quand votre branche est devenue tellement tordue que le plus simple c'est de revenir à l'état d'origine du dépôt distant, essayez cette méthode "homologuée git". Mais attention, c'est ferme et définitif : impossible de revenir en arrière !
+Plus sérieusement, quand votre branche est devenue tellement tordue que le plus simple c'est de revenir à l'état d'origine du dépôt distant, essayez cette méthode "homologuée git". Mais attention, c'est ferme et définitif&nbsp;: impossible de revenir en arrière&nbsp;!
 
 ```git
 # obtenir la dernière version du serveur

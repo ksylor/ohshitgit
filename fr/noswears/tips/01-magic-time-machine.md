@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Zut, j'ai fait un truc horrible, par pitié dites-moi que git peut voyager dans le temps !?!
+title: Zut, j'ai fait un truc horrible, par pitié dites-moi que git peut voyager dans le temps&nbsp;!?!
 id: magic-time-machine
 order: 1
 ---
@@ -15,4 +15,4 @@ git reset HEAD@{index}
 # git est magique
 ```
 
-Ça sert pour récupérer une suppression accidentelle, ou annuler des tentatives qui ont cassé le dépôt, ou s'en sortir après une mauvaise fusion, ou simplement revenir en arrière à un point où les choses fonctionnaient correctement. J'utilise BEAUCOUP `reflog`. Chapeau trèèèès bas aux nombreuuuuuuses personnes qui m'ont suggéré cette technique !
+Ça sert pour récupérer une suppression accidentelle, ou annuler des tentatives qui ont cassé le dépôt, ou s'en sortir après une mauvaise fusion, ou simplement revenir en arrière à un point où les choses fonctionnaient correctement. J'utilise BEAUCOUP `reflog`. Chapeau trèèèès bas aux nombreuuuuuuses personnes qui m'ont suggéré cette technique&nbsp;!

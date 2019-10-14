@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Et merde, je veux annuler la modification d'un fichier !
+title: Et merde, je veux annuler la modification d'un fichier&nbsp;!
 id: annuler-un-fichier
 order: 8
 ---
@@ -15,4 +15,4 @@ git checkout [hash mémorisé] -- path/to/file
 git commit -m "Super, pas de copier/coller pour annuler"
 ```
 
-Quand j'ai enfin réussi à capter le truc, c'était ENORME. ENORME ! ENAUUUUURME... Non mais sérieux ! C'est quoi ce putain de monde où on doit utiliser un `checkout --` pour annuler les modifications d'un fichier ? :shakes-fist-at-linus-torvalds:
+Quand j'ai enfin réussi à capter le truc, c'était ENORME. ENORME&nbsp;! ENAUUUUURME... Non mais sérieux&nbsp;! C'est quoi ce putain de monde où on doit utiliser un `checkout --` pour annuler les modifications d'un fichier&nbsp;? :shakes-fist-at-linus-torvalds:

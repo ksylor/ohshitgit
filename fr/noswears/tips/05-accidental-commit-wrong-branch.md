@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Zut, je me suis trompé de branche pour mon commit !
+title: Zut, je me suis trompé de branche pour mon commit&nbsp;!
 id: commit-dans-mauvaise-branche
 order: 5
 ---
@@ -17,7 +17,7 @@ git commit -m "votre message ici";
 # maintenant vos modifications sont sur la bonne branche
 ```
 
-Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là, donc à vous de faire votre choix et d'utiliser ce qui vous semble le plus logique !
+Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là, donc à vous de faire votre choix et d'utiliser ce qui vous semble le plus logique&nbsp;!
 
 ```git
 # passer sur la bonne branche

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Et merde, j'ai commité sur le master alors que ça aurait dû aller sur une nouvelle branche !
+title: Et merde, j'ai commité sur le master alors que ça aurait dû aller sur une nouvelle branche&nbsp;!
 id: erreur-commit-master
 order: 4
 ---
@@ -14,4 +14,4 @@ git checkout un-nom-de-nouvelle-branche
 # votre commit est désormais dans cette branche :)
 ```
 
-Note : cela ne fonctionne pas si vous avez déjà poussé le commit vers une branche publique/partagée, et si vous avez essayé d'autres trucs avant. Vous devrez sans doute faire un `git reset HEAD@{number-of-commits-back}` au lieu de `HEAD~`. Bonjour tristesse. Et aussi, beaucoup beaucoup beaucoup de personnes ont proposé une méthode géniale pour que ce soit plus court que ce que j'avais réussi à faire. Merci à tous !
+Note&nbsp;: cela ne fonctionne pas si vous avez déjà poussé le commit vers une branche publique/partagée, et si vous avez essayé d'autres trucs avant. Vous devrez sans doute faire un `git reset HEAD@{number-of-commits-back}` au lieu de `HEAD~`. Bonjour tristesse. Et aussi, beaucoup beaucoup beaucoup de personnes ont proposé une méthode géniale pour que ce soit plus court que ce que j'avais réussi à faire. Merci à tous&nbsp;!

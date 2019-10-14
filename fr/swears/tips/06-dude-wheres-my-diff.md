@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Et merde, je fais un diff mais rien ne se passe ?!
+title: Et merde, je fais un diff mais rien ne se passe&nbsp;?!
 id: rendez-moi-mon-diff
 order: 6
 ---
@@ -11,4 +11,4 @@ Quand vous avez modifié des fichiers, mais que `diff` ne renvoie rien, c'est sa
 git diff --staged
 ```
 
-Classé dans &macr;\\_(ツ)_/&macr; (oui, je sais, c'est une fonctionnalité et pas un bug, mais c'est époustouflifiant, voire déconcertifiant la première fois où ça vous arrive !)
+Classé dans &macr;\\_(ツ)_/&macr; (oui, je sais, c'est une fonctionnalité et pas un bug, mais c'est époustouflifiant, voire déconcertifiant la première fois où ça vous arrive&nbsp;!)

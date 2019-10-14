@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Et merde, je viens de commiter et il manque une toute petite modification !
+title: Et merde, je viens de commiter et il manque une toute petite modification&nbsp;!
 id: modifier-le-dernier-commit
 order: 2
 ---
@@ -15,4 +15,4 @@ git commit --amend --no-edit
 
 Cela m'arrive généralement quand je commite puis lance des tests/lints... et PDM, j'ai oublié un espace après une virgule. Vous pouvez aussi faire le changement via un nouveau commit puis faire `rebase -i` afin de fusionner les deux commits, mais c'est minimum un million de fois plus rapide.
 
-*Avertissement : Ne jamais faire un `amend` sur des commits déjà poussés vers une branche publique/partagée ! Uniquement ceux qui n'existent que dans votre copie locale ou vous irez au-devant de gros ennuis...*
+*Avertissement&nbsp;: Ne jamais faire un `amend` sur des commits déjà poussés vers une branche publique/partagée&nbsp;! Uniquement ceux qui n'existent que dans votre copie locale ou vous irez au-devant de gros ennuis...*
