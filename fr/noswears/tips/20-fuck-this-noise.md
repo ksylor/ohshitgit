@@ -1,29 +1,28 @@
 ---
 tags: tip
-title: Forget this noise, I give up.
-id: forget-this-noise
+title: Zut, j'abandonne.
+id: je-repars-a-zero
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r stupid-git-repo-dir
-git clone https://some.github.url/stupid-git-repo-dir.git
-cd stupid-git-repo-dir
+sudo rm -r depot-git-tortueux
+git clone https://some.github.url/depot-git-tortueux.git
+cd depot-git-tortueux
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+Merci à Eric V. pour ce conseil. Par conséquent, en cas de réclamation à cause du `sudo`, voyez-ça directement avec lui...
 
-
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+Plus sérieusement, quand votre branche est devenue tellement tordue que le plus simple c'est de revenir à l'état d'origine du dépôt distant, essayez cette méthode "homologuée git". Mais attention, c'est ferme et définitif : impossible de revenir en arrière !
 
 ```git
-# get the lastest state of origin
+# obtenir la dernière version du serveur
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# supprimer les fichiers et répertoires non archivés
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# répéter checkout/reset/clean pour chaque branche problématique
 ```
