@@ -1,17 +1,17 @@
 ---
 tags: tip
-title: Dangit, I accidentally committed something to master that should have been on a brand new branch!
-id: accidental-commit-master
+title: Zut, j'ai commité sur le master alors que ça aurait dû aller sur une nouvelle branche !
+id: erreur-commit-master
 order: 4
 ---
 
 ```git
-# create a new branch from the current state of master
-git branch some-new-branch-name
-# remove the last commit from the master branch
+# créer une nouvelle branche à partir du master actuel
+git branch un-nom-de-nouvelle-branche
+# supprimer le dernier commit du master
 git reset HEAD~ --hard
-git checkout some-new-branch-name
-# your commit lives in this branch now :)
+git checkout un-nom-de-nouvelle-branche
+# votre commit est désormais dans cette branche :)
 ```
 
-Note: this doesn't work if you've already pushed the commit to a public/shared branch, and if you tried other things first, you might need to `git reset HEAD@{number-of-commits-back}` instead of `HEAD~`. Infinite sadness. Also, many many many people suggested an awesome way to make this shorter that I didn't know myself. Thank you all!
+Note : cela ne fonctionne pas si vous avez déjà poussé le commit vers une branche publique/partagée, et si vous avez essayé d'autres trucs avant. Vous devrez sans doute faire un `git reset HEAD@{number-of-commits-back}` au lieu de `HEAD~`. Bonjour tristesse. Et aussi, beaucoup beaucoup beaucoup de personnes ont proposé une méthode géniale pour que ce soit plus court que ce que j'avais réussi à faire. Merci à tous !
