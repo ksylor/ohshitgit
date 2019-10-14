@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Flûte, je veux corriger le message de mon dernier commit !
+title: Zut, je veux corriger le message de mon dernier commit !
 id: corriger-dernier-message-commit
 order: 3
 ---
