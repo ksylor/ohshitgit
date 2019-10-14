@@ -1,29 +1,30 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
-id: accidental-commit-wrong-branch
+title: Et merde, je me suis trompé de branche pour mon commit !
+id: commit-dans-mauvaise-branche
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# annuler le dernier commit, mais conserver les modifications
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
-git checkout name-of-the-correct-branch
+# passer sur la bonne branche
+git checkout nom-de-la-branche-correcte
 git stash pop
-git add . # or add individual files
-git commit -m "your message here";
-# now your changes are on the correct branch
+git add . # ou ajouter les fichiers un à un
+git commit -m "votre message ici";
+# maintenant vos modifications sont sur la bonne branche
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là, donc à vous de faire votre choix et d'utiliser ce qui vous semble le plus logique !
 
 ```git
-git checkout name-of-the-correct-branch
-# grab the last commit to master
+# passer sur la bonne branche
+git checkout nom-de-la-branche-correcte
+# y récupérer le dernier commit du master
 git cherry-pick master
-# delete it from master
+# supprimer le dernier commit du master
 git checkout master
 git reset HEAD~ --hard
 ```
