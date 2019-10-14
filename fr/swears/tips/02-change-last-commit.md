@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
-id: change-last-commit
+title: Et merde, je viens de commiter et il manque une toute petite modification !
+id: modifier-le-dernier-commit
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# faire votre correction
+git add . # ou ajouter les fichiers un à un
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# votre dernier commit contient désormais votre modification !
+# ATTENTION : ne jamais amend-er les commits publics
 ```
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+Cela m'arrive généralement quand je commite puis lance des tests/lints... et PDM, j'ai oublié un espace après une virgule. Vous pouvez aussi faire le changement via un nouveau commit puis faire `rebase -i` afin de fusionner les deux commits, mais c'est minimum un million de fois plus rapide.
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*Avertissement : Ne jamais faire un `amend` sur des commits déjà poussés vers une branche publique/partagée ! Uniquement ceux qui n'existent que dans votre copie locale ou vous irez au-devant de gros ennuis...*
