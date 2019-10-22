@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
-id: change-last-commit-message
+title: Dangit, devo cambiare il messaggio dell'ultimo commit! 
+id: cambia-messaggio-ultimo-commit 
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# segui le istruzioni per cambiare il messaggio del commit
 ```
 
-Stupid commit message formatting requirements.
+Stupidi requisiti per i messaggi dei commits.
