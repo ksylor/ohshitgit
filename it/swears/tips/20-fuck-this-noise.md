@@ -15,7 +15,7 @@ cd stupida-git-repo-dir
 
 Grazie a Eric V. per questa dritta. Tutti le lamentele riguardo l'uso di `sudo` possono essere rivolte a lui.
 
-Davvero peró, se la tua branch è così rovinata che hai bisogno di reset lo stato della tua repository così che sia lo stesso della repo remota in un modo che sia 'in stile git', prova il seguente, ma fai attenzione, perchè le seguenti azioni sono distruttive e irrecuperabili!
+Davvero peró, se la tua branch è così incasinata che hai bisogno di resettare lo stato della tua repository così che sia lo stesso della repo remota in un modo che sia 'in stile git', prova il seguente metodo, ma fai attenzione, perchè le seguenti azioni sono distruttive e non si puó tornare indietro!
 
 ```git
 # guarda lo stato di git piú recente
@@ -24,5 +24,5 @@ git checkout master
 git reset --hard origin/master
 # elimina files e cartelle non tracciate
 git clean -d --force
-# ripeti checkout/reset/clean per ogni branch rovinata
+# ripeti checkout/reset/clean per ogni branch incasinata
 ```

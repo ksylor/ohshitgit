@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, ho accidentalmento fatto un commit nella branch sbagliata!
+title: Dangit, ho accidentalmento fatto una commit nella branch sbagliata!
 id: commit-accidentale-branch-sbagliata
 order: 5
 ---
 
 ```git
-# annulla l'ultimo commit, ma mantieni i cambiamenti in modo che siano accedibili
+# annulla l'ultima commit, ma mantieni i cambiamenti in modo che siano accedibili
 git reset HEAD~ --soft
 git stash
 # spostati sulla branch giusta 
@@ -21,9 +21,9 @@ Un sacco di persone hanno suggerito l'uso di `cherry-pick` anche per questa situ
 
 ```git
 git checkout nome-della-branch-giusta
-# prendi l'ultimo commit fatto su master
+# prendi l'ultima commit fatto su master
 git cherry-pick master
-# cancellalo da master
+# cancellala da master
 git checkout master
 git reset HEAD~ --hard
 ```
