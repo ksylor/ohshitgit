@@ -5,7 +5,7 @@ id: dude-wheres-my-diff
 order: 6
 ---
 
-Se sai di aver fatto modifiche su alcuni file, ma `diff` è vuoto, probabilmente hai già `add` i tuoi files e devi fare un `diff` usando una parola apposita.
+Se sai di aver fatto modifiche su alcuni file, ma `diff` è vuoto, probabilmente hai già `add` i tuoi files e devi fare un `diff` usando una flag apposita.
 
 ```git
 git diff --staged

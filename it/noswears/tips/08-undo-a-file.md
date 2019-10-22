@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Dangit, devo annullare i miei cambiamenti di un file!
+title: Dangit, devo annullare le mie modifiche di un file!
 id: annullare-modifiche-di-un-file
 order: 8
 ---

@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I need to undo my changes to a file!
-id: undo-a-file
+title: Oh shit, devo annullare le mie modifiche di un file!
+id: annullare-modifiche-di-un-file
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# trova la hash del commit prima che il file fosse modificato
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
-git commit -m "Wow, you don't have to copy-paste to undo"
+# usa le frecce per andare su e giú nella storia
+# quando hai trovato il commit, salva la hash
+git checkout [hash salvata] -- path/del/file/in/questione
+# la versione precedente del file sarà nel tuo index
+git commit -m "Wow, non devi fare copia-incolla per annullare modifiche"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what fucking planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Quando ho finalmente scoperto questa cosa è stato il MASSIMO. MASSIMO. M-A-S-S-I-M-O. Ma sul serio peró, su che pianeta `checkout --` ha senso come metodo migliore per annullare modifiche su un file? :shakes-fist-at-linus-torvalds:

@@ -22,7 +22,7 @@ Davvero peró, se la tua branch è così rovinata che hai bisogno di reset lo st
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# cancella files e cartelle non tracciate
+# elimina files e cartelle non tracciate
 git clean -d --force
 # ripeti checkout/reset/clean per ogni branch rovinata
 ```

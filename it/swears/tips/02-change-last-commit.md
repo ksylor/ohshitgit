@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
-id: change-last-commit
+title: Oh shit, ho fatto un commit e mi sono subito reso conto di dover fare un piccolo cambiamento!
+id: cambia-ultimo-commit
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# cambia ció che vuoi
+git add . # o aggiungi i file individualmente 
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# ora il tuo ultimo commit contiene la modifica!
+# ATTENZIONE: mai modificare commit pubblici
 ```
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+Questo mi succede spesso se faccio un commit e faccio test/uso linter... e ho dimenticato uno spazio dopo un simbolo uguale porca merda. Potresti anche fare la modifica come un nuovo commit e poi `rebase -i` per accorparli insieme, ma questo modo è mille volte piú veloce.
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*Attenzione: Non si dovrebbe mai correggere un commit che è stato pushed a una branch pubblica o condivisa! Correggi commits soltanto se esistono nella tua copia locale oppure ti ritroverai nella merda.*

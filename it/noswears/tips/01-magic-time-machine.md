@@ -15,4 +15,4 @@ git reset HEAD@{index}
 # macchina del tempo
 ```
 
-Puoi utilizzare questa tecnica per riavere indietro cose che hai cancellato per sbaglio, o soltanto per rimuovere cose che hai fatto che hanno rotto la repository, o per aggiustare dopo una merge andata male, o semplicemente per tornare a un punto in cui le cose funzionavano. Uso `reflog` MOLTO SPESSO. Un mega chapeau Mega alle tante tante tante tante tante persone che lo hanno suggerito!
+Puoi utilizzare questa tecnica per riavere indietro cose che hai cancellato per sbaglio, o soltanto per rimuovere cose che hai fatto che hanno rotto la repository, o per aggiustare le cose dopo una merge andata male, o semplicemente per tornare a un punto in cui le cose funzionavano. Uso `reflog` MOLTO SPESSO. Un mega chapeau alle tante tante tante tante tante persone che lo hanno suggerito!

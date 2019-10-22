@@ -1,21 +1,22 @@
 ---
 tags: tip
-title: Oh shit, I need to undo a commit from like 5 commits ago!
-id: undo-a-commit
+title: Oh shit, devo annullare un commit tipo da 5 commit fa!
+id: annulla-un-commit
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# trova il commit che devi annullare
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# usa la freccia per andare su e giú nella storia
+# quando hai trovato il commit, salva la hash corrispondente
+git revert [hash salvata]
+# git creerà un nuovo commit che annulla il commit che corrisponde a quella hash
+# segui le istruzioni per modificare il messaggio del commit 
+# o salva il commit e basta
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Ho scoperto che non devi trovare e fare copia-incolla del contenuto del vecchio file dentro al file esistente per annullare i cambiamenti! Se hai fatto un commit con un bug, puoi annullarlo tutto insieme usando `revert`.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of fucking commands...
+Puoi anche annullare un file singolo invece di tutto il commit! Ma ovviamente, nello stile di git, è un set di input completamente diverso...
+
