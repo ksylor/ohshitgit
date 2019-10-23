@@ -1,9 +1,10 @@
 ---
 tags: tip
-title: Dangit, devo cambiare il messaggio dell'ultima commit! 
-id: cambia-messaggio-ultima-commit 
+title: Dangit, devo cambiare il messaggio dell'ultima commit!
+id: cambia-messaggio-ultima-commit
 order: 3
 ---
+
 ```git
 git commit --amend
 # segui le istruzioni per cambiare il messaggio della commit

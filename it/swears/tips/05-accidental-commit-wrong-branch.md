@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, ho accidentalmento fatto una commit nella branch sbagliata!
+title: Oh shit, ho accidentalmento fatto una commit sulla branch sbagliata!
 id: commit-accidentale-branch-sbagliata
 order: 5
 ---
@@ -12,7 +12,7 @@ git stash
 # spostati sulla branch giusta 
 git checkout nome-della-branch-giusta
 git stash pop
-git add . # o aggiungi i file individualmente
+git add . # o aggiungi i file uno alla volta
 git commit -m "il tuo messaggio va qui"
 # ora i tuoi cambiamenti sono sulla branch giusta
 ```

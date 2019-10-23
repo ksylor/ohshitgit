@@ -12,11 +12,10 @@ git log
 # quando hai trovato la commit, salva la hash corrispondente
 git revert [hash salvata]
 # git creerà una nuova commit che annulla la commit che corrisponde a quella hash
-# segui le istruzioni per modificare il messaggio della commit 
+# segui le istruzioni per modificare il messaggio della commit
 # o salva la commit e basta
 ```
 
 Ho scoperto che non devi trovare e fare copia-incolla del contenuto del vecchio file dentro al file esistente per annullare i cambiamenti! Se hai fatto una commit con un bug, puoi annullarla tutta insieme usando `revert`.
 
-Puoi anche annullare un file singolo invece di tutta la commit! Ma ovvaiamente, nello stile di git, è un set di input completamente diverso...
-
+Puoi anche annullare un file singolo invece di tutta la commit! Ma ovviamente, nello stile di git, serve un set di input completamente diverso...
