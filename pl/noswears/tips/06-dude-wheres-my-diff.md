@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O kurczę, próbowałem zrobić diff, ale nic się nie wyświetliło?!
+title: O kurczę, próbowałem(am) zrobić diff, ale nic się nie wyświetliło?!
 id: dude-wheres-my-diff
 order: 6
 ---
