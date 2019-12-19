@@ -7,7 +7,7 @@ order: 2
 
 ```git
 # dokonaj zmiany
-git add . # lub dodaj pojedyczne pliki
+git add . # lub dodaj pojedyncze pliki
 git commit --amend --no-edit
 # teraz Twój ostatni commit zawiera tę zmianę!
 # UWAGA: nigdy nie poprawiaj publicznych commitów
