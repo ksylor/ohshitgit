@@ -10,7 +10,7 @@ order: 8
 git log
 # użyj klawiszy ze strzałkami aby poruszać się w górę i w dół po historii
 # gdy znajdziesz swój commit, zanotuj jego hash
-git checkout [saved hash] -- path/to/file
+git checkout [zanotowany hash] -- sciezka/do/pliku
 # stara wersja pliku będzie teraz w Twoim indexie
 git commit -m "Wow, nie musisz wycofywać zmian metodą kopiuj-wklej!"
 ```
