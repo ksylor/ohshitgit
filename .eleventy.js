@@ -36,4 +36,13 @@ module.exports = function (config) {
     config.addCollection('tips_noswears_de', function (collection) {
         return getTipCollection(collection, "noswears", "de");
     });
+
+    // Russian language version
+    config.addCollection('tips_swears_ru', function(collection) {
+        return getTipCollection(collection, "swears", "ru");
+    });
+    
+    config.addCollection('tips_noswears_ru', function(collection) {
+        return getTipCollection(collection, "noswears", "ru");
+    });
 };
