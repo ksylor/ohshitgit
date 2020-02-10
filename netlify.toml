@@ -19,3 +19,9 @@ from = "/de"
 to = "/de/swears/index.html"
 status = 200
 force = true
+
+[[redirects]]
+from = "/ru"
+to = "/ru/swears/index.html"
+status = 200
+force = true
