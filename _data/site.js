@@ -19,6 +19,7 @@ module.exports = function() {
                 "code": "pl",
                 "arialabel": "Zobacz w innych językach"
             },
+            {
                 "label": "italiano",
                 "code": "it",
                 "arialabel": "Vedi in altre lingue"
