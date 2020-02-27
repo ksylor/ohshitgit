@@ -8,7 +8,7 @@
     <!-- hi this is coming from netlify & 11ty-->
 	{% include "partials/styles.njk" %}
 	<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png" />
-	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" /> 
+	<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png" />
     {% include "partials/ga.njk" %}
 </head>
 <body>
@@ -26,7 +26,7 @@
 
         <main>
             <section class="intro">
-                {%include "partials/carbonads.njk"%} 
+                {%include "partials/carbonads.njk"%}
                 {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
                 {% include intro %}
             </section>
@@ -34,7 +34,7 @@
             {% set tips = collections["tips_" + contentType + "_" + locale] %}
             {% for tip in tips %}
                 <section class="spaced">
-                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{tip.data.title}}</a></h2>
+                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{tip.data.title | safe}}</a></h2>
                     {{tip.templateContent | safe}}
                 </section>
             {% endfor %}
