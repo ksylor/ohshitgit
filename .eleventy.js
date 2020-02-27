@@ -52,4 +52,13 @@ module.exports = function(config) {
   config.addCollection("tips_noswears_it", function(collection) {
     return getTipCollection(collection, "noswears", "it");
   });
+  
+  // French language version
+  config.addCollection('tips_swears_fr', function (collection) {
+      return getTipCollection(collection, "swears", "fr");
+  });
+
+  config.addCollection('tips_noswears_fr', function (collection) {
+      return getTipCollection(collection, "noswears", "fr");
+  });
 };
