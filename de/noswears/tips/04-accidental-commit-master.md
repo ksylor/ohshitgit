@@ -11,7 +11,7 @@ git branch neuer-branch-name
 # Entferne den letzten Commit vom master
 # und wechsel zum neuen Branch
 git reset HEAD~ --hard
-git checkout some-new-branch-name
+git checkout neuer-branch-name
 # Dein Commit lebt jetzt in dem neuen Branch weiter :)
 ```
 
