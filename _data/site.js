@@ -15,6 +15,11 @@ module.exports = function() {
                 "arialabel": "In anderen Sprachen anzeigen"
             },
             {
+                "label": "русский",
+                "code": "ru",
+                "arialabel": "Посмотреть на других языках"
+            },
+            {
                 "label": "polski",
                 "code": "pl",
                 "arialabel": "Zobacz w innych językach"
