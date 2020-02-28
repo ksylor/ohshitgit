@@ -60,7 +60,7 @@ p {
         max-width: 680px;
     }
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 1020px) {
     .max-width {
         margin: 0 auto;
     }
