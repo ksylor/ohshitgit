@@ -43,3 +43,9 @@ from = "/fr"
 to = "/fr/swears/index.html"
 status = 200
 force = true
+
+[[redirects]]
+from = "/:lang/*"
+to = "/:lang"
+status = 200
+force = true
