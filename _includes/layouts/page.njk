@@ -26,7 +26,7 @@
 
         <main>
             <section class="intro">
-                {%include "partials/carbonads.njk"%}
+                {% include "partials/carbonads.njk" %}
                 {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
                 {% include intro %}
             </section>
@@ -34,15 +34,24 @@
             {% set tips = collections["tips_" + contentType + "_" + locale] %}
             {% for tip in tips %}
                 <section class="spaced">
-                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{tip.data.title | safe}}</a></h2>
-                    {{tip.templateContent | safe}}
+                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{ tip.data.title | safe }}</a></h2>
+                    {{ tip.templateContent | safe }}
                 </section>
             {% endfor %}
-        </main>
 
-        {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
-        {% include footer %}
+            <section class="spaced">
+                {% set outro = locale + "/" + contentType + "/" + "partials/outro.njk" %}
+                {% include outro %}
+            </section>
+
+            <section class="spaced top-lined">
+                {% set thanks = locale + "/" + contentType + "/" + "partials/thanks.njk" %}
+                {% include thanks %}
+            </section>
+        </main>
     </div>
+    {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
+    {% include footer %}
     <script src="/prism.js"></script>
 </body>
 </html>

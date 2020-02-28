@@ -35,7 +35,32 @@ module.exports = function() {
                 "arialabel": "Посмотреть на других языках"
             }
         ],
-        "twitter_ksylor": `<a href="https://twitter.com/ksylor">@ksylor</a>`,
-        "twitter_ohshitgit": `<a href="https://twitter.com/ohshitgit">@ohshitgit`
+        "collaborators": [
+            {
+                "name": "Moritz Stückler",
+                "link": "https://github.com/pReya",
+                "lang": "de"
+            },
+            {
+                "name": "Daniil Golubev",
+                "link": "https://github.com/dadyarri",
+                "lang": "ru"
+            },
+            {
+                "name": "Łukasz Wójcik",
+                "link": "https://github.com/lwojcik",
+                "lang": "pl"
+            },
+            {
+                "name": "fedemcmac",
+                "link": "https://github.com/fedemcmac",
+                "lang": "it"
+            },
+            {
+                "name": "Michel",
+                "link": "https://github.com/michelc",
+                "lang": "fr"
+            }
+        ]
     };
 };

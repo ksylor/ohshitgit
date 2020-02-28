@@ -14,13 +14,13 @@ h1 {
 p {
     margin: 0 0 1em 0;
 }
-.notice {
+.notice, footer {
     padding: 1em;
     background: #222;
     color: white;
     text-align: center;
 }
-.notice a {
+.notice a, footer a {
     color: white;
 }
 .langpicker {
@@ -57,7 +57,7 @@ p {
 @media screen and (min-width: 680px) {
     .max-width {
         margin: 0 100px 0 170px;
-        max-width: 640px;
+        max-width: 680px;
     }
 }
 @media screen and (min-width: 980px) {
@@ -102,10 +102,37 @@ p {
 .permalinked:focus {
     text-decoration: underline;
 }
-.thanks {
-  font-weight: bold;
-  font-size: 1.2em;
+.no-wrap {
+    white-space: nowrap;
 }
+.twitter-icon {
+    height: 13px;
+    vertical-align: middle;
+    margin-left: .25em;
+}
+.github-icon {
+    height: 16px;
+    vertical-align: middle;
+    margin-right: .25em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 800px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .copyright {
+        order: 0;
+    }
+    .contact, .twitter {
+        order: 1;
+        margin-left: 1em;
+    }
+}
+
 #carbonads {
   position: absolute;
   display: block;
