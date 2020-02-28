@@ -1,4 +1,7 @@
 # The official home of Oh Shit, Git!?!
+(and the swear-free version at Dangit, Git!?!
+
+Thanks for coming! If you've volunteered to help add a new language translation to the site, THANK YOU!!! Hopefully this process will be super simple for you, and please do let me know if anything can be improved - the best way is to tweet at me @ksylor or @ohshitgit, or create a PR and I'll get tagged in automatically.
 
 # Development
 The site is built using the Eleventy (11ty) static site generator, and is deployed to Netlify.
@@ -23,7 +26,6 @@ The following commands will all need to be run in a terminal/command line prompt
 7. Now you can go ahead and work on the site locally, any file changes should refresh the site automatically. For more details, visit the Eleventy docs.
 
 ## Adding a new language
-If you've volunteered to help add a new language translation to the site, THANK YOU!!! Hopefully this process will be super simple for you, and please do let me know if anything can be improved! 
 
 There are a few general rules for translation:
 - Don't translate or change the sitenames ohshitgit.com or dangitgit.com.
@@ -36,11 +38,11 @@ There are a few general rules for translation:
 
 2. Each directory contains an `index.html` file which defines some 11ty "front matter" metadata for the language & site version - make sure that this file references the correct language code under the `locale` metadata item. The other metadata should not be updated.
 
-3. In the `/partials/` directory you will find 2-3 nunjucks (`.njk`) files for global site elements. Please translate the content of these files, but keep the markup intact. Remember not to translate the site name, thanks! 
+3. In the `/partials/` directory you will find a few short nunjucks (`.njk`) files for global site elements. Please translate the content of these files, but keep the markup & any inline code intact.
 
-4. In the `/tips/` directory you will find 9 markdown  `.md` files that contain each git tip - the example commands, and some funny explanatory text. 
+4. In the `/tips/` directory you will find markdown  `.md` files that contain each git tip - the example commands, and some funny explanatory text. 
 
-5. Each `tip` file has metadata at the top - please leave the `tags` and `order` the same. Translate the tip's`title` which will be displayed to users (keep the format "Oh Shit, ..." or "Dangit, ..." to begin every title). Also translate the `id` which is used to generate an anchor tag to link directly to that tip. 
+5. Each `tip` file has metadata at the top - please leave the `tags` and `order` the same. Translate the tip's `title` which will be displayed to users (keep the format "Oh Shit, ..." or "Dangit, ..." to begin every title). Also translate the `id` which is used to generate an anchor tag to link directly to that tip. 
 
 6. Then, translate the contents of each `tip` file. Make sure that you keep the markdown formatting in place so that the syntax highlighting on the client can correctly format the output. Code examples should use the same git commands, but you can translate the comments denoted by `#`. 
 
@@ -51,19 +53,28 @@ Okay, now for some code changes so that we can see this content on the site!
 ```
 "languages": [
     {
-        "label": "english",
-        "code": "en",
-        "arialabel": "View in other languages"
-    },
-    {
         "label": "deutsch",
         "code": "de",
         "arialabel": "In anderen Sprachen anzeigen"
-    }
+    },
+    ...
 ],
 ```
 
-8. Now this next part is kinda shitty and I want to make it so you don't have to do this manually! But, for now, the final thing we need to do is add the new language tip collections to the `.eleventy.js` configuration file. This is what tells Eleventy which files to group together for display on the main page. We'll need to add two new collections, one for the swear version, and another for the swear-filled version. Make sure you add the following lines inside the `module.exports(function(config) { ... });` block - replace the uses of `en` with your language code!
+8. Next, add your information to the list of collaborators in `site.js`. Add your name and a link to your GitHub profile, then the language code for the language you added.
+
+```
+"collaborators": [
+    {
+        "name": "Moritz Stückler",
+        "link": "https://github.com/pReya",
+        "lang": "de"
+    },
+    ...
+],
+```
+
+9. Now this next part is kinda shitty and I want to make it so you don't have to do this manually! But, for now, the final thing we need to do is add the new language tip collection to the `.eleventy.js` configuration file. This is what tells Eleventy which files to group together for display on the main page. We'll need to add two new collections, one for the swear-filled version, and another for the non-swears version. Make sure you add the following lines inside the `module.exports(function(config) { ... });` block - replace the uses of `en` with your language code!
 
 ```
 // replace uses of "en" with your language code!
@@ -76,9 +87,9 @@ config.addCollection('tips_noswears_en', function(collection) {
 });
 ```
 
-9. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
+10. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
 
-10. Add a new redirect rule to the `netlify.toml` file that will tell netlify the proper file to load for each language code in the URL. Yours should go underneath the other redirects and in this same format:
+11. Add a new redirect rule to the `netlify.toml` file that will tell netlify the proper file to load for each language code in the URL. Yours should go underneath the other redirects and in this same format:
 
 ```
 [[redirects]]
@@ -94,22 +105,25 @@ status = 200
 force = true
 ```
 
-11. Make sure to `git commit` your changes along the way so you don't lose your work :D
+12. Make sure to `git commit` your changes along the way so you don't lose your work :D
 
 
-## Previewing your changes in netlify
+## Previewing your changes in Netlify
+
 Once you're happy with the state of your branch, we can preview the changes live in a new branch environment on Netlify!
 
-1. run `git push` to push the new branch up to github.
+1. Run `git push -u` to push the new branch up to Github and set up a connection between the branches.
 
-2. Go to the github ui at https://github.com/ksylor/ohshitgit. If you pushed the branch recently, you should see a prompt to create a new pull request (PR). Click that button! If you don't see the prompt, go to https://github.com/ksylor/ohshitgit/pulls to create a new PR.
+2. Go to the project page at https://github.com/ksylor/ohshitgit. If you pushed the branch recently, you should see a prompt to create a new pull request (PR). Click that button! If you don't see the prompt, go to https://github.com/ksylor/ohshitgit/pulls to create a new PR.
 
-3. Once you've reviewed the changes and clicked the "Create Pull Request" button in the github UI, Netlify will automatically run checks on the new code. If all is well, you'll see a check for "Deploy preview", click on the "details" link, and if all is well, it should take you to the preview site. Please don't share this URL with anyone else.
+3. Once you've reviewed the changes and clicked the "Create Pull Request" button in the github UI, Netlify will automatically run checks on the new code. If all is well, you'll see a green checkmark and line for "Deploy preview", click on the "details" link, and it will take you to the preview site. Please don't share this URL widely, but feel free to get another pair of eyes to help edit/proofread.
 
 4. Test that your new language appears in the language picker on the english site, and review your content one last time. 
 
 5. Then, I'll take over from here and review the PR as per usual and either request changes or approve the PR. Once it's approved I'll merge it in and Netlify will automatically deploy the changes! 
 
 # Questions? Problems? 
+
 Feel free to message me on twitter or push up a WIP PR with questions! Thanks again for your help!
-- Katie
+
+<3 Katie
