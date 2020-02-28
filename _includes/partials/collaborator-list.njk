@@ -1,0 +1,5 @@
+{% if site.collaborators.length > 0 %}
+    {% for collab in site.collaborators %}
+        {% collaborator_info collab %}{% if loop.last === false %} &middot; {% endif %}
+    {% endfor %}
+{% endif %}
