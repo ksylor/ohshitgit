@@ -89,19 +89,19 @@ config.addCollection('tips_noswears_en', function(collection) {
 
 10. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
 
-11. Add a new redirect rule to the `netlify.toml` file that will tell netlify the proper file to load for each language code in the URL. Yours should go underneath the other redirects and in this same format:
+11. Add 2 new redirect rules to the `netlify.toml` file that will tell Netlify the proper file to load for each language code in the URL, and then redirect any other paths to the main url. Yours should go underneath the other redirects and in this same format:
 
 ```
-[[redirects]]
-from = "/en"
-to = "/en/swears/index.html"
-status = 200
-force = true
-
 [[redirects]]
 from = "/de"
 to = "/de/swears/index.html"
 status = 200
+force = true
+
+[[redirects]]
+from = "/de/*"
+to = "/de"
+status = 301
 force = true
 ```
 

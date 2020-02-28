@@ -15,9 +15,21 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/en/*"
+to = "/en"
+status = 301
+force = true
+
+[[redirects]]
 from = "/de"
 to = "/de/swears/index.html"
 status = 200
+force = true
+
+[[redirects]]
+from = "/de/*"
+to = "/de"
+status = 301
 force = true
 
 [[redirects]]
@@ -27,9 +39,21 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/ru/*"
+to = "/ru"
+status = 301
+force = true
+
+[[redirects]]
 from = "/pl"
 to = "/pl/swears/index.html"
 status = 200
+force = true
+
+[[redirects]]
+from = "/pl/*"
+to = "/pl"
+status = 301
 force = true
 
 [[redirects]]
@@ -39,13 +63,19 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/it/*"
+to = "/it"
+status = 301
+force = true
+
+[[redirects]]
 from = "/fr"
 to = "/fr/swears/index.html"
 status = 200
 force = true
 
 [[redirects]]
-from = "/:lang/*"
-to = "/:lang"
-status = 200
+from = "/fr/*"
+to = "/fr"
+status = 301
 force = true
