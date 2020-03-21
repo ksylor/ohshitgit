@@ -6,6 +6,7 @@ module.exports = function(config) {
   });
 
   config.addPassthroughCopy({ assets: "/" });
+  config.addPassthroughCopy("_redirects");
 
   /** get the aria label for the language picker for the current locale **/
   config.addNunjucksShortcode("langpicker_arialabel", function(
