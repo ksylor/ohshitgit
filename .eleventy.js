@@ -94,4 +94,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_fr', function (collection) {
       return getTipCollection(collection, "noswears", "fr");
   });
+
+  // Greek language version
+  config.addCollection('tips_swears_gr', function (collection) {
+    return getTipCollection(collection, "swears", "gr");
+  });
+
+  config.addCollection('tips_noswears_gr', function (collection) {
+      return getTipCollection(collection, "noswears", "gr");
+  });
 };
