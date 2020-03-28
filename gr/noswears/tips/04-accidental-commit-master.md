@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, καταλάθος έκανα commit κάτι στο master το οποίο θα έπρεπε να είναι σε ξεχωριστό καινούργιο branch!
+title: Dang it, καταλάθος έκανα commit κάτι στο master το οποίο θα έπρεπε να είναι σε ξεχωριστό καινούργιο branch!
 id: ακούσιο-commit-master
 order: 4
 ---

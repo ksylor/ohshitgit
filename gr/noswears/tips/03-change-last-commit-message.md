@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, πρέπει να αλλάξω το τελευταίο commit message!
+title: Dang it, πρέπει να αλλάξω το τελευταίο commit message!
 id: άλλαξε-το-τελευταίο-commit-message
 order: 3
 ---
@@ -9,4 +9,4 @@ git commit --amend
 # ακολούθησε τα prompts για να αλλάξεις το commit message
 ```
 
-Ηλίθια commit message formatting requirements.
+Εκνευριστικά commit message formatting requirements.
