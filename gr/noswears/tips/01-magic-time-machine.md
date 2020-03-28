@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I did something terribly wrong, please tell me git has a magic time machine!?!
-id: magic-time-machine
+title: Oh shit, κάτι έκανα τελείως λάθος, σε παρακαλώ πες μου ότι το git έχει μια μαγική μηχανή του χρόνου!?!
+id: μαγική-μηχανή-χρόνου
 order: 1
 ---
 
 ```git
 git reflog
-# you will see a list of every thing you've 
-# done in git, across all branches!
-# each one has an index HEAD@{index}
-# find the one before you broke everything
+# θα σου εμφανίσει μία λίστα με κάθε πράγμα 
+# που έγινε στο git, σε όλα τα branches!
+# κάθε ένα έχει ένα index HEAD@{index}
+# βρες αυτό το οποίο χάλασε τα πάντα
 git reset HEAD@{index}
-# magic time machine
+# μαγική μηχανή του χρόνου
 ```
 
-You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use `reflog` A LOT. Mega hat tip to the many many many many many people who suggested adding it!
+Μπορείς να το χρησιμοποιήσεις αυτό για να γυρίσεις σε πράγματα που καταλάθως διέγραψες, ή να διαγράψεις κάποια τα οποία χαλάσανε το repo, ή να κάνεις rollback μετά από ένα κακό merge, ή να γυρίσεις πίσω το χρόνο έως ότου το σημείο μέχρι το οποίο τα πράγματα δούλευαν. Χρησιμοποιώ το `reflog` ΠΟΛΥ. Βγάζω επειδικτικά το καπέλο στους πολλούς πολλούς πολλούς πολλούς πολλούς ανθρώπους που πρότειναν να προστεθεί αυτή η λειτουργία!
