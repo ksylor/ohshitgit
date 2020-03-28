@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Σκατά, πρέπει να αλλάξω το τελευταίο commit message!
+title: Oh shit, πρέπει να αλλάξω το τελευταίο commit message!
 id: άλλαξε-το-τελευταίο-commit-message
 order: 3
 ---

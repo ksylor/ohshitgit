@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Σκατά, έκανα commit σε λάθος branch!
+title: Oh shit, έκανα commit σε λάθος branch!
 id: ακούσιο-commit-σε-λάθος-branch
 order: 5
 ---
