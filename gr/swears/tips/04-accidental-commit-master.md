@@ -1,17 +1,17 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed something to master that should have been on a brand new branch!
-id: accidental-commit-master
+title: Oh shit, καταλάθος έκανα commit κάτι στο master το οποίο θα έπρεπε να είναι σε ξεχωριστό καινούργιο branch!
+id: ακούσιο-commit-master
 order: 4
 ---
 
 ```git
-# create a new branch from the current state of master
-git branch some-new-branch-name
-# remove the last commit from the master branch
+# δημιούργησε νέο branch από το παρόν state του master
+git branch κάποιο-νέο-όνομα-του-branch
+# αφαίρεσε το τελευταίο commit από το master branch
 git reset HEAD~ --hard
-git checkout some-new-branch-name
-# your commit lives in this branch now :)
+git checkout κάποιο-νέο-όνομα-του-branch
+# το commit σου ζει πλέον στο νέο σου branch :)
 ```
 
-Note: this doesn't work if you've already pushed the commit to a public/shared branch, and if you tried other things first, you might need to `git reset HEAD@{number-of-commits-back}` instead of `HEAD~`. Infinite sadness. Also, many many many people suggested an awesome way to make this shorter that I didn't know myself. Thank you all!
+Σημείωση: αυτό δεν λειτουργεί αν έχεις κάνει ήδη push το commit σε κάποιο δημόσιο/κοινόχρηστο branch, και αν έχεις δοκιμάσει άλλα πράγματα πρώτα, ίσως χρειαστεί να κάνεις `git reset HEAD@{number-of-commits-back}` έναντι του `HEAD~`. Άπειρη θλίψης. Επίσης, πολλοί πολλοί  πρότειναν έναν υπέροχο τρόπο να το κάνουν αυτό πιο σύντομα τον οποίο ούτε εγώ γνώριζα. Σας ευχαριστώ!
