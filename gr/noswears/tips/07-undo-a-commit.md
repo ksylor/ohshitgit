@@ -1,21 +1,22 @@
 ---
 tags: tip
-title: Dangit, I need to undo a commit from like 5 commits ago!
-id: undo-a-commit
+title: Oh shit, πρέπει να αναιρέσω κάποιο commit από πριν 5 λεπτά!
+id: αναίρεση-commit
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# βρες το commit που θες να αναιρέσεις
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# χρησιμοποίησε τα arrow keys για να σκρολάρεις κάτω στο ιστορικό
+# μόλις βρεις το commit σου, σώσε το hash
+git revert [το hash που έσωσες]
+# το git θα δημιουργήσει ένα νέο commit που αναιρεί το commit σου
+# ακολούθησε τα prompts για να κάνεις edit το commit message 
+# ή απλά σώσε το commit
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Απ' ότι φαίνεται δεν χρειάζεται να εντοπίσεις και να κάνεις copy-paste τα περιεχόμενα ενός παλιού αρχείου σε ένα υπάρχον για να καταφέρεις να αναιρέσεις αλλαγές! Αν έκανες commit κάποιο bug, μπορείς να αναιρέσεις το commit μόνο κάνοντας ένα `revert`.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of fucking commands...
+Μπορείς επίσης να κάνεις revert ένα αρχείο αντί για ένα ολόκληρο commit! 
+Αλλά φυσικά, επειδή μιλάμε για το git, αυτό θα είναι ένα διαφορετικό σύνολο γαμημένων εντολών...
