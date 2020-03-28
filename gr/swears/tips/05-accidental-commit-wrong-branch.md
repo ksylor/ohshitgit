@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
-id: accidental-commit-wrong-branch
+title: Σκατά, έκανα commit σε λάθος branch!
+id: ακούσιο-commit-σε-λάθος-branch
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# αναίρεσε το τελευταίο commit, αλλά άφησε τις αλλαγές διαθέσιμες
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
-git checkout name-of-the-correct-branch
+# πήγαινε στο σωστό branch
+git checkout όνομα-του-σωστού-branch
 git stash pop
-git add . # or add individual files
-git commit -m "your message here";
-# now your changes are on the correct branch
+git add . # ή πρόσθεσε ένα-ένα τα αρχεία
+git commit -m "το μήνυμα σου";
+# τώρα οι αλλαγές σου είναι στο σωστό branch
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+Πολλοί προτείνανε τη χρήση του `cherry-pick` για αυτή τη περίσταση, οπότε διάλεξε αυτό που σου βγάζει περισσότερο νόημα!
 
 ```git
 git checkout name-of-the-correct-branch
-# grab the last commit to master
+# πάρε το τελευταίο commit από το master και βάλτο εδώ
 git cherry-pick master
-# delete it from master
+# διέγραψέ το από το master
 git checkout master
 git reset HEAD~ --hard
 ```

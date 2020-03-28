@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
-id: dude-wheres-my-diff
+title: Σκατά, προσπάθησα να τρέξω ένα diff αλλά δεν έγινε τίποτα?!
+id: που-είναι-το-diff-μου-ρε-φίλε
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+Αν ξέρεις ότι έκανες αλλαγές σε αρχεία, αλλά το `diff` είναι άδειο, πιθανώς έκανες `add` τα αρχεία σου στο staging και χρειάζεται να χρησιμοποιήσεις κάποιο special flag.
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\_(ツ)_/&macr; (yes, I know this is a feature, not a bug, but it's fucking baffling and non-obvious the first time it happens to you!)
+File under &macr;\\_(ツ)_/&macr; (ναι, γνωρίζω ότι είναι feature, όχι bug, αλλά είναι στριφνό και μή-προφανές όταν σου συμβαίνει για πρώτη φορά!)

@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
-id: change-last-commit
+title: Σκατά, έκανα commit και αμέσως συνειδητοποίησα ότι χρειάζεται να κάνω μια μικρή αλλαγή!
+id: άλλαξε-το-τελευταίο-commit
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# κάνε την αλλαγή σου
+git add . # ή πρόσθεσε ένα-ένα τα αρχεία
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# τώρα το τελευταίο σου commit περιέχει την αλλαγή σου!
+# ΠΡΟΣΟΧΗ: ποτέ μη κάνεις amend public commits
 ```
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+Αυτό μου συμβαίνει συχνά αν κάνω commit, μετά τρέξω tests/linters... και γαμώ της γης τον άξονα, δεν έβαλα κενό μετά από ένα equals sign. Θα μπορούσες επίσης να κάνεις την αλλαγή ως νέο commit και μετά να κάνεις `rebase -i` έτσι ώστε να τα ενώσεις και τα δύο μαζί, αλλά το πρώτο είναι πολύ πιο γρήγορο. 
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*Προσοχή: Δεν θα πρέπει να κάνεις ποτέ amend commits τα οποία έχουν γίνει push σε ένα public/shared branch! Κάνε μόνο amend commits τα οποία υπαρχουν σε τοπικό αντίγραφο αλλιώς δεν θα περάσεις καλά.*
