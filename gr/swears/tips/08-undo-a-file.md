@@ -1,18 +1,17 @@
 ---
 tags: tip
-title: Oh shit, I need to undo my changes to a file!
-id: undo-a-file
+title: Σκατά, πρέπει να αναιρέσω τις αλλαγές μου σε ένα αρχείο!
+id: αναίρεσε-αρχείο
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# βρες το hash για ένα commit πριν την αλλαγή του αρχείου
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
+# χρησιμοποίησε τα arrow keys για να σκρολλάρεις στο ιστορικό
+# μόλις βρεις το commit σου, σώσε το hash
+git checkout [σωσμένο hash] -- path/στο/αρχείο
+# η παλιά έκδοση του αρχείου σου θα είναι στο index
 git commit -m "Wow, you don't have to copy-paste to undo"
 ```
-
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what fucking planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Όταν επιτέλους το βρήκα αυτό ήταν ΣΠΟΥΔΑΙΑ. ΣΠΟΥΔΑΙΑ. Σ-Π-Ο-Υ-Δ-Α-Ι-Α ανακάλυψη. Αλλά σοβαρά, σε ποιο γαμημένο σύμπαν το `checkout --` βγάζει νόημα να καταλήξεις ότι είναι ο καλύτερος τρόπος να αναιρέσεις κάποιο αρχείο; :κουνάει-τη-γροθιά-προς-τον-linus-torvalds:
