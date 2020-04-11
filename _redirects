@@ -47,3 +47,11 @@ https://ohshitgit.com/fr        https://ohshitgit.com/fr/swears/index.html 200!
 # french no swears
 https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200!
 #https://dangitgit.com/fr/*      https://dangitgit.com/fr 301!
+
+# japanese swears
+https://ohshitgit.com/ja        https://ohshitgit.com/ja/swears/index.html 200!
+#https://ohshitgit.com/ja/*      https://ohshitgit.com/ja 301!
+
+# japanese no swears
+https://dangitgit.com/ja        https://dangitgit.com/ja/noswears/index.html 200!
+#https://dangitgit.com/ja/*      https://dangitgit.com/ja 301!

@@ -33,6 +33,11 @@ module.exports = function() {
                 "label": "русский",
                 "code": "ru",
                 "arialabel": "Посмотреть на других языках"
+            },
+            {
+                "label": "日本語",
+                "code": "ja",
+                "arialabel": "他の言語で読む"
             }
         ],
         "collaborators": [
@@ -60,6 +65,11 @@ module.exports = function() {
                 "name": "Michel",
                 "link": "https://github.com/michelc",
                 "lang": "fr"
+            },
+            {
+                "name": "Meiko Hori",
+                "link": "https://github.com/meih",
+                "lang": "ja"
             }
         ]
     };
