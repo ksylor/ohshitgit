@@ -33,6 +33,11 @@ module.exports = function() {
                 "label": "русский",
                 "code": "ru",
                 "arialabel": "Посмотреть на других языках"
+            },
+            {
+                "label": "ελληνικά",
+                "code": "gr",
+                "arialabel": "Προβολή σε άλλες γλώσσες"
             }
         ],
         "collaborators": [
@@ -60,6 +65,11 @@ module.exports = function() {
                 "name": "Michel",
                 "link": "https://github.com/michelc",
                 "lang": "fr"
+            },
+            {
+                "name": "Alex Tzimas",
+                "link": "https://github.com/Tzal3x",
+                "lang": "gr"
             }
         ]
     };
