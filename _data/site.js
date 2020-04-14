@@ -35,6 +35,11 @@ module.exports = function() {
                 "arialabel": "Посмотреть на других языках"
             },
             {
+                "label": "日本語",
+                "code": "ja",
+                "arialabel": "他の言語で読む"
+            },
+            {
                 "label": "ελληνικά",
                 "code": "gr",
                 "arialabel": "Προβολή σε άλλες γλώσσες"
@@ -65,6 +70,11 @@ module.exports = function() {
                 "name": "Michel",
                 "link": "https://github.com/michelc",
                 "lang": "fr"
+            },
+            {
+                "name": "Meiko Hori",
+                "link": "https://github.com/meih",
+                "lang": "ja"
             },
             {
                 "name": "Alex Tzimas",

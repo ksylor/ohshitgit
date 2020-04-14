@@ -95,6 +95,15 @@ module.exports = function(config) {
       return getTipCollection(collection, "noswears", "fr");
   });
 
+  // Japanese language version
+  config.addCollection('tips_swears_ja', function (collection) {
+    return getTipCollection(collection, "swears", "ja");
+  });
+
+  config.addCollection('tips_noswears_ja', function (collection) {
+      return getTipCollection(collection, "noswears", "ja");
+  });
+
   // Greek language version
   config.addCollection('tips_swears_gr', function (collection) {
     return getTipCollection(collection, "swears", "gr");
