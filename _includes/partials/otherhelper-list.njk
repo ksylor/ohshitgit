@@ -1,0 +1,5 @@
+{% if site.otherhelpers.length > 0 %}
+    {% for helper in site.otherhelpers %}
+        {% otherhelpers_info helper %}{% if loop.last === false %} &middot; {% endif %}
+    {% endfor %}
+{% endif %}
