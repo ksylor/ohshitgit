@@ -11,4 +11,4 @@ Jeżeli masz pewność, że dokonałeś(aś) zmian w plikach, a mimo to `diff` �
 git diff --staged
 ```
 
-Plik wyświetli się poniżej &macr;\\_(ツ)_/&macr; (tak, wiem że to feature, a nie bug, ale to jest kurewsko zaskakujące i nieoczywiste za pierwszym razem, kiedy Ci się to wydarzy!)
+Plik wyświetli się poniżej &macr;\\\_(ツ)\_/&macr; (tak, wiem że to feature, a nie bug, ale to jest kurewsko zaskakujące i nieoczywiste za pierwszym razem, kiedy Ci się to wydarzy!)
