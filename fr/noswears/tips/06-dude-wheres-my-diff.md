@@ -11,4 +11,4 @@ Quand vous avez modifié des fichiers, mais que `diff` ne renvoie rien, c'est sa
 git diff --staged
 ```
 
-Classé dans &macr;\\_(ツ)_/&macr; (oui, je sais, c'est une fonctionnalité et pas un bug, mais c'est époustouflifiant, voire déconcertifiant la première fois où ça vous arrive&nbsp;!)
+Classé dans &macr;\\\_(ツ)\_/&macr; (oui, je sais, c'est une fonctionnalité et pas un bug, mais c'est époustouflifiant, voire déconcertifiant la première fois où ça vous arrive&nbsp;!)

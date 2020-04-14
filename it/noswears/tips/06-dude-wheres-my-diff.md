@@ -11,4 +11,4 @@ Se sai di aver fatto modifiche ad alcuni file, ma `diff` non ti da risultati, pr
 git diff --staged
 ```
 
-File che appartengono a questa categoria &macr;\\_(ツ)_/&macr; (si, lo so che è una caratteristica voluta, non un bug, ma la prima volta che succede ti confonde!)
+File che appartengono a questa categoria &macr;\\\_(ツ)\_/&macr; (si, lo so che è una caratteristica voluta, non un bug, ma la prima volta che succede ti confonde!)

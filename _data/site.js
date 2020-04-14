@@ -38,6 +38,11 @@ module.exports = function() {
                 "label": "日本語",
                 "code": "ja",
                 "arialabel": "他の言語で読む"
+            },
+            {
+                "label": "ελληνικά",
+                "code": "gr",
+                "arialabel": "Προβολή σε άλλες γλώσσες"
             }
         ],
         "collaborators": [
@@ -70,6 +75,11 @@ module.exports = function() {
                 "name": "Meiko Hori",
                 "link": "https://github.com/meih",
                 "lang": "ja"
+            },
+            {
+                "name": "Alex Tzimas",
+                "link": "https://github.com/Tzal3x",
+                "lang": "gr"
             }
         ]
     };
