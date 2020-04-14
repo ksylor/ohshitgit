@@ -81,6 +81,24 @@ module.exports = function() {
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
             }
+        ],
+        "otherhelpers": [
+            {
+                "name": "Iain Murray",
+                "link": "https://github.com/imurray",
+            },
+            {
+                "name": "Frank Taillandier",
+                "link": "https://github.com/DirtyF",
+            },
+            {
+                "name": "David Fyffe",
+                "link": "https://github.com/davidfyffe",
+            },
+            {
+                "name": "Lucas Larson",
+                "link": "https://github.com/LucasLarson",
+            }
         ]
     };
 };
