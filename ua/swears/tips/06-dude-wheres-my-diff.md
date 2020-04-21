@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
-id: dude-wheres-my-diff
+title: Якого хуя я зробив diff але нічого не вивелось?!
+id: чувак-де-мій-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+IЯкщо ви впевнені, що ви змінили файли, але `diff` нічого не виводить, скоріш за все ви додали файли `add`-ом і варто використати спеціальний флаг.
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's fucking baffling and non-obvious the first time it happens to you!)
+Можна зарахувати як &macr;\\\_(ツ)\_/&macr; (та, я в курсі що це фіча, а не баг, але це так неочевидно в перший раз!)

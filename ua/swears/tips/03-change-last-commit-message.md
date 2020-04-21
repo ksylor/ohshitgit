@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Oh shit, I need to change the message on my last commit!
-id: change-last-commit-message
+title: Блядь, треба поміняти повідомлення останнього коміту!
+id: змінити-повідомлення-останнього-коміту
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# дотримуйтесь вказівок щоб виправити повідомлення
 ```
 
-Stupid commit message formatting requirements.
+Їбані вимоги по форматуванню повідомлень.

@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
-id: accidental-commit-wrong-branch
+title: Блядь, я випадково закомітив не на ту гілку!
+id: випадковий-коміт-неправильна-гілка
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# скасувати останній коміт, але залишити зміни в буфері
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
-git checkout name-of-the-correct-branch
+# перейти на потрібну гілку
+git checkout ім'я-правильної-гілки
 git stash pop
-git add . # or add individual files
-git commit -m "your message here";
-# now your changes are on the correct branch
+git add . # або додайте файли по одному
+git commit -m "ваше повідомлення"
+# тепер ваші зміни на потрібній гілці
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+Також багато людей рекомендувало тут використовувати `cherry-pick`, отже вибирайте спосіб що вам більше подобається!
 
 ```git
-git checkout name-of-the-correct-branch
-# grab the last commit to master
+git checkout ім'я-правильної-гілки
+# взяти останній коміт на master
 git cherry-pick master
-# delete it from master
+# видалити його з master
 git checkout master
 git reset HEAD~ --hard
 ```

@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
-id: change-last-commit
+title: Блядь, я комітнув і щойно зрозумів що треба внести одну невеличку зміну!
+id: змінити-останній-коміт
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# внесіть вашу зміну
+git add . # або додайте файли окремо
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# тепер ваш останній коміт має цю зміну!
+# ПОПЕРЕДЖЕННЯ: ніколи не виправляйте публічні коміти
 ```
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+Зі мною це звичайно трапляється якщо я спочатку комічу, а потім перевіряю тести/лінтери... і, кхм, я забув поставити пробіл після знаку "дорівнює". Ви також можете включити цю зміну в новий коміт і потім зробити `rebase -i`, щоб об'єднати два коміти в один, але цей спосіб десь в мільйон разів швидше.
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*Попередження: Ніколи не варто виправляти коміти, що були запушені на публічну/спільну гілку! Виправляйте тільки коміти, що існують лише у вас локально, інакше у вас будуть серйозні проблеми.*

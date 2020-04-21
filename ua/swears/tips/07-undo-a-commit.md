@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Oh shit, I need to undo a commit from like 5 commits ago!
-id: undo-a-commit
+title: Сука, мені треба скасувати коміт який я зробив блядь 5 комітів тому!
+id: скасувати-коміт
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# знайдіть коміт який треба скасувати
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# використовуйте стрілочки "вгору" та "вниз", щоб переглянути історію
+# збережіть хеш коміту, який потрібно скасувати
+git revert [ваш хеш]
+# git створить новий коміт, що відмінить старий
+# дотримуйтесь вказівок щоб створити повідомлення до коміту
+# або просто збережіть і комітніть
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Виявляється, що не треба вишукуати і копіювати вміст старого файлу в новий щоб скасувати зміни! Якщо ви комітнули баг, можна все скасувати за допомогою `revert`.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of fucking commands...
+Також можна скасувати зміни в одному файлі замість цілого коміту! Але як завжди з git, це робиться зовсім іншими їбаними командами...

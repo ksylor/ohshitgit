@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
-id: fuck-this-noise
+title: Пішло воно все нахуй, я здаюся
+id: пішло-воно-все-нахуй
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r їбаний-репозиторій
+git clone https://some.github.url/їбаний-репозиторій.git
+cd їбаний-репозиторій
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+Дякую Eric V. за цю підказку. Будь-які скарги щодо `sudo` в цьому жарті пишіть йому. 
 
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+Якщо серйозно і ваша гілка настільки засрана, що вам треба повернути репозиторій до стану в remote по красивому, то спробуйте так, але знайте, що так ви знищуєте ваші дані які вже не можна буде повернути!
 
 ```git
-# get the lastest state of origin
+# отримати останню версію origin
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# видалити все (навіть приховані та неіндексовані файли та директорії)
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# повторіть checkout/reset/clean для кожної засраної гілки
 ```

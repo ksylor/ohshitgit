@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I need to undo my changes to a file!
-id: undo-a-file
+title: Сука, мені треба скасувати зміни до файлу!
+id: скасувати-зміни-в-файлі
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# знайдіть хеш коміту, що був до того як файл був змінений
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
-git commit -m "Wow, you don't have to copy-paste to undo"
+# використовуйте стрілочки "вгору" та "вниз", щоб переглянути історію
+# збережіть хеш коміту, який потрібно скасувати
+git checkout [ваш хеш] -- шлях/до/файлу
+# стара версія файлу буде у вас в індексі
+git commit -m "Вау, не треба копіпастити щоб скасувати зміни"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what fucking planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Коли я до цього нарешті допер це було КЛАСНО. КЛАСНО. К-Л-А-С-Н-О. Але якщо серйозно, якого хуя `checkout --` це найкращий спосіб скасувати зміни до файлу? :погрожує-лінусу-торвальдсу:
