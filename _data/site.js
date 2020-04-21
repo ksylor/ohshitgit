@@ -35,6 +35,11 @@ module.exports = function() {
                 "arialabel": "Посмотреть на других языках"
             },
             {
+                "label": "українська",
+                "code": "ua",
+                "arialabel": "Переглянути на інших мовах"
+            },
+            {
                 "label": "日本語",
                 "code": "ja",
                 "arialabel": "他の言語で読む"
