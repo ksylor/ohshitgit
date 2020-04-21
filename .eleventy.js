@@ -116,4 +116,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_gr', function (collection) {
       return getTipCollection(collection, "noswears", "gr");
   });
+
+  // Romanian language version
+  config.addCollection('tips_swears_ro', function(collection) {
+      return getTipCollection(collection, "swears", "ro");
+  });
+
+  config.addCollection('tips_noswears_ro', function(collection) {
+      return getTipCollection(collection, "noswears", "ro");
+  });
 };
