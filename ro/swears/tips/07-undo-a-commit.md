@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Rahat, trebuie sa anulez un commit din urma cu vreo 5 commituri!
+title: Rahat, trebuie să anulez un commit din urmă cu vreo 5 commituri!
 id: undo-a-commit
 order: 7
 ---
 
 ```git
-# gaseste commitul pe care trebuie sa il anulezi
+# găsește commitul pe care trebuie să îl anulezi
 git log
-# foloseste sagetile sa te duci in sus si in jos prin istoric
-# odata ce ti-ai gasit commitul, salveaza hashul
+# folosește săgețile să te duci în sus și în jos prin istoric
+# odată ce ți-ai găsit commitul, salvează hashul
 git revert [hash salvat]
-# git va crea un commit care anuleaza commitul respectiv
-# urmareste indicatiile pentru a edita mesajul commitului 
-# sau doar salveaza si comite
+# git va crea un commit care anulează commitul respectiv
+# urmărește indicațiile pentru a edita mesajul commitului 
+# sau doar salvează și comite
 ```
 
-Pare ca nu trebuie sa urmaresti si sa faci copy-paste la vechiul continut al fisierului in fisierul existent pentru a anula schimbarile! Daca ai comis un bug, poti sa anulezi totul dintr-o miscare cu `revert`.
+Pare că nu trebuie să urmarești și să faci copy-paste la vechiul conținut al fișierului în fișierul existent pentru a anula schimbările! Dacă ai comis un bug, poți să anulezi totul dintr-o mișcare cu `revert`.
 
-Poti de asemenea sa anulezi un singur fisier in loc de un commit intreg! Dar desigur, intr-un mod foarte "git", e un set complet diferit de rahaturi de comenzi...
+Poți de asemenea să anulezi un singur fișier în loc de un commit întreg! Dar desigur, într-un mod foarte "git", e un set complet diferit de rahaturi de comenzi...

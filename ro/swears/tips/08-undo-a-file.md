@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Rahat, trebuie sa imi anulez modificarile dintr-un fisier!
+title: Rahat, trebuie să îmi anulez modificările dintr-un fișier!
 id: undo-a-file
 order: 8
 ---
 
 ```git
-# gaseste un hash pentru un commit dinainte ca fisierul sa fi fost schimbat
+# găsește un hash pentru un commit dinainte ca fișierul să fi fost schimbat
 git log
-# foloseste sagetile ca sa te plimbi in sus si in jos prin istoric
-# odata ce ai gasit commitul, salveaza hashul
-git checkout [hash salvat] -- cale/catre/fisier
-# versiunea veche a fisierului va fi in indexul tau
-git commit -m "Oau, nu trebuie sa faci copy-paste ca sa anulezi"
+# folosește săgețile ca să te plimbi în sus și în jos prin istoric
+# odată ce ai găsit commitul, salveaza hashul
+git checkout [hash salvat] -- cale/către/fișier
+# versiunea veche a fișierului va fi în indexul tău
+git commit -m "Oau, nu trebuie să faci copy-paste ca să anulezi"
 ```
 
-Cand mi-am dat seama intr-un final de asta, a fost BABAN. BABAN. B-A-B-A-N. Dar serios acum, pe ce rahat de planeta `checkout --` are sens ca cel mai bun mod de a anula modificarile dintr-un fisier? :scuturand-pumnul-catre-linus-torvalds:
+Când mi-am dat seama într-un final de asta, a fost BABAN. BABAN. B-A-B-A-N. Dar serios acum, pe ce rahat de planetă `checkout --` are sens ca cel mai bun mod de a anula modificările dintr-un fișier? :scuturând-pumnul-către-linus-torvalds:

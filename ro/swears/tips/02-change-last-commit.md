@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Rahat, am comis si imediat mi-am dat seama ca trebuie sa mai fac o schimbare mica!
+title: Rahat, am comis și imediat mi-am dat seama că trebuie să mai fac o modificare mică!
 id: change-last-commit
 order: 2
 ---
 
 ```git
-# fa-ti schimbarea
-git add . # sau adauga fisiere individuale
+# fă-ți modificarea
+git add . # sau adaugă fișiere individuale
 git commit --amend --no-edit
-# acum ultimul tau commit contine acea schimbare!
-# AI GRIJA: nu face niciodata asta in commituri publice
+# acum ultimul tău commit conține acea schimbare!
+# AI GRIJĂ: nu face niciodată asta în commituri publice
 ```
 
-Asta mi se intampla de obicei daca comit si apoi rulez teste/linters... si PLM, nu am pus un spatiu dupa un egal. Ai putea si sa faci schimbarea ca un nou commit si apoi sa faci `rebase -i` ca sa le pui unu-ntr-altu', dar asta e cam de un milion de ori mai rapid. 
+Asta mi se intamplă de obicei dacă comit și apoi rulez teste/linters... și PLM, nu am pus un spațiu după un egal. Ai putea și să faci modificarea ca un nou commit și apoi să faci `rebase -i` ca să le pui unu-ntr-altu', dar asta e cam de un milion de ori mai rapid. 
 
-*Ai grija: Nu ar trebui niciodata sa faci amend la commituri care au fost impinse intru-un branch public/comun! Doar amend la commituri care exista doar in copia ta locala sau dai de belea.*
+*Ai grijă: Nu ar trebui niciodată să faci amend la commituri care au fost împinse într-un branch public/comun! Doar amend la commituri care există doar in copia ta locală sau te trezești cu mortu-n casă.

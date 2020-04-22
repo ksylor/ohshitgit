@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Rahat, am comis intr-un branch gresit!
+title: Rahat, am comis într-un branch greșit!
 id: accidental-commit-wrong-branch
 order: 5
 ---
 
 ```git
-# anuleaza ultimul commit, dar lasa modificarile disponibile
+# anulează ultimul commit, dar lasă modificările disponibile
 git reset HEAD~ --soft
 git stash
-# muta-te pe branchul corect
+# mută-te pe branchul corect
 git checkout nume-corect-de-branch
 git stash pop
-git add . # sau adauga fisiere individuale
-git commit -m "mesajul tau aici";
-# acum modificarile tale sunt pe branchul corect
+git add . # sau adaugă fișiere individuale
+git commit -m "mesajul tău aici";
+# acum modificările tale sunt pe branchul corect
 ```
 
-Multi oameni au sugerat de asemenea folosirea `cherry-pick`ului in aceasta situatie, deci alege ce vrei in functie de ce are mai mult sens pentru tine!
+Mulți oameni au sugerat de asemenea folosirea `cherry-pick`ului în această situație, deci alege ce vrei in funcție de ce are mai mult sens pentru tine!
 
 ```git
 git checkout nume-corect-de-branch
 # ia ultimul commit de pe master
 git cherry-pick master
-# sterge-l de pe master
+# șterge-l de pe master
 git checkout master
 git reset HEAD~ --hard
 ```
