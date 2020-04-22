@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Pisici, am facut ceva foarte prost, te rog spune-mi ca gitul are o masina magica a timpului!?!
+title: Pisici, am făcut ceva foarte prost, te rog spune-mi că gitul are o mașină magică a timpului!?!
 id: magic-time-machine
 order: 1
 ---
 
 ```git
 git reflog
-# vei vedea o lista cu tot ce
+# vei vedea o listă cu tot ce
 # ai facut in git, pe toate branchurile!
 # fiecare are un index HEAD@{index}
-# gaseste-l pe cel de dinainte sa se dezlantuie iadul
+# găsește-l pe cel de dinainte să se dezlănțuie iadul
 git reset HEAD@{index}
-# masina magica a timpului
-```
+# mașina magică a timpului
+``
 
-Poti sa folosesti asta sa recuperezi chestii pe care le-ai sters din greseala, sau pur si simplu sa scoti chestii pe care le-ai incercat si care au distrus repoul sau sa refaci repoul dupa un merge prost sau doar sa te intorci in timp cand lucrurile mergeau. Eu folosesc `reflog` MULT. Jos palaria si ma inclin celor multi, multi, multi, multi, multi care mi-au sugerat sa il adaug!
+Poți să folosești asta să recuperezi chestiile pe care le-ai șters din greseală, sau pur și simplu să scoți chestii pe care le-ai încercat și care au distrus repoul sau să refaci repoul după un merge prost sau doar să te întorci în timp când lucrurile mergeau. Eu folosesc `reflog` MULT. Jos pălăria celor mulți, mulți, mulți, mulți, mulți care mi-au sugerat să îl adaug
