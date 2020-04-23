@@ -7,10 +7,11 @@ order: 4
 
 ```git
 # create a new branch from the current state of master
-git branch some-new-branch-name
+git checkout -b some-new-branch-name
+git checkout -
 # remove the last commit from the master branch
 git reset HEAD~ --hard
-git checkout some-new-branch-name
+git checkout -
 # your commit lives in this branch now :)
 ```
 
