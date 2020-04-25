@@ -63,3 +63,11 @@ https://ohshitgit.com/gr        https://ohshitgit.com/gr/swears/index.html 200!
 # greek no swears
 https://dangitgit.com/gr        https://dangitgit.com/gr/noswears/index.html 200!
 #https://dangitgit.com/gr/*      https://dangitgit.com/gr 301!
+
+# spanish swears
+https://ohshitgit.com/es        https://ohshitgit.com/es/swears/index.html 200!
+#https://ohshitgit.com/es/*      https://ohshitgit.com/es 301!
+
+# spanish no swears
+https://dangitgit.com/es        https://dangitgit.com/es/noswears/index.html 200!
+#https://dangitgit.com/es/*      https://dangitgit.com/es 301!
