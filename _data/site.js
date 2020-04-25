@@ -15,6 +15,11 @@ module.exports = function() {
                 "arialabel": "View in other languages"
             },
             {
+                "label": "español",
+                "code": "es",
+                "arialabel": "Mira en otro idioma"
+            },
+            {
                 "label": "français",
                 "code": "fr",
                 "arialabel": "Choisir une autre langue"
@@ -80,6 +85,11 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
+            },
+            {
+                "name": "Franco Fantini",
+                "link": "https://github.com/francofantini",
+                "lang": "es"
             }
         ],
         "otherhelpers": [
