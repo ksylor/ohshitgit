@@ -43,6 +43,11 @@ module.exports = function() {
                 "label": "ελληνικά",
                 "code": "gr",
                 "arialabel": "Προβολή σε άλλες γλώσσες"
+            },
+            {
+                "label": "romana",
+                "code": "ro",
+                "arialabel": "Alege o alta limba"
             }
         ],
         "collaborators": [
@@ -80,6 +85,11 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
+            },
+            {
+                "name": "Catalina Focsa",
+                "link": "https://github.com/catalinafox",
+                "lang": "ro"
             }
         ],
         "otherhelpers": [
