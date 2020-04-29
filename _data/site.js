@@ -48,6 +48,11 @@ module.exports = function() {
                 "label": "ελληνικά",
                 "code": "gr",
                 "arialabel": "Προβολή σε άλλες γλώσσες"
+            },
+            {
+                "label": "romana",
+                "code": "ro",
+                "arialabel": "Alege o alta limba"
             }
         ],
         "collaborators": [
@@ -90,6 +95,11 @@ module.exports = function() {
                 "name": "Franco Fantini",
                 "link": "https://github.com/francofantini",
                 "lang": "es"
+            },
+            {
+                "name": "Catalina Focsa",
+                "link": "https://github.com/catalinafox",
+                "lang": "ro"
             }
         ],
         "otherhelpers": [
