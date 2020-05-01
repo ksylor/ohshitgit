@@ -134,4 +134,14 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ro', function(collection) {
       return getTipCollection(collection, "noswears", "ro");
   });
+
+  // Brazilian Portuguese version
+  config.addCollection('tips_swears_pt_BR', function(collection) {
+    return getTipCollection(collection, "swears", "pt_BR");
+  });
+
+  config.addCollection('tips_noswears_pt_BR', function(collection) {
+    return getTipCollection(collection, "noswears", "pt_BR");
+  });
+
 };

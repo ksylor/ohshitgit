@@ -35,6 +35,11 @@ module.exports = function() {
                 "arialabel": "Zobacz w innych językach"
             },
             {
+                "label": "português brasileiro",
+                "code": "pt_BR",
+                "arialabel": "Ver em outro idioma"
+            },
+            {
                 "label": "русский",
                 "code": "ru",
                 "arialabel": "Посмотреть на других языках"
@@ -100,6 +105,11 @@ module.exports = function() {
                 "name": "Catalina Focsa",
                 "link": "https://github.com/catalinafox",
                 "lang": "ro"
+            },
+            {
+                "name": "Davi Alexandre",
+                "link": "https://github.com/davialexandre",
+                "lang": "pt_BR"
             }
         ],
         "otherhelpers": [
