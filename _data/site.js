@@ -43,6 +43,11 @@ module.exports = function() {
                 "label": "ελληνικά",
                 "code": "gr",
                 "arialabel": "Προβολή σε άλλες γλώσσες"
+            },
+            {
+                "label": "עברית",
+                "code": "he",
+                "arialabel": "צפה בשפות נוספות"
             }
         ],
         "collaborators": [
@@ -80,6 +85,11 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
+            },
+            {
+                "name": "Elad Leev",
+                "link": "https://github.com/eladleev",
+                "lang": "he"
             }
         ],
         "otherhelpers": [
