@@ -77,6 +77,11 @@ module.exports = function() {
                 "lang": "fr"
             },
             {
+                "name": "Andriy Sultanov",
+                "link": "https://github.com/LastGenius-edu",
+                "lang": "ua"
+            },
+            {
                 "name": "Meiko Hori",
                 "link": "https://github.com/meih",
                 "lang": "ja"
