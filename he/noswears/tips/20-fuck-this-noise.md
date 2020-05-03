@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: <div class="he">שכח מהרעש הזה. אני מוותר</div>
+title: <div class="rtl">שכח מהרעש הזה. אני מוותר</div>
 id: שכח-מהרעש-הזה
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
@@ -12,7 +12,7 @@ sudo rm -r stupid-git-repo-dir
 git clone https://some.github.url/stupid-git-repo-dir.git
 cd stupid-git-repo-dir
 ```
-<div class="he">
+<div class="rtl">
 תודה ל
 Eric V.
 על זה. כל תלונה על שימוש ב
