@@ -87,3 +87,11 @@ https://ohshitgit.com/ua        https://ohshitgit.com/ua/swears/index.html 200!
 # ukrainian no swears
 https://dangitgit.com/ua        https://dangitgit.com/ua/noswears/index.html 200!
 #https://dangitgit.com/ua/*      https://dangitgit.com/ua 301!
+
+# brazilian portuguese swears
+https://ohshitgit.com/pt_BR        https://ohshitgit.com/pt_BR/swears/index.html 200!
+#https://ohshitgit.com/pt_BR/*      https://ohshitgit.com/pt_BR 301!
+
+# brazilian portuguese no swears
+https://dangitgit.com/pt_BR        https://dangitgit.com/pt_BR/noswears/index.html 200!
+#https://dangitgit.com/pt_BR/*      https://dangitgit.com/pt_BR 301!
