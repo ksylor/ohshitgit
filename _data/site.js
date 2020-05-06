@@ -45,6 +45,11 @@ module.exports = function() {
                 "arialabel": "Посмотреть на других языках"
             },
             {
+                "label": "українська",
+                "code": "ua",
+                "arialabel": "Переглянути на інших мовах"
+            },
+            {
                 "label": "日本語",
                 "code": "ja",
                 "arialabel": "他の言語で読む"
@@ -85,6 +90,11 @@ module.exports = function() {
                 "name": "Michel",
                 "link": "https://github.com/michelc",
                 "lang": "fr"
+            },
+            {
+                "name": "Andriy Sultanov",
+                "link": "https://github.com/LastGenius-edu",
+                "lang": "ua"
             },
             {
                 "name": "Meiko Hori",
