@@ -4,6 +4,7 @@ title: <div class="rtl">אוי לעזאזל, בטעות עשיתי קומיט ל
 id: קומיט-לברנץ-לא-נכון-בטעות
 order: 5
 ---
+<div class="rtl">
 
 ```git
 # בטל את הקומיט האחרון, אבל השאר את השינוי
@@ -16,11 +17,10 @@ git add . # או הוסף קבצים בודדים
 git commit -m "ההודעה שלך פה";
 # עכשיו השינוים שלך בברנץ' הנכון.
 ```
-<div class="rtl">
+
 המון אנשים הציעו להשתמש ב
 `cherry-pick`
 בסיטואציה הזו, אז בחר את מה שאתה חושב שהכי הגיוני.
-</div>
 
 ```git
 git checkout name-of-the-correct-branch
@@ -30,3 +30,4 @@ git cherry-pick master
 git checkout master
 git reset HEAD~ --hard
 ```
+</div>
