@@ -15,4 +15,4 @@ git checkout [hash yang telah Anda simpan] -- path/to/file
 git commit -m "Wow, Anda tidak perlu copy-paste untuk melakukan undo"
 ```
 
-Saat Saya akhirnya mengetahui hal ini, ini adalah BESAR. BESAR. B-E-S-A-R. Tapi serius, di planet mana `checkout --` masuk akal sebai cara terbaik untuk undo sebuah file? :shakes-fist-at-linus-torvalds:
+Saat Saya akhirnya mengetahui hal ini, ini adalah hal yang BESAR. BESAR. B-E-S-A-R. Tapi serius, di planet mana `checkout --` masuk akal sebai cara terbaik untuk undo sebuah file? :shakes-fist-at-linus-torvalds:

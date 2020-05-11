@@ -15,7 +15,7 @@ cd sebuah-git-repo-dir
 
 Terima kasih untuk Eric V. untuk saran ini. Semua komplain tentang pengunaan `sudo` di lelucon ini dapat diarahkan ke dia.
 
-Tapi serius, jika branch Anda sudah sangat kacau sehingga Anda perlu reset state repo Anda sehingga sama dengan remote repo dalam cara yang "disetujui-git", coba ini, tapi hati-hati karena aksi ini destruktif dan tidak dapat direcover!
+Tapi serius, jika branch Anda sudah sangat kacau sehingga Anda perlu reset state repo Anda sehingga sama dengan remote repo dalam cara yang "disetujui git", coba ini, tapi hati-hati karena aksi ini destruktif dan tidak dapat direcover!
 
 ```git
 # ambil state terakhir dari origin
