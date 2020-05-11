@@ -152,4 +152,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_pt_BR', function(collection) {
     return getTipCollection(collection, "noswears", "pt_BR");
   });
+
+  // Bahasa Indonesia version
+  config.addCollection('tips_swears_id', function(collection) {
+      return getTipCollection(collection, "swears", "id");
+  });
+
+  config.addCollection('tips_noswears_id', function(collection) {
+      return getTipCollection(collection, "noswears", "id");
+  });
 };

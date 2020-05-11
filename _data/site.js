@@ -63,6 +63,11 @@ module.exports = function() {
                 "label": "romana",
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
+            },
+            {
+                "label": "bahasa indonesia",
+                "code": "id",
+                "arialabel": "Lihat di bahasa lain"
             }
         ],
         "collaborators": [
@@ -120,6 +125,11 @@ module.exports = function() {
                 "name": "Davi Alexandre",
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
+            },
+            {
+                "name": "Ricky Gultom",
+                "link": "https://github.com/quellcrist-falconer",
+                "lang": "id"
             }
         ],
         "otherhelpers": [
