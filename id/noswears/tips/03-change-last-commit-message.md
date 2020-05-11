@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya butuh mengubah pesan di commit terakhir milik Saya!
-id: change-last-commit-message
+id: ubah-commit-message-terakhir
 order: 3
 ---
 ```git

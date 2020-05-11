@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gw coba jalanin diff tapi kagak terjadi apa-apa?!
-id: dude-wheres-my-diff
+id: hoi-mana-diff-gue
 order: 6
 ---
 

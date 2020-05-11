@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gue perlu undo changes gue di file!
-id: undo-a-file
+id: undo-sebuah-file
 order: 8
 ---
 

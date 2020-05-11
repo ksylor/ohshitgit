@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gue udah commit tapi ada yang pengen gue tambahin lagi!
-id: change-last-commit
+id: ganti-commit-terakhir
 order: 2
 ---
 

@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Lupakan semua ini, Saya menyerah.
-id: forget-this-noise
+id: lupakan-semua-ini
 note: ini harus selalu jadi yang terakhir di daftar, jadi set order ke 20 sehingga Saya tidak perlu melakukan re-name/re-order
 order: 20
 ---

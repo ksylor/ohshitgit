@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya telah melakukan commit dan langsung menyadari bahwa Saya perlu menambahkan sesuatu!
-id: change-last-commit
+id: ubah-commit-terakhir
 order: 2
 ---
 

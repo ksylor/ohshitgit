@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gue perlu ganti commit message di commit-an terakhir gw!
-id: change-last-commit-message
+id: ganti-commit-message-terakhir
 order: 3
 ---
 ```git

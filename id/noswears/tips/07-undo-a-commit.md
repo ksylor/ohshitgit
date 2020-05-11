@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya perlu melakukan undo commit dari 5 commit yang sebelumnya!
-id: undo-a-commit
+id: undo-sebuah-commit
 order: 7
 ---
 

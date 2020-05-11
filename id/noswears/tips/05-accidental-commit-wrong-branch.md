@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya tidak sengaja melakukan commit ke branch yang keliru!
-id: accidental-commit-wrong-branch
+id: tidaksengaja-commit-branch-keliru
 order: 5
 ---
 

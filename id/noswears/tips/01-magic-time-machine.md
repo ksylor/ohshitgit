@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya telah melakukan hal yang teramat salah, tolong beri tahu Saya kalau git memiliki mesin waktu ajaib!?!
-id: magic-time-machine
+id: mesin-waktu-ajaib
 order: 1
 ---
 

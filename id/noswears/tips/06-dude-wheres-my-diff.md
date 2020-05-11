@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya coba menjalankan diff tapi tidak terjadi apa-apa?!
-id: dude-wheres-my-diff
+id: wah-dimana-diff-saya
 order: 6
 ---
 

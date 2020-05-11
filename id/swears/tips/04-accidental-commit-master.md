@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gw gak sengaja commit sesuatu di master yang harusnya di branch baru!
-id: accidental-commit-master
+id: tidaksengaja-commit-master
 order: 4
 ---
 

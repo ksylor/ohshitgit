@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Tai, gw gak sengaja commit ke branch yang salah!
-id: accidental-commit-wrong-branch
+id: tidaksengaja-commit-branch-salah
 order: 5
 ---
 

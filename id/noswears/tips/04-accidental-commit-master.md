@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Waduh, Saya tidak sengaja commit sesuatu di master yang seharusnya ada di branch yang baru!
-id: accidental-commit-master
+id: tidaksengaja-commit-master
 order: 4
 ---
 
