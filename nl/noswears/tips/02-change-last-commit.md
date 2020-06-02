@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I committed and immediately realized I need to make one small change!
+title: Oeps, ik deed commit realiseerde me dat ik nog 1 kleine wijziging moet doen!
 id: change-last-commit
 order: 2
 ---
 
 ```git
-# make your change
+# Maak je wijziging
 git add . # or add individual files
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# Nu heeft je laatste commit de wijziging!
+# LET OP: Pas nooit publieke commits aan!!
 ```
 
-This usually happens to me if I commit, then run tests/linters... and ugh, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+Dit overkomt me meestal als ik iets commit, en dan tests/linters uitvoer. "Godverdomme, vergeet ik weer een spatie na een `=` ...." - Je kan de wijziging ook als nieuwe commit doen, en ze dan met `git rebase -i` samenvoegen, maar dit is miljoenmiljard keer sneller.
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+* Waarschuwing: pas nooit commits aan die je naar een publieke of gedeelde branch gepusht hebt!! Pas alleen commits aan in je lokale repository tenzij je behoefte aan een beroerde tijd hebt. *

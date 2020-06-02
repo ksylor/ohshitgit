@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Oh shit, I need to change the message on my last commit!
+title: Godverdomme, ik moet het commit bericht van de laatste commit aanpassen.
 id: change-last-commit-message
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# volg de stappen om het bericht aan te passen
 ```
 
-Stupid commit message formatting requirements.
+Superstomme klote commit bericht opmaak vereisten!!
