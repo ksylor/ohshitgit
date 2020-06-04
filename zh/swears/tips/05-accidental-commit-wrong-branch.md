@@ -17,7 +17,7 @@ git commit -m "your message here";
 # 现在你的改动就在正确的分支上啦
 ```
 
-很多人建议使用 `cherry-pick` 来解决这个问题，两者都可以，你只要选择自己喜欢的方式就行了。
+很多人建议使用 `cherry-pick` 来解决这个问题，其实两者都可以，你只要选择自己喜欢的方式就行了。
 
 ```git
 git checkout name-of-the-correct-branch

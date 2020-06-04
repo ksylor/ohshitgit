@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
+title: 噢，糟了，我要修改我刚刚 commit 提交的信息！
 id: change-last-commit-message
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# 按照提示修改信息就行啦
 ```
 
-Stupid commit message formatting requirements.
+使用繁琐的提交信息格式

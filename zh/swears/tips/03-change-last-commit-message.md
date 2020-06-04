@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: 哎呦我去，我要修改我刚才 commit 提交的信息！
+title: 哎呦我去，我要修改我刚刚 commit 提交的信息！
 id: change-last-commit-message
 order: 3
 ---
@@ -9,4 +9,4 @@ git commit --amend
 # 按照提示修改信息就行啦
 ```
 
-要使用繁琐的提交信息格式
+使用繁琐的提交信息格式

@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Dangit, I accidentally committed to the wrong branch!
+title: 噢，糟了，我把这个 commit 提交错分支了！
 id: accidental-commit-wrong-branch
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# 撤回这次提交，但保留改动的内容
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
+# 现在切到正确的那个分支去
 git checkout name-of-the-correct-branch
 git stash pop
-git add . # or add individual files
-git commit -m "your message here"
-# now your changes are on the correct branch
+git add . # 或者你可以添加指定的文件
+git commit -m "your message here";
+# 现在你的改动就在正确的分支上啦
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+很多人建议使用 `cherry-pick` 来解决这个问题，其实两者都可以，你只要选择自己喜欢的方式就行了。
 
 ```git
 git checkout name-of-the-correct-branch
-# grab the last commit to master
+# 抓取 master 分支上最新的那个 commit
 git cherry-pick master
-# delete it from master
+# 然后删掉 master 上的那个 commit
 git checkout master
 git reset HEAD~ --hard
 ```
