@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
+title: 去屎吧，这些乱七八糟烦人的文件, 我放弃了。（那些 untracked 的文件）
 id: fuck-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
@@ -13,17 +13,17 @@ git clone https://some.github.url/fucking-git-repo-dir.git
 cd fucking-git-repo-dir
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+感谢 Eric V. 提供了这个事例，如果对使用 `sudo` 有什么的质疑的话，可以去向他提出。
 
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+不过说真的，如果你的分支真的这么糟糕的话，你应该使用 "git-approved" 的方法来重置你的 repo，可以试试这么做，但要注意这些操作都是破坏性的，不可逆的！ 
 
 ```git
-# get the lastest state of origin
+# 获取远端最新的状态
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# 删除 untracked 的文件和目录
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# 对每一个有问题的分支重复上述 checkout/reset/clean 操作
 ```

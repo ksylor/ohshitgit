@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Forget this noise, I give up.
+title: 别来打扰我了，这些烦人的文件，我放弃了。
 id: forget-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20

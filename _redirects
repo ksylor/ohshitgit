@@ -95,3 +95,11 @@ https://ohshitgit.com/pt_BR        https://ohshitgit.com/pt_BR/swears/index.html
 # brazilian portuguese no swears
 https://dangitgit.com/pt_BR        https://dangitgit.com/pt_BR/noswears/index.html 200!
 #https://dangitgit.com/pt_BR/*      https://dangitgit.com/pt_BR 301!
+
+# chinese swears
+https://ohshitgit.com/zh        https://ohshitgit.com/zh/swears/index.html 200!
+#https://ohshitgit.com/zh/*      https://ohshitgit.com/zh 301!
+
+# chinese no swears
+https://dangitgit.com/zh        https://dangitgit.com/zh/noswears/index.html 200!
+#https://dangitgit.com/zh/*      https://dangitgit.com/zh 301!

@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
+title: 哎呦我去，我想用 diff 命令看下改动内容，但啥都没看到?!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+如果对文件做了改动，但是通过 `diff` 命令缺看不到，那很可能是你执行过 `add` 命令将文件改动添加到 `暂存区` 了。你需要添加下面这个参数。
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's fucking baffling and non-obvious the first time it happens to you!)
+这些文件在这里 &macr;\\\_(ツ)\_/&macr; (是的，我知道这是一个 feature 而不是 bug，但它第一次发生在作为初学者的你身上时，真的很让人困惑！)

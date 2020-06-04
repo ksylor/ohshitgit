@@ -63,6 +63,11 @@ module.exports = function() {
                 "label": "romana",
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
+            },
+            {
+                "label": "中文",
+                "code": "zh",
+                "arialabel": "其他语言"
             }
         ],
         "collaborators": [
@@ -120,6 +125,11 @@ module.exports = function() {
                 "name": "Davi Alexandre",
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
+            },
+            {
+                "name": "Tao Jiayuan",
+                "link": "https://github.com/taojy123",
+                "lang": "zh"
             }
         ],
         "otherhelpers": [
