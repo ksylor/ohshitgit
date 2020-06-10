@@ -58,7 +58,7 @@ module.exports = function(config) {
   config.addCollection("tips_swears_de", function(collection) {
     return getTipCollection(collection, "swears", "de");
   });
-  
+
   config.addCollection('tips_noswears_de', function (collection) {
     return getTipCollection(collection, "noswears", "de");
   });
@@ -89,7 +89,7 @@ module.exports = function(config) {
   config.addCollection("tips_noswears_it", function(collection) {
     return getTipCollection(collection, "noswears", "it");
   });
-  
+
   // French language version
   config.addCollection('tips_swears_fr', function (collection) {
       return getTipCollection(collection, "swears", "fr");
@@ -116,4 +116,14 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_gr', function (collection) {
       return getTipCollection(collection, "noswears", "gr");
   });
+
+  // Dutch language version
+  config.addCollection('tips_swears_nl', function (collection) {
+    return getTipCollection(collection, "swears", "nl");
+  });
+
+  config.addCollection('tips_noswears_nl', function (collection) {
+      return getTipCollection(collection, "noswears", "nl");
+  });
+
 };
