@@ -6,8 +6,7 @@ order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
-# rol de laatste commit terug, maar behoudt de wijzigingen.
+# rol de laatste commit terug, maar behoud de wijzigingen.
 git reset HEAD~ --soft
 git stash
 # Ga naar de juiste branch
@@ -18,7 +17,7 @@ git commit -m "your message here"
 # Nu zitten je wijzigingen in de juiste branch
 ```
 
-Een boel mensen hebben voorgesteld om `cherry-pick` te gebruiken in deze situatie. Kies wat voor jou de beste oplossing is!
+Een boel mensen hebben voorgesteld om `cherry-pick` te gebruiken in deze situatie. Ook een goede mogelijkheid, dus kies wat in jouw situatie de beste oplossing is!
 
 
 ```git

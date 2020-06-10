@@ -43,7 +43,7 @@ module.exports = function() {
                 "label": "ελληνικά",
                 "code": "gr",
                 "arialabel": "Προβολή σε άλλες γλώσσες"
-            }
+            },
             {
               "label": "nederlands",
               "code": "nl",
@@ -85,7 +85,7 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
-            }
+            },
             {
               "name": "Martijn ten Heuvel",
               "link": "https://github.com/MartijntenHeuvel",

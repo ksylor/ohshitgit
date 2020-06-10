@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Klotezooi, ik moet wijzigingen in een bestand ongedaan maken!!
+title: Klote, ik moet &eacute;&eacute;n bestandje terugkrijgen!!
 id: undo-a-file
 order: 8
 ---
@@ -12,7 +12,7 @@ git log
 # als je de commit gevonden heb, copieer de hash
 git checkout [saved hash] -- hele/pad/naar/bestand
 # de oude versie van het bestand zal in je index staan
-git commit -m "Super, je hoeft niet het oude bestand te knipplakken!"
+git commit -m "Super, niet het oude bestand knipplakken!"
 ```
 
-Toen ik dit uitgezocht had was ik blij. BLIJ. B-L-I-J. Maar op welke godverlaten planeet is `checkout --` een slimme optie om een bestand terug te draaien?! :shakes-fist-at-linus-torvalds:
+Toen ik dit uitgevonden had was ik blij. BLIJ. S-U-P-E-R-B-L-I-J. Maar op welke godverlaten planeet is `checkout --` een slimme optie om een bestand terug te draaien?! :steekt-middelvinger-op-naar-linus-torvalds:

@@ -16,6 +16,6 @@ git revert [saved hash]
 # or just save and commit
 ```
 
-Het is goddome helemaal niet nodig om je oude bestand terug te vinden. Dat zit gewoon nog in die prut git. Als je een bug gecommit hebt, kan je de commit terugdraaien en zo je oude inhoud terugkrijgen met `revert`.
+Het is goddome helemaal niet nodig om het originele bestand terug te vinden! Dat zit gewoon nog in die kut git. Als je een bug gecommit hebt, kan je de commit terugdraaien en zo je oude inhoud terugkrijgen met `revert`.
 
-Je kunt ook alleen een specifiek bestand terugdraaien, in plaats van je hele klote commit die wellicht vele files omvat. Maar goed, zoals het git betaamt, is dat natuurlijk een totaal andere klereset van git commando's ..
+Je kunt ook alleen een specifiek bestand terugdraaien, in plaats van je die hele kut commit die allerlei andere files beslaat. Maar goed, zoals het git betaamt, is dat natuurlijk een totaal andere klerecombo van git commando's ..

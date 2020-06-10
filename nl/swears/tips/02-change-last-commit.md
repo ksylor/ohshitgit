@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Godverdomme, ik commit en realiseer me dat ik nog een kleine wijziging moet doen!
+title: Verdomme, ik commit en realiseer me dat ik nog een kleine wijziging moet doen!
 id: change-last-commit
 order: 2
 ---
@@ -13,6 +13,6 @@ git commit --amend --no-edit
 # LET OP: Pas nooit publieke commits aan!!
 ```
 
-Dit overkomt me meestal als ik iets commit, en dan tests/linters uitvoer. "... vergeet ik weer een spatie na een `=` ...." - Je kan de wijziging ook als nieuwe commit doen, en ze dan met `git rebase -i` samenvoegen, maar dit is vele malen sneller.
+Dit overkomt me meestal als ik iets commit, en dan tests/linters uitvoer. <em>"... vergeet ik weer een spatie na een `=` ...."</em> - Je kan de wijziging ook als nieuwe commit doen, en ze dan met `git rebase -i` samenvoegen, maar dit is veel sneller.
 
-* Waarschuwing: pas nooit commits aan die je naar een publieke of gedeelde branch gepusht hebt!! Pas alleen commits aan in je lokale repository tenzij je behoefte aan een klote tijd hebt. *
+* Waarschuwing: pas nooit commits aan die je naar een publieke of gedeelde branch gepusht hebt!! Pas alleen commits aan in je lokale repository tenzij je behoefte aan een zure tijd hebt. *

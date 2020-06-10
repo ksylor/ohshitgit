@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Godverdomme, ik moet het commit bericht van de laatste commit aanpassen.
+title: Hoe moet ik het commit bericht van de laatste commit aanpassen?! Spuugzat word ik ervan.
 id: change-last-commit-message
 order: 3
 ---
@@ -9,4 +9,4 @@ git commit --amend
 # volg de stappen om het bericht aan te passen
 ```
 
-Superstomme klote commit bericht opmaak vereisten!!
+Stomme kut commit bericht opmaak klote vereisten!!

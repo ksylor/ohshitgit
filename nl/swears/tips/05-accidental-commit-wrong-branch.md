@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Godverdomme, ik heb op de verkeerde branch gecommit!
+title: Oh shit, ik heb op de verkeerde branch gecommit!
 id: accidental-commit-wrong-branch
 order: 5
 ---
