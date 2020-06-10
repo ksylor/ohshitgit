@@ -15,4 +15,6 @@ git checkout [saved hash] -- hele/pad/naar/bestand
 git commit -m "Super, niet het oude bestand knipplakken!"
 ```
 
-Toen ik dit uitgevonden had was ik blij. BLIJ. S-U-P-E-R-B-L-I-J. Maar op welke godverlaten planeet is `checkout --` een slimme optie om een bestand terug te draaien?! :steekt-middelvinger-op-naar-linus-torvalds:
+Toen ik dit uitgevonden had was ik blij. BLIJ. S-U-P-E-R-B-L-I-J.
+
+Maar op welke door god verlaten planeet is `checkout --` een slimme optie om een bestand terug te draaien?! :steekt-middelvinger-op-naar-linus-torvalds:
