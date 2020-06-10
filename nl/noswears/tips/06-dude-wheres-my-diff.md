@@ -1,14 +1,13 @@
 ---
 tags: tip
-title: Dangit, I tried to run a diff but nothing happened?!
+title: Oeps, ik deed een diff en er gebeurde niks!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+Als je zeker weet dat je bestanden hebt aangepast, maar `diff` geeft geen output, dan heb je je wijzigingen waarschijnlijk toegevoegd (`add`) aan je locale staging. Dat kan je zien met een vlaggetje.
 
 ```git
 git diff --staged
 ```
-
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's baffling and non-obvious the first time it happens to you!)
+&macr;\\\_(ツ)\_/&macr; (Ja, ik weet dat dit een functionaliteit is en geen bug maar het is bijzonder en de eerste keer dat je dit nodig hebt is dit zeker niet helder)

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
+title: Godverdomme, vergeet het maar, klotegit.
 id: fuck-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
@@ -8,22 +8,22 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r klote-git-repo-dir
+git clone https://some.github.url/klote-git-repo-dir.git
+cd klote-git-repo-dir
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+Dank je wel Eric V. hiervoor. Alle gezeik over het gebruik van `sudo` in deze grap mag je aan hem sturen.
 
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+Maar goed, als je branch zo verkloot is dat je echt niks meer met je repo kan en je terug wil naar de status van de remote repo, in een "git-goedgekeurde" manier, probeer dit dan. Wees je bewust dat dit definitieve en destructieve acties zijn!
 
 ```git
-# get the lastest state of origin
+# haal de laatste status op
 git fetch origin
 git checkout master
 git reset --hard origin/master
 # delete untracked files and directories
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# herhaal checkout/reset/clean voor elke kapotte branch
 ```

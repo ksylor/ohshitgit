@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I need to undo a commit from like 5 commits ago!
+title: Verdomme, ik moet een commit terugdraaien van zeker 5 commits terug!
 id: undo-a-commit
 order: 7
 ---
@@ -12,10 +12,10 @@ git log
 # once you've found your commit, save the hash
 git revert [saved hash]
 # git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
+# follow prompts to edit the commit message
 # or just save and commit
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Het is goddome helemaal niet nodig om je oude bestand terug te vinden. Dat zit gewoon nog in die prut git. Als je een bug gecommit hebt, kan je de commit terugdraaien en zo je oude inhoud terugkrijgen met `revert`.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of fucking commands...
+Je kunt ook alleen een specifiek bestand terugdraaien, in plaats van je hele klote commit die wellicht vele files omvat. Maar goed, zoals het git betaamt, is dat natuurlijk een totaal andere klereset van git commando's ..

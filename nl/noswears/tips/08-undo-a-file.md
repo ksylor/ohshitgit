@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I need to undo my changes to a file!
+title: Oeps, ik moet de wijzigingen in een bestand terugdraaien!
 id: undo-a-file
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# vind een hash voor een commit voordat het bestand is veranderd.
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
-git commit -m "Wow, you don't have to copy-paste to undo"
+# scroll op en neer door de history
+# als je de commit gevonden heb, copieer de hash
+git checkout [saved hash] -- hele/pad/naar/bestand
+# de oude versie van het bestand zal in je index staan
+git commit -m "Super, je hoeft niet het oude bestand te knipplakken!"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Toen ik dit uitgezocht had was ik blij. BLIJ. B-L-I-J. Maar op welke planeet is `checkout --` een slimme optie om een bestand terug te draaien?! :shakes-fist-at-linus-torvalds:
