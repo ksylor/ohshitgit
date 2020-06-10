@@ -15,6 +15,11 @@ module.exports = function() {
                 "arialabel": "View in other languages"
             },
             {
+                "label": "español",
+                "code": "es",
+                "arialabel": "Mira en otro idioma"
+            },
+            {
                 "label": "français",
                 "code": "fr",
                 "arialabel": "Choisir une autre langue"
@@ -30,9 +35,19 @@ module.exports = function() {
                 "arialabel": "Zobacz w innych językach"
             },
             {
+                "label": "português brasileiro",
+                "code": "pt_BR",
+                "arialabel": "Ver em outro idioma"
+            },
+            {
                 "label": "русский",
                 "code": "ru",
                 "arialabel": "Посмотреть на других языках"
+            },
+            {
+                "label": "українська",
+                "code": "ua",
+                "arialabel": "Переглянути на інших мовах"
             },
             {
                 "label": "日本語",
@@ -45,9 +60,14 @@ module.exports = function() {
                 "arialabel": "Προβολή σε άλλες γλώσσες"
             },
             {
-              "label": "nederlands",
-              "code": "nl",
-              "arialabel": "Bekijk in andere talen"
+                "label": "nederlands",
+                "code": "nl",
+                "arialabel": "Bekijk in andere talen"
+            },
+            {
+                "label": "romana",
+                "code": "ro",
+                "arialabel": "Alege o alta limba"
             }
         ],
         "collaborators": [
@@ -77,6 +97,11 @@ module.exports = function() {
                 "lang": "fr"
             },
             {
+                "name": "Andriy Sultanov",
+                "link": "https://github.com/LastGenius-edu",
+                "lang": "ua"
+            },
+            {
                 "name": "Meiko Hori",
                 "link": "https://github.com/meih",
                 "lang": "ja"
@@ -90,6 +115,21 @@ module.exports = function() {
               "name": "Martijn ten Heuvel",
               "link": "https://github.com/MartijntenHeuvel",
               "lang": "nl"
+            },
+            {
+                "name": "Franco Fantini",
+                "link": "https://github.com/francofantini",
+                "lang": "es"
+            },
+            {
+                "name": "Catalina Focsa",
+                "link": "https://github.com/catalinafox",
+                "lang": "ro"
+            },
+            {
+                "name": "Davi Alexandre",
+                "link": "https://github.com/davialexandre",
+                "lang": "pt_BR"
             }
         ],
         "otherhelpers": [

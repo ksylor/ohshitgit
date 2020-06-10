@@ -71,3 +71,35 @@ https://ohshitgit.com/nl        https://ohshitgit.com/nl/swears/index.html 200!
 # dutch no swears
 https://dangitgit.com/nl        https://dangitgit.com/nl/noswears/index.html 200!
 #https://dangitgit.com/nl/*      https://dangitgit.com/nl 301!
+
+# spanish swears
+https://ohshitgit.com/es        https://ohshitgit.com/es/swears/index.html 200!
+#https://ohshitgit.com/es/*      https://ohshitgit.com/es 301!
+
+# spanish no swears
+https://dangitgit.com/es        https://dangitgit.com/es/noswears/index.html 200!
+#https://dangitgit.com/es/*      https://dangitgit.com/es 301!
+
+# romanian swears
+https://ohshitgit.com/ro        https://ohshitgit.com/ro/swears/index.html 200!
+#https://ohshitgit.com/ro/*      https://ohshitgit.com/ro 301!
+
+# romanian no swears
+https://dangitgit.com/ro        https://dangitgit.com/ro/noswears/index.html 200!
+#https://dangitgit.com/ro/*      https://dangitgit.com/ro 301!
+
+# ukrainian swears
+https://ohshitgit.com/ua        https://ohshitgit.com/ua/swears/index.html 200!
+#https://ohshitgit.com/ua/*      https://ohshitgit.com/ua 301!
+
+# ukrainian no swears
+https://dangitgit.com/ua        https://dangitgit.com/ua/noswears/index.html 200!
+#https://dangitgit.com/ua/*      https://dangitgit.com/ua 301!
+
+# brazilian portuguese swears
+https://ohshitgit.com/pt_BR        https://ohshitgit.com/pt_BR/swears/index.html 200!
+#https://ohshitgit.com/pt_BR/*      https://ohshitgit.com/pt_BR 301!
+
+# brazilian portuguese no swears
+https://dangitgit.com/pt_BR        https://dangitgit.com/pt_BR/noswears/index.html 200!
+#https://dangitgit.com/pt_BR/*      https://dangitgit.com/pt_BR 301!
