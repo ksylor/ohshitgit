@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r чёртов-репозиторий-git
+sudo rm -rf чёртов-репозиторий-git
 git clone https://some.github.url/чёртов-репозиторий-git.git
 cd чёртов-репозиторий-git
 ```

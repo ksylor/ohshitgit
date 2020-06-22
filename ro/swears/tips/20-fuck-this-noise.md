@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r git-repo-dir-de-rahat
+sudo rm -rf git-repo-dir-de-rahat
 git clone https://some.github.url/git-repo-dir-de-rahat.git
 cd git-repo-dir-de-rahat
 ```

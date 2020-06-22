@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r glupi-katalog-z-gitowym-repo
+sudo rm -rf glupi-katalog-z-gitowym-repo
 git clone https://jakis.adres.github/glupi-katalog-z-gitowym-repo.git
 cd glupi-katalog-z-gitowym-repo
 ```

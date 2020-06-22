@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r repositorio-git-maldito
+sudo rm -rf repositorio-git-maldito
 git clone https://some.github.url/repositorio-git-maldito.git
 cd repositorio-git-maldito
 ```

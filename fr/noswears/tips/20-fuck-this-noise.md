@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r depot-git-tortueux
+sudo rm -rf depot-git-tortueux
 git clone https://some.github.url/depot-git-tortueux.git
 cd depot-git-tortueux
 ```

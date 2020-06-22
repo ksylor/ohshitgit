@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r pieprzony-katalog-z-gitowym-repo
+sudo rm -rf pieprzony-katalog-z-gitowym-repo
 git clone https://jakis.adres.github/pieprzony-katalog-z-gitowym-repo.git
 cd pieprzony-katalog-z-gitowym-repo
 ```

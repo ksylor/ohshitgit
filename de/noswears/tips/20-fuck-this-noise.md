@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r scheiss-git-repo
+sudo rm -rf scheiss-git-repo
 git clone https://some.github.url/scheiss-git-repo.git
 cd scheiss-git-repo
 ```
