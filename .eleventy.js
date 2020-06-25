@@ -152,4 +152,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_pt_BR', function(collection) {
     return getTipCollection(collection, "noswears", "pt_BR");
   });
+
+	// Serbian version
+	config.addCollection("tips_swears_sr", function(collection) {
+		return getTipCollection(collection, "swears", "sr");
+	});
+
+	config.addCollection("tips_noswears_sr", function(collection) {
+		return getTipCollection(collection, "noswears", "sr");
+	});
 };
