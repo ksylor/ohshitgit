@@ -64,11 +64,11 @@ module.exports = function() {
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
             },
-						{
-							"label": "serbia",
-							"code": "sr",
-							"arialabel": "Pokažite na drugim jezicima"
-						}
+	    {
+		"label": "serbia",
+		"code": "sr",
+		"arialabel": "Pokažite na drugim jezicima"
+	    }
         ],
         "collaborators": [
             {
@@ -126,11 +126,11 @@ module.exports = function() {
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
             },
-						{
-							"name": "Nemanja Vasić",
-							"link": "https://github.com/GoodbyePlanet",
-							"lang": "sr"
-						}
+	    {
+		"name": "Nemanja Vasić",
+		"link": "https://github.com/GoodbyePlanet",
+		"lang": "sr"
+	    }
         ],
         "otherhelpers": [
             {
