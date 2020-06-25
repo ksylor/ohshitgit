@@ -153,12 +153,12 @@ module.exports = function(config) {
     return getTipCollection(collection, "noswears", "pt_BR");
   });
 
-	// Serbian version
-	config.addCollection("tips_swears_sr", function(collection) {
-		return getTipCollection(collection, "swears", "sr");
-	});
+  // Serbian version
+  config.addCollection("tips_swears_sr", function(collection) {
+    return getTipCollection(collection, "swears", "sr");
+  });
 
-	config.addCollection("tips_noswears_sr", function(collection) {
-		return getTipCollection(collection, "noswears", "sr");
-	});
+  config.addCollection("tips_noswears_sr", function(collection) {
+    return getTipCollection(collection, "noswears", "sr");
+  });
 };
