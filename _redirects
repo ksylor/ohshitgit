@@ -64,6 +64,22 @@ https://ohshitgit.com/gr        https://ohshitgit.com/gr/swears/index.html 200!
 https://dangitgit.com/gr        https://dangitgit.com/gr/noswears/index.html 200!
 #https://dangitgit.com/gr/*      https://dangitgit.com/gr 301!
 
+# dutch swears
+https://ohshitgit.com/nl        https://ohshitgit.com/nl/swears/index.html 200!
+#https://ohshitgit.com/nl/*      https://ohshitgit.com/nl 301!
+
+# dutch no swears
+https://dangitgit.com/nl        https://dangitgit.com/nl/noswears/index.html 200!
+#https://dangitgit.com/nl/*      https://dangitgit.com/nl 301!
+
+# hebrew swears
+https://ohshitgit.com/he        https://ohshitgit.com/he/swears/index.html 200!
+#https://ohshitgit.com/he/*      https://ohshitgit.com/he 301!
+
+# hebrew no swears
+https://dangitgit.com/he        https://dangitgit.com/he/noswears/index.html 200!
+#https://dangitgit.com/he/*      https://dangitgit.com/he 301!
+
 # spanish swears
 https://ohshitgit.com/es        https://ohshitgit.com/es/swears/index.html 200!
 #https://ohshitgit.com/es/*      https://ohshitgit.com/es 301!
@@ -103,3 +119,26 @@ https://ohshitgit.com/sr        https://ohshitgit.com/sr/swears/index.html 200!
 # serbian no swears
 https://dangitgit.com/sr        https://dangitgit.com/sr/noswears/index.html 200!
 #https://dangitgit.com/sr/*      https://dangitgit.com/sr 301!
+
+# chinese swears
+https://ohshitgit.com/zh        https://ohshitgit.com/zh/swears/index.html 200!
+#https://ohshitgit.com/zh/*      https://ohshitgit.com/zh 301!
+
+# chinese no swears
+https://dangitgit.com/zh        https://dangitgit.com/zh/noswears/index.html 200!
+#https://dangitgit.com/zh/*      https://dangitgit.com/zh 301!
+
+# czech swears
+https://ohshitgit.com/cs        https://ohshitgit.com/cs/swears/index.html 200!
+#https://ohshitgit.com/cs/*      https://ohshitgit.com/cs 301!
+
+# czech no swears
+https://dangitgit.com/cs        https://dangitgit.com/cs/noswears/index.html 200!
+#https://dangitgit.com/cs/*      https://dangitgit.com/cs 301!
+
+# bahasa indonesia swears
+https://ohshitgit.com/id        https://ohshitgit.com/id/swears/index.html 200!
+#https://ohshitgit.com/id/*      https://ohshitgit.com/id 301!
+
+# bahasa indonesia no swears
+https://dangitgit.com/id        https://dangitgit.com/id/noswears/index.html 200!

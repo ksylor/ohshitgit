@@ -116,6 +116,24 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_gr', function (collection) {
       return getTipCollection(collection, "noswears", "gr");
   });
+
+  // Dutch language version
+  config.addCollection('tips_swears_nl', function (collection) {
+    return getTipCollection(collection, "swears", "nl");
+  });
+
+  config.addCollection('tips_noswears_nl', function (collection) {
+      return getTipCollection(collection, "noswears", "nl");
+  });
+
+  // Hebrew language version
+  config.addCollection('tips_swears_he', function (collection) {
+    return getTipCollection(collection, "swears", "he");
+  });
+
+  config.addCollection('tips_noswears_he', function (collection) {
+      return getTipCollection(collection, "noswears", "he");
+  });
   
   // Spanish language version
   config.addCollection("tips_swears_es", function(collection) {
@@ -125,7 +143,7 @@ module.exports = function(config) {
   config.addCollection("tips_noswears_es", function(collection) {
     return getTipCollection(collection, "noswears", "es");
   });
-  
+
   // Romanian language version
   config.addCollection('tips_swears_ro', function(collection) {
       return getTipCollection(collection, "swears", "ro");
@@ -143,7 +161,7 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ua', function(collection) {
       return getTipCollection(collection, "noswears", "ua");
   });
-  
+
   // Brazilian Portuguese version
   config.addCollection('tips_swears_pt_BR', function(collection) {
     return getTipCollection(collection, "swears", "pt_BR");
@@ -160,5 +178,32 @@ module.exports = function(config) {
 
   config.addCollection("tips_noswears_sr", function(collection) {
     return getTipCollection(collection, "noswears", "sr");
+  });
+  
+  // Chinese language version
+  config.addCollection("tips_swears_zh", function(collection) {
+    return getTipCollection(collection, "swears", "zh");
+  });
+
+  config.addCollection("tips_noswears_zh", function(collection) {
+    return getTipCollection(collection, "noswears", "zh");
+  });
+
+  // Czech language version
+  config.addCollection('tips_swears_cs', function(collection) {
+    return getTipCollection(collection, "swears", "cs");
+  });
+
+  config.addCollection('tips_noswears_cs', function(collection) {
+    return getTipCollection(collection, "noswears", "cs");
+  });
+  
+  // Bahasa Indonesia version
+  config.addCollection('tips_swears_id', function(collection) {
+      return getTipCollection(collection, "swears", "id");
+  });
+
+  config.addCollection('tips_noswears_id', function(collection) {
+      return getTipCollection(collection, "noswears", "id");
   });
 };
