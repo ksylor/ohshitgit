@@ -80,6 +80,11 @@ module.exports = function() {
                 "arialabel": "Alege o alta limba"
             },
             {
+                "label": "serbia",
+                "code": "sr",
+                "arialabel": "Pokažite na drugim jezicima"
+            },
+            {
                 "label": "中文",
                 "code": "zh",
                 "arialabel": "其他语言"
@@ -155,6 +160,11 @@ module.exports = function() {
                 "name": "Davi Alexandre",
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
+            },
+            {
+                "name": "Nemanja Vasić",
+                "link": "https://github.com/GoodbyePlanet",
+                "lang": "sr"
             },
             {
                 "name": "Tao Jiayuan",
