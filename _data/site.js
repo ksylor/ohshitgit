@@ -75,6 +75,11 @@ module.exports = function() {
                 "arialabel": "Alege o alta limba"
             },
             {
+                "label": "中文",
+                "code": "zh",
+                "arialabel": "其他语言"
+            },
+            {
                 "label": "bahasa indonesia",
                 "code": "id",
                 "arialabel": "Lihat di bahasa lain"
@@ -140,6 +145,11 @@ module.exports = function() {
                 "name": "Davi Alexandre",
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
+            },
+            {
+                "name": "Tao Jiayuan",
+                "link": "https://github.com/taojy123",
+                "lang": "zh"
             },
             {
                 "name": "Eduard Tomek",
