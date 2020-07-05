@@ -27,12 +27,14 @@ The following commands will all need to be run in a terminal/command line prompt
 
 ## Adding a new language
 
-There are a few general rules for translation:
+### There are a few general rules for translation:
 - Don't translate or change the sitenames ohshitgit.com or dangitgit.com.
 - Don't translate or change metadata - e.g. `contentType: swears` is checked in code and needs to be in english. 
 - Don't translate or change file names.
 - Do translate content faithfully and to the best of your ability! Use all the swears you want for the swear-filled content. Remove swears for the noswear content. 
 - Have fun! If I've used english idioms that don't translate well, replace them with funnier ones from your language! 
+
+### Start by creating the translated content
 
 1. Find the `/en/` folder in the directory and make a copy of it (and all of it's children) renamed with the language code of your language - e.g. `/de/` for German. In this folder you will find copies of the english-language files for the site, broken down into sub-groups of files with `/swears/` and `/noswears/`. 
 
@@ -46,7 +48,7 @@ There are a few general rules for translation:
 
 6. Then, translate the contents of each `tip` file. Make sure that you keep the markdown formatting in place so that the syntax highlighting on the client can correctly format the output. Code examples should use the same git commands, but you can translate the comments denoted by `#`. 
 
-Okay, now for some code changes so that we can see this content on the site! 
+### Update some plumbing code to get your language displayed on the site correctly
 
 7. in the `_data` folder, open up `site.js` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutsch), the standard language code, and then a translation of the phrase "View in other languages" which will be used as an `aria-label` for the language picker when that language is selected.
 
@@ -103,8 +105,7 @@ https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200
 
 12. Make sure to `git commit` your changes along the way so you don't lose your work :D
 
-
-## Previewing your changes in Netlify
+## Preview your changes in Netlify
 
 Once you're happy with the state of your branch, we can preview the changes live in a new branch environment on Netlify!
 
