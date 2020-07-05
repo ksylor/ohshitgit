@@ -5,6 +5,11 @@ module.exports = function() {
         "copyright": "&copy; 2016-2020 Katie Sylor-Miller",
         "languages": [
             {
+                "label": "česky",
+                "code": "cs",
+                "arialabel": "Ostatní jazyky"
+            },
+            {
                 "label": "deutsch",
                 "code": "de",
                 "arialabel": "In anderen Sprachen anzeigen"
@@ -60,6 +65,11 @@ module.exports = function() {
                 "arialabel": "Προβολή σε άλλες γλώσσες"
             },
             {
+                "label": "עברית",
+                "code": "he",
+                "arialabel": "צפה בשפות נוספות"
+            },
+            {
                 "label": "romana",
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
@@ -68,6 +78,11 @@ module.exports = function() {
                 "label": "中文",
                 "code": "zh",
                 "arialabel": "其他语言"
+            },
+            {
+                "label": "bahasa indonesia",
+                "code": "id",
+                "arialabel": "Lihat di bahasa lain"
             }
         ],
         "collaborators": [
@@ -112,6 +127,11 @@ module.exports = function() {
                 "lang": "gr"
             },
             {
+                "name": "Elad Leev",
+                "link": "https://github.com/eladleev",
+                "lang": "he"
+            },
+            {
                 "name": "Franco Fantini",
                 "link": "https://github.com/francofantini",
                 "lang": "es"
@@ -130,6 +150,16 @@ module.exports = function() {
                 "name": "Tao Jiayuan",
                 "link": "https://github.com/taojy123",
                 "lang": "zh"
+            },
+            {
+                "name": "Eduard Tomek",
+                "link": "https://github.com/edee111",
+                "lang": "cs"
+            },
+            {
+                "name": "Ricky Gultom",
+                "link": "https://github.com/quellcrist-falconer",
+                "lang": "id"
             }
         ],
         "otherhelpers": [
