@@ -64,6 +64,14 @@ https://ohshitgit.com/gr        https://ohshitgit.com/gr/swears/index.html 200!
 https://dangitgit.com/gr        https://dangitgit.com/gr/noswears/index.html 200!
 #https://dangitgit.com/gr/*      https://dangitgit.com/gr 301!
 
+# dutch swears
+https://ohshitgit.com/nl        https://ohshitgit.com/nl/swears/index.html 200!
+#https://ohshitgit.com/nl/*      https://ohshitgit.com/nl 301!
+
+# dutch no swears
+https://dangitgit.com/nl        https://dangitgit.com/nl/noswears/index.html 200!
+#https://dangitgit.com/nl/*      https://dangitgit.com/nl 301!
+
 # hebrew swears
 https://ohshitgit.com/he        https://ohshitgit.com/he/swears/index.html 200!
 #https://ohshitgit.com/he/*      https://ohshitgit.com/he 301!

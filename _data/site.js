@@ -65,6 +65,11 @@ module.exports = function() {
                 "arialabel": "Προβολή σε άλλες γλώσσες"
             },
             {
+                "label": "nederlands",
+                "code": "nl",
+                "arialabel": "Bekijk in andere talen"
+            },
+            {
                 "label": "עברית",
                 "code": "he",
                 "arialabel": "צפה בשפות נוספות"
@@ -125,6 +130,11 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
+            },
+            {
+              "name": "Martijn ten Heuvel",
+              "link": "https://github.com/MartijntenHeuvel",
+              "lang": "nl"
             },
             {
                 "name": "Elad Leev",
