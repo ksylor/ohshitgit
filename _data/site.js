@@ -83,7 +83,7 @@ module.exports = function() {
                 "label": "serbia",
                 "code": "sr",
                 "arialabel": "Pokažite na drugim jezicima"
-            }
+            },
             {
                 "label": "中文",
                 "code": "zh",
