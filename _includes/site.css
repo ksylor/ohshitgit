@@ -1,7 +1,7 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #222;
-    line-height: 1.5;
+    line-height: 1.4;
     margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -12,8 +12,11 @@ h1 {
     line-height: 1.2;
     font-size: 3em;
 }
+h2 {
+    font-size: 1.75em;
+}
 p {
-    margin: 0 0 1em 0;
+    margin: 1em 0;
 }
 .notice, footer {
     padding: 1em;
