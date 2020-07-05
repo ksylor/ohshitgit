@@ -103,3 +103,11 @@ https://ohshitgit.com/pt_BR        https://ohshitgit.com/pt_BR/swears/index.html
 # brazilian portuguese no swears
 https://dangitgit.com/pt_BR        https://dangitgit.com/pt_BR/noswears/index.html 200!
 #https://dangitgit.com/pt_BR/*      https://dangitgit.com/pt_BR 301!
+
+# bahasa indonesia swears
+https://ohshitgit.com/id        https://ohshitgit.com/id/swears/index.html 200!
+#https://ohshitgit.com/id/*      https://ohshitgit.com/id 301!
+
+# bahasa indonesia no swears
+https://dangitgit.com/id        https://dangitgit.com/id/noswears/index.html 200!
+#https://dangitgit.com/id/*      https://dangitgit.com/id 301!
