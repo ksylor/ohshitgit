@@ -65,9 +65,19 @@ module.exports = function() {
                 "arialabel": "Προβολή σε άλλες γλώσσες"
             },
             {
+                "label": "עברית",
+                "code": "he",
+                "arialabel": "צפה בשפות נוספות"
+            },
+            {
                 "label": "romana",
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
+            },
+            {
+                "label": "bahasa indonesia",
+                "code": "id",
+                "arialabel": "Lihat di bahasa lain"
             }
         ],
         "collaborators": [
@@ -112,6 +122,11 @@ module.exports = function() {
                 "lang": "gr"
             },
             {
+                "name": "Elad Leev",
+                "link": "https://github.com/eladleev",
+                "lang": "he"
+            },
+            {
                 "name": "Franco Fantini",
                 "link": "https://github.com/francofantini",
                 "lang": "es"
@@ -130,6 +145,11 @@ module.exports = function() {
                 "name": "Eduard Tomek",
                 "link": "https://github.com/edee111",
                 "lang": "cs"
+            },
+            {
+                "name": "Ricky Gultom",
+                "link": "https://github.com/quellcrist-falconer",
+                "lang": "id"
             }
         ],
         "otherhelpers": [
