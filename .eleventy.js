@@ -162,6 +162,15 @@ module.exports = function(config) {
     return getTipCollection(collection, "noswears", "pt_BR");
   });
 
+  // Czech language version
+  config.addCollection('tips_swears_cs', function(collection) {
+    return getTipCollection(collection, "swears", "cs");
+  });
+
+  config.addCollection('tips_noswears_cs', function(collection) {
+    return getTipCollection(collection, "noswears", "cs");
+  });
+  
   // Bahasa Indonesia version
   config.addCollection('tips_swears_id', function(collection) {
       return getTipCollection(collection, "swears", "id");

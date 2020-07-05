@@ -5,6 +5,11 @@ module.exports = function() {
         "copyright": "&copy; 2016-2020 Katie Sylor-Miller",
         "languages": [
             {
+                "label": "česky",
+                "code": "cs",
+                "arialabel": "Ostatní jazyky"
+            },
+            {
                 "label": "deutsch",
                 "code": "de",
                 "arialabel": "In anderen Sprachen anzeigen"
@@ -135,6 +140,11 @@ module.exports = function() {
                 "name": "Davi Alexandre",
                 "link": "https://github.com/davialexandre",
                 "lang": "pt_BR"
+            },
+            {
+                "name": "Eduard Tomek",
+                "link": "https://github.com/edee111",
+                "lang": "cs"
             },
             {
                 "name": "Ricky Gultom",
