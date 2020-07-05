@@ -116,6 +116,15 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_gr', function (collection) {
       return getTipCollection(collection, "noswears", "gr");
   });
+
+  // Hebrew language version
+  config.addCollection('tips_swears_he', function (collection) {
+    return getTipCollection(collection, "swears", "he");
+  });
+
+  config.addCollection('tips_noswears_he', function (collection) {
+      return getTipCollection(collection, "noswears", "he");
+  });
   
   // Spanish language version
   config.addCollection("tips_swears_es", function(collection) {

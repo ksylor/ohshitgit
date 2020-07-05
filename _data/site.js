@@ -60,6 +60,11 @@ module.exports = function() {
                 "arialabel": "Προβολή σε άλλες γλώσσες"
             },
             {
+                "label": "עברית",
+                "code": "he",
+                "arialabel": "צפה בשפות נוספות"
+            },
+            {
                 "label": "romana",
                 "code": "ro",
                 "arialabel": "Alege o alta limba"
@@ -105,6 +110,11 @@ module.exports = function() {
                 "name": "Alex Tzimas",
                 "link": "https://github.com/Tzal3x",
                 "lang": "gr"
+            },
+            {
+                "name": "Elad Leev",
+                "link": "https://github.com/eladleev",
+                "lang": "he"
             },
             {
                 "name": "Franco Fantini",

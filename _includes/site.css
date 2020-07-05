@@ -203,3 +203,7 @@ footer {
     display: block;
   }
 }
+
+.rtl {
+  direction: rtl;
+}
