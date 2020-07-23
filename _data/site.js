@@ -35,6 +35,11 @@ module.exports = function() {
                 "arialabel": "Vedi in altre lingue"
             },
             {
+                "label": "नेपाली",
+                "code": "ne",
+                "arialabel": "अन्य भाषामा हेर्नुहोस्"
+            },
+            {
                 "label": "polski",
                 "code": "pl",
                 "arialabel": "Zobacz w innych językach"
@@ -180,6 +185,11 @@ module.exports = function() {
                 "name": "Ricky Gultom",
                 "link": "https://github.com/quellcrist-falconer",
                 "lang": "id"
+            },
+            {
+                "name": "Rahul Dahal",
+                "link": "https://github.com/rahuldahal",
+                "lang": "ne"
             }
         ],
         "otherhelpers": [
