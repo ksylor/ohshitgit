@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, moram poništiti izmjene u fajlu!
+title: O jebem ti budalu, sad moram poništiti izmjene u fajlu!
 id: ponisiti-fajl
 order: 8
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, komitovao sam i odmah sam zaključio da treba da napravim malu izmjenu!
+title: O jebote lebac, komitovao sam i odmah sam zaključio da treba da napravim malu izmjenu!
 id: promjeni-zadnji-komit
 order: 2
 ---

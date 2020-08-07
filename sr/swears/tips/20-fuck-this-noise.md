@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Jebeš sve ovo, odustajem.
+title: Ma da se nosiš bre u tri pičke materine! Jebeš sve ovo, odustajem. A u kurac!
 id: fuck-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
