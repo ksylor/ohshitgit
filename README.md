@@ -1,5 +1,7 @@
 # The official home of Oh Shit, Git!?!
+https://ohshitgit.com/
 (and the swear-free version at Dangit, Git!?!
+https://dangitgit.com/
 
 Thanks for coming! If you've volunteered to help add a new language translation to the site, THANK YOU!!! Hopefully this process will be super simple for you, and please do let me know if anything can be improved - the best way is to tweet at me @ksylor or @ohshitgit, or create a PR and I'll get tagged in automatically.
 
