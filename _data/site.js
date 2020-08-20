@@ -93,7 +93,12 @@ module.exports = function() {
                 "label": "bahasa indonesia",
                 "code": "id",
                 "arialabel": "Lihat di bahasa lain"
-            }
+            },
+            {
+                "label": "한국어",
+                "code": "ko",
+                "arialabel": "다른 언어로 보기"
+            },
         ],
         "collaborators": [
             {
@@ -180,6 +185,11 @@ module.exports = function() {
                 "name": "Ricky Gultom",
                 "link": "https://github.com/quellcrist-falconer",
                 "lang": "id"
+            },
+            {
+                "name": "Gyeongjae Choi",
+                "link": "https://github.com/ryanking13",
+                "lang": "ko"
             }
         ],
         "otherhelpers": [

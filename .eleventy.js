@@ -206,4 +206,12 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_id', function(collection) {
       return getTipCollection(collection, "noswears", "id");
   });
+
+  config.addCollection('tips_swears_ko', function(collection) {
+    return getTipCollection(collection, "swears", "ko");
+  });
+
+  config.addCollection('tips_noswears_ko', function(collection) {
+      return getTipCollection(collection, "noswears", "ko");
+  });
 };
