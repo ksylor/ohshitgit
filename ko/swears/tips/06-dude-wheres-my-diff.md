@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
+title: 젠장, diff를 실행했는데 아무 것도 안 보이잖아?!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+분명히 뭔가를 바꿨는데, `diff`의 결과가 아무 것도 나타나지 않는다면, 아마 `add`를 실행해서 파일을 staging 상태로 만들었을 가능성이 높다. 이 경우에는 특별한 옵션을 주어야 한다.
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's fucking baffling and non-obvious the first time it happens to you!)
+&macr;\\\_(ツ)\_/&macr; (물론 이건 버그가 아니라 옳바른 기능인데, 처음 겪으면 존나 당혹스럽고 이상할 거다!)

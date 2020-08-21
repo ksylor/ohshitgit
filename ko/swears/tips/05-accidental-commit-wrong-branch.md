@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
+title: 젠장, 실수로 이상한 브랜치에 커밋을 해버렸다!
 id: accidental-commit-wrong-branch
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# 마지막 커밋을 취소하되, 변경된 사항은 남겨둔다
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
+# 옳바른 브랜치로 이동한다
 git checkout name-of-the-correct-branch
 git stash pop
-git add . # or add individual files
+git add . # 또는 원하는 파일을 추가
 git commit -m "your message here";
-# now your changes are on the correct branch
+# 이제 옳바른 브랜치에 커밋이 됐다
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+이 상황에서 `cherry-pick`을 사용하는 법을 많은 사람들이 추천해주었다. 원하는 방법을 골라 사용하길!
 
 ```git
 git checkout name-of-the-correct-branch
-# grab the last commit to master
+# master의 마지막 커밋을 선택
 git cherry-pick master
-# delete it from master
+# master에서 해당 커밋을 제거
 git checkout master
 git reset HEAD~ --hard
 ```
