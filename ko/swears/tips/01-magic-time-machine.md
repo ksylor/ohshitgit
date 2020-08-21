@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I did something terribly wrong, please tell me git has a magic time machine!?!
+title: 젠장, 뭔가 단단히 잘못됐는데, 다 뒤엎고 예전으로 돌리고 싶어!
 id: magic-time-machine
 order: 1
 ---
 
 ```git
 git reflog
-# you will see a list of every thing you've 
-# done in git, across all branches!
-# each one has an index HEAD@{index}
-# find the one before you broke everything
+# 지금까지 git의 모든 브랜치에서의
+# 모든 기록을 볼 수 있다.
+# 각각은 HEAD@{index} 꼴의 index를 가지고 있으니,
+# 망치기 전에 해당하는 index를 찾고
 git reset HEAD@{index}
-# magic time machine
+# 타임머신을 타고 과거로!
 ```
 
-You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use `reflog` A LOT. Mega hat tip to the many many many many many people who suggested adding it!
+이 기능은 실수로 지운 뭔가를 되돌리거나, 그냥 레포지토리를 망가트린 행동을 되돌리거나, 잘못 머지한 걸 되돌리거나, 그냥 잘 작동했던 때로 돌아가고 싶을 때 사용하면 된다. 나는 `reflog`를 **엄청** 많이 사용하고, 당신들도 사용해보라고 아주 아주 아주 추천한다!
