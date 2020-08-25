@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: 젠장, 파일을 고친 걸 되돌려야 하잖아!
+title: 젠장, 파일을 수정한 걸 되돌려야 하잖아!
 id: undo-a-file
 order: 8
 ---

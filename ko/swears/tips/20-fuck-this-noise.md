@@ -22,7 +22,7 @@ Eric V. 가 이 방법(장난)을 알려줬다. 그러니 `sudo`를 쓰는 것�
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# 추적되고 있지 않은 파일/폴더를 모두 삭제한다\
+# 추적되고 있지 않은 파일/폴더를 모두 삭제한다
 git clean -d --force
 # 초기화하고 싶은 각 branch에 대해서 checkout/reset/clean을 반복
 ```
