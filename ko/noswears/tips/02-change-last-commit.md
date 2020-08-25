@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I committed and immediately realized I need to make one small change!
+title: 이런, 방금 커밋했는데 하나 깜빡한 걸 발견했어!
 id: change-last-commit
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# 새로 바뀐 파일들을 add 하고
+git add . # 또는 각각의 파일들을 add
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# 마지막 커밋에 바뀐 파일이 등록된다
+# 주의: 절대로 원격 저장소에 push 된 커밋을 고치지 말 것
 ```
 
-This usually happens to me if I commit, then run tests/linters... and ugh, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+커밋을 하고나서 테스트/린터를 돌렸더니... 아 망할, 등호 뒤에 띄어쓰기를 깜빡했네, 같은 상황에서 내가 자주 사용하는 기능이다. 새로 커밋을 하고 `rebase -i`를 이용해서 두 커밋을 squash하는 것도 가능하지만, 이 방법이 만 배는 더 빠르다.
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*주의: 이 기능은 반드시 아직 로컬에만 있는 커밋에 사용해야 한다. 이미 공개 브랜치에 push된 커밋은 절대로 수정하면 안 된다!*

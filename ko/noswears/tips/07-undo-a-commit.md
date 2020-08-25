@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Dangit, I need to undo a commit from like 5 commits ago!
+title: 이런, 다섯 커밋 전에 한 커밋을 되돌려야 하잖아!
 id: undo-a-commit
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# 되돌려야 할 커밋을 찾는다
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
+# 방향키로 예전 커밋을 살펴보고
+# 원하는 커밋을 찾으면 해당 커밋의 hash를 기억한다
 git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# git이 해당 커밋을 되돌리는 새로운 커밋을 생성할 것이다
+# 에디터 창이 나타나면, 새로 커밋 메세지를 입력하거나,
+# 그냥 저장하고 종료한다
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+일일이 옛날 커밋을 찾아서 예전 파일 내용을 복사-붙여넣기 할 필요가 없다! 버그를 커밋했다면, `revert`로 그 커밋을 되돌리는 것이 가능하다.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of commands...
+물론 전체 커밋이 아니라 한 파일만 되돌리는 것도 가능하다! 그치만 물론, git의 방식이 다 그렇듯이, 생판 다른 명령어를 써야한다...
