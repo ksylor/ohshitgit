@@ -206,4 +206,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_id', function(collection) {
       return getTipCollection(collection, "noswears", "id");
   });
+
+  // Nepali language version
+    config.addCollection('tips_swears_ne', function(collection) {
+      return getTipCollection(collection, "swears", "ne");
+  });
+
+  config.addCollection('tips_noswears_ne', function(collection) {
+      return getTipCollection(collection, "noswears", "ne");
+  });
 };
