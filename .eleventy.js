@@ -216,4 +216,12 @@ module.exports = function(config) {
     return getTipCollection(collection, "noswears", "bn");
   });
 
+  // Nepali language version
+    config.addCollection('tips_swears_ne', function(collection) {
+      return getTipCollection(collection, "swears", "ne");
+  });
+
+  config.addCollection('tips_noswears_ne', function(collection) {
+      return getTipCollection(collection, "noswears", "ne");
+  });
 };

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, pokušao sam da pokrenem diff ali se ništa nije desilo?!
+title: Pa koji je ovo kurac bre, pokušao sam da pokrenem diff ali se ništa nije desilo?!
 id: bajo-gdje-je-moj-diff
 order: 6
 ---

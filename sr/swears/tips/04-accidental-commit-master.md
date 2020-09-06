@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, slučajno sam komitovao nešto na master a što bi trebalo da bude na potpuno novom branču!
+title: E do kurca, slučajno sam komitovao nešto na master a što bi trebalo da bude na potpuno novom branču!
 id: slucajni-komit-master
 order: 4
 ---

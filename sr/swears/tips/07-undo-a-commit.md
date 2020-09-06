@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, moram da poništim komit od prije 5 komita!
+title: O jebote otac te jebo da te jebo, sad moram da poništim komit od prije 5 komita!
 id: ponisti-komit
 order: 7
 ---

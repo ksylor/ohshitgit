@@ -40,6 +40,11 @@ module.exports = function() {
                 "arialabel": "Vedi in altre lingue"
             },
             {
+                "label": "नेपाली",
+                "code": "ne",
+                "arialabel": "अन्य भाषामा हेर्नुहोस्"
+            },
+            {
                 "label": "polski",
                 "code": "pl",
                 "arialabel": "Zobacz w innych językach"
@@ -190,6 +195,11 @@ module.exports = function() {
                 "name": "Khaja Md Sher E Alam",
                 "link": "https://github.com/sheralam",
                 "lang": "bn"
+            },
+            {
+                "name": "Rahul Dahal",
+                "link": "https://github.com/rahuldahal",
+                "lang": "ne"
             }
         ],
         "otherhelpers": [
