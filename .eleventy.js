@@ -207,6 +207,15 @@ module.exports = function(config) {
       return getTipCollection(collection, "noswears", "id");
   });
 
+  // Bangla language version
+  config.addCollection('tips_swears_bn', function(collection) {
+    return getTipCollection(collection, "swears", "bn");
+  });
+
+  config.addCollection('tips_noswears_bn', function(collection) {
+    return getTipCollection(collection, "noswears", "bn");
+  });
+
   // Nepali language version
     config.addCollection('tips_swears_ne', function(collection) {
       return getTipCollection(collection, "swears", "ne");

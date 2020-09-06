@@ -143,6 +143,14 @@ https://ohshitgit.com/id        https://ohshitgit.com/id/swears/index.html 200!
 # bahasa indonesia no swears
 https://dangitgit.com/id        https://dangitgit.com/id/noswears/index.html 200!
 
+# bangla swears
+https://ohshitgit.com/bn        https://ohshitgit.com/bn/swears/index.html 200!
+#https://ohshitgit.com/bn/*      https://ohshitgit.com/bn 301!
+
+# bangla no swears
+https://dangitgit.com/bn        https://dangitgit.com/bn/noswears/index.html 200!
+#https://dangitgit.com/bn/*      https://dangitgit.com/bn 301!
+
 # nepali swears
 https://ohshitgit.com/ne        https://ohshitgit.com/ne/swears/index.html 200!
 #https://ohshitgit.com/ne/*      https://ohshitgit.com/ne 301!

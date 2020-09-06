@@ -5,6 +5,11 @@ module.exports = function() {
         "copyright": "&copy; 2016-2020 Katie Sylor-Miller",
         "languages": [
             {
+                "label": "বাংলা",
+                "code": "bn",
+                "arialabel": "অন্যান্য ভাষায় দেখুন"
+            },
+            {
                 "label": "česky",
                 "code": "cs",
                 "arialabel": "Ostatní jazyky"
@@ -185,6 +190,11 @@ module.exports = function() {
                 "name": "Ricky Gultom",
                 "link": "https://github.com/quellcrist-falconer",
                 "lang": "id"
+            },
+            {
+                "name": "Khaja Md Sher E Alam",
+                "link": "https://github.com/sheralam",
+                "lang": "bn"
             },
             {
                 "name": "Rahul Dahal",
