@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, slučajno sam komitovao na pogrešan branč!
+title: E jebem mu mater u pičku, slučajno sam komitovao na pogrešan branč!
 id: slucajni-komit-pogresan-branc
 order: 5
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O jebote, treba da promjenim poruku na zadnjem komitu!
+title: Koje sranje smrdljivo, treba da promjenim poruku na zadnjem komitu!
 id: promjeni-zadnju-komit-poruku
 order: 3
 ---

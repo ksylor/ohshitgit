@@ -5,6 +5,11 @@ module.exports = function() {
         "copyright": "&copy; 2016-2020 Katie Sylor-Miller",
         "languages": [
             {
+                "label": "বাংলা",
+                "code": "bn",
+                "arialabel": "অন্যান্য ভাষায় দেখুন"
+            },
+            {
                 "label": "česky",
                 "code": "cs",
                 "arialabel": "Ostatní jazyky"
@@ -33,6 +38,11 @@ module.exports = function() {
                 "label": "italiano",
                 "code": "it",
                 "arialabel": "Vedi in altre lingue"
+            },
+            {
+                "label": "नेपाली",
+                "code": "ne",
+                "arialabel": "अन्य भाषामा हेर्नुहोस्"
             },
             {
                 "label": "polski",
@@ -185,6 +195,16 @@ module.exports = function() {
                 "name": "Ricky Gultom",
                 "link": "https://github.com/quellcrist-falconer",
                 "lang": "id"
+            },
+            {
+                "name": "Khaja Md Sher E Alam",
+                "link": "https://github.com/sheralam",
+                "lang": "bn"
+            },
+            {
+                "name": "Rahul Dahal",
+                "link": "https://github.com/rahuldahal",
+                "lang": "ne"
             },
             {
                 "name": "Gyeongjae Choi",
