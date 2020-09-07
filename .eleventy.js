@@ -224,4 +224,15 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ne', function(collection) {
       return getTipCollection(collection, "noswears", "ne");
   });
+
+  // Swedish language version
+  config.addCollection('tips_swears_sv', function(collection) {
+    return getTipCollection(collection, "swears", "sv");
+});
+
+config.addCollection('tips_noswears_sv', function(collection) {
+    return getTipCollection(collection, "noswears", "sv");
+});
+
+
 };
