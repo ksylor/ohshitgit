@@ -207,3 +207,12 @@ module.exports = function(config) {
       return getTipCollection(collection, "noswears", "id");
   });
 };
+
+// Hindi version
+config.addCollection('tips_swears_hin', function(collection) {
+  return getTipCollection(collection, "swears", "hin");
+});
+
+config.addCollection('tips_noswears_hin', function(collection) {
+  return getTipCollection(collection, "noswears", "hin");
+});
