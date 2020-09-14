@@ -1,29 +1,29 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
+title: अरे यार, मैंने गलती से गलत branch में commit कर दिया
 id: accidental-commit-wrong-branch
 order: 5
 ---
 
 ```git
-# undo the last commit, but leave the changes available
+# अंतिम commit को बदल दो, लेकिन उपलब्ध परिवर्तनों को छोड़ दो
 git reset HEAD~ --soft
 git stash
-# move to the correct branch
+# सही branch में जाओ
 git checkout name-of-the-correct-branch
 git stash pop
 git add . # or add individual files
-git commit -m "your message here";
-# now your changes are on the correct branch
+git commit -m "your message here"
+# अब तुम्हारे परिवर्तन सही branch पर हैं :)
 ```
 
-A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
+बहुत से लोगों ने इस स्थिति के लिए `cherry-pick` का उपयोग करने का सुझाव दिया है, इसलिए जो भी तुमको बेहतर समझ आये, उसका इस्तेमाल करो!
 
 ```git
 git checkout name-of-the-correct-branch
-# grab the last commit to master
+# अंतिम commit को master में ले जाने के लिए पकड़ो
 git cherry-pick master
-# delete it from master
+# इसे master से हटाओ
 git checkout master
 git reset HEAD~ --hard
 ```

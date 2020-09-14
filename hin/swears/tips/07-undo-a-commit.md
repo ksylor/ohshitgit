@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Oh shit, I need to undo a commit from like 5 commits ago!
+title: अरे यार, मुझे 5 commits से पहले की commit को बदलने की जरूरत है!
 id: undo-a-commit
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# तुम बदलने के लिए commit खोजो
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
+# इतिहास में ऊपर और नीचे स्क्रॉल करने के लिए तीर कुंजियों का उपयोग करो
+# एक बार जब तुम अपना commit पा लेते हो, तो हैश सेव करो
 git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# git एक नया commit बनाएगा जो की उस commit को बदल देता है
+# संकेतों का पालन करते हुए commit सन्देश को ठीक करो
+# या बस सेव और commit करो
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+परिवर्तनों को बदलने के लिए तुमको पुरानी फ़ाइल सामग्री को खोजने और कॉपी-पेस्ट करने की आवश्यकता नहीं है! यदि तुमने कोई बग commit किया है, तो तुम `revert` के साथ एक बार में सभी कमिट को बदल सकते हो।
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of fucking commands...
+तुम एक पूरी commit के बजाय किसी एकल फ़ाइल को वापस भी ला सकते हो! लेकिन निश्चित रूप से, सच्चे Git फैशन में, यह एक पूरी तरह से अलग आदेश होगा ...

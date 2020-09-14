@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I did something terribly wrong, please tell me git has a magic time machine!?!
+title: अरे यार, मैंने कुछ बहुत गलत किया है, कृपया मुझे बताओ कि Git में एक जादुई टाइम मशीन है।
 id: magic-time-machine
 order: 1
 ---
 
 ```git
 git reflog
-# you will see a list of every thing you've 
-# done in git, across all branches!
-# each one has an index HEAD@{index}
-# find the one before you broke everything
+# तुमको तुम्हारे पास मौजूद हर चीज की एक सूची दिखाई देगी
+# जो तुमने git में सभी branches में commit किया है!
+# हर एक का एक इंडेक्स HEAD@{index} होगा
+# उस commit का पता लगाओ, जहां से तुमने गड़बड़ी शुरू की है
 git reset HEAD@{index}
-# magic time machine
+# जादुई टाइम मशीन
 ```
 
-You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use `reflog` A LOT. Mega hat tip to the many many many many many people who suggested adding it!
+तुम इसके द्वारा गलती से हटाए गए किसी काम को वापस पा सकते हो, या तुम्हारे द्वारा आजमाए गए किसी चीज़ को हटाने के लिए, या repository से गड़बड़ कोड हटाने के लिए, या खराब merge को ठीक करने के लिए, या फिर बस उस commit तक वापस जाने के लिए उपयोग कर सकते हो जहां चीजें वास्तव में काम कर रही थी। मैं `reflog` का बहुत उपयोग करता हूँ। कई लोगों ने मुझे इसे जोड़ने का सुझाव दिया था, उनको इक्कीस तोपों की सलामी!

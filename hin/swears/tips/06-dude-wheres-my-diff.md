@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
+title: अरे यार, मैंने एक diff चलाने की कोशिश की लेकिन कुछ नहीं हुआ ?!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+यदि तुम जानते हो कि तुमने फ़ाइलों में परिवर्तन किया है, लेकिन `diff` खाली है, तो तुमने संभवतः अपनी फ़ाइलों को स्टेजिंग में `add` किया है और तुमको एक विशेष flag का उपयोग करने की आवश्यकता है।
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's fucking baffling and non-obvious the first time it happens to you!)
+File under &macr;\\\_(ツ)\_/&macr; (हाँ, मुझे पता है कि यह एक विशेषता है, bug नहीं, लेकिन यह चकित करने वाला और गैर-स्पष्ट होता है, जब यह पहली बार तुम्हारे साथ होता है!)

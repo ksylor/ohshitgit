@@ -1,29 +1,30 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
-id: fuck-this-noise
-note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
+title: इसको भूल जाओ, मैं हार मानता हूं।
+id: forget-this-noise
+note: यह हमेशा सूची में अंतिम होना चाहिए, इसलिए इसका क्रमांक 20 कर रहा हूँ, वरना मुझे इसे फिर से री-ऑर्डर/
+नाम बदलने की आवश्यकता हो सकती थी
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r stupid-git-repo-dir
+git clone https://some.github.url/stupid-git-repo-dir.git
+cd stupid-git-repo-dir
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+इसके लिए एरिक वी को धन्यवाद। इस मजाक में `sudo` के उपयोग की सभी शिकायतें उसे निर्देशित की जा सकती हैं। 
 
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
+यदि तुम्हारी branch में बहुत समस्याएं हैं और उसके लिए तुमको अपने repository में बदलाव करना परजाये, तो तुमको "git-स्वीकृत" तरीके से अपने repo को remote repo के समान रीसेट करने की आवश्यकता पर सकती है, इसे आज़माओ लेकिन सावधान रहो ये विनाशकारी और अस्वीकार्य क्रियाएं हैं! अरे भाई भाई भाई?!
 
 ```git
-# get the lastest state of origin
+# origin की नवीनतम स्थिति प्राप्त करो
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# ट्रैक न किए गए फ़ाइलों और निर्देशिकाओं को हटा दो
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# प्रत्येक कष्टदायक शाखा के लिए बार-बार checkout/reset/clean करो
 ```

@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Oh shit, I need to change the message on my last commit!
+title: अरे यार, मुझे अपनी अंतिम commit पर संदेश को बदलने की आवश्यकता है!
 id: change-last-commit-message
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# commit पर संदेश को बदलने के लिए संकेतों का पालन करो
 ```
 
-Stupid commit message formatting requirements.
+उलटी सीधी commit संदेश स्वरूपण को बदलने के लिए आवश्यकताएँ।

@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
+title: अरे यार, मैंने commit किया और मुझे तुरंत महसूस हुआ कि मुझे एक छोटा बदलाव करने की आवश्यकता है!
 id: change-last-commit
 order: 2
 ---
 
 ```git
-# make your change
+# परिवर्तन करो
 git add . # or add individual files
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# अब तुम्हारी अंतिम commit में वह आगया है!
+# चेतावनी: कभी public commits का संशोधन मत करना।
 ```
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
+यह आम तौर पर मेरे साथ होता है यदि मैं commit करू, फिर tests/linters... चलाऊ और भग भैंस की आँख, मैंने एक बराबर संकेत के बाद एक खाली स्थान नहीं रखा। तुम बदलाव को एक नई commit के रूप में भी बना सकते हो और फिर उन दोनों को एक साथ जोड़ने के लिए `rebase -i` कर सकते हो, लेकिन यह लगभग एक लाख गुना तेज है।
 
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*चेतावनी: तुमको कभी भी उन commits को संशोधित नहीं करना चाहिए जिन्हें public/shared branch में push किया गया है! केवल उन्हीं commits का संशोधन करो जो केवल तुम्हारी स्थानीय प्रति में मौजूद है वरना बहुत बड़ा मैटर हो जायेगा।*

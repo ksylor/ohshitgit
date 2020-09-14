@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Oh shit, I need to undo my changes to a file!
+title: अरे यार, मुझे फ़ाइल में अपने परिवर्तनों को बदलने की आवश्यकता है!
 id: undo-a-file
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# फ़ाइल को बदलने से पहले commit के हैश का पता लगाओ
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
+# इतिहास में ऊपर और नीचे स्क्रॉल करने के लिए तीर कुंजियों का उपयोग करो
+# एक बार जब तुम अपना commit पा लेते हो तो हैश सेव करो
 git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
+# फ़ाइल का पुराना संस्करण तुम्हारे सूचकांक में होगा
 git commit -m "Wow, you don't have to copy-paste to undo"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what fucking planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+जब अंत में मुझे यह पता लगा तो मैं झूम उठा। जैसे काली अँधेरी रात के बाद रौशन सवेरा छा गया हो। लेकिन गंभीरता से सोचने पर `checkout--` एक फ़ाइल को बदलने का सबसे अच्छा तरीका कैसे हो सकता है? लीनुस टोर्वाल्ड दे ताली!
