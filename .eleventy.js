@@ -224,4 +224,12 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ne', function(collection) {
       return getTipCollection(collection, "noswears", "ne");
   });
+  //Hindi language version
+    config.addCollection('tips_swears_hin', function(collection) {
+      return getTipCollection(collection, "swears", "hin");
+  });
+
+    config.addCollection('tips_noswears_hin', function(collection) {
+      return getTipCollection(collection, "noswears", "hin");
+  });
 };
