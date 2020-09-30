@@ -158,3 +158,11 @@ https://ohshitgit.com/ne        https://ohshitgit.com/ne/swears/index.html 200!
 # nepali no swears
 https://dangitgit.com/ne        https://dangitgit.com/ne/noswears/index.html 200!
 #https://dangitgit.com/ne/*      https://dangitgit.com/ne 301!
+
+# turkish swears
+https://ohshitgit.com/tr        https://ohshitgit.com/tr/swears/index.html 200!
+#https://ohshitgit.com/tr/*      https://ohshitgit.com/tr 301!
+
+# turkish no swears
+https://dangitgit.com/tr        https://dangitgit.com/tr/noswears/index.html 200!
+#https://dangitgit.com/tr/*      https://dangitgit.com/tr 301!

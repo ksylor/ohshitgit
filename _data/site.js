@@ -103,6 +103,11 @@ module.exports = function() {
                 "label": "bahasa indonesia",
                 "code": "id",
                 "arialabel": "Lihat di bahasa lain"
+            },
+            {
+                "label": "Türkçe",
+                "code": "tr",
+                "arialabel": "Diğer dillerde görüntüle"
             }
         ],
         "collaborators": [
@@ -200,6 +205,11 @@ module.exports = function() {
                 "name": "Rahul Dahal",
                 "link": "https://github.com/rahuldahal",
                 "lang": "ne"
+            },
+            {
+                "name": "Taha Paksu",
+                "link": "https://github.com/tpaksu",
+                "lang": "tr"
             }
         ],
         "otherhelpers": [
