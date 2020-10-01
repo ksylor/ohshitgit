@@ -1,18 +1,17 @@
 ---
 tags: tip
-title: Oh shit, I committed and immediately realized I need to make one small change!
+title: Sktir ya, Kodları commit'ledim ve hemen peşinden küçük bir değişiklik yapmam gerektiğini unuttum!
 id: change-last-commit
 order: 2
 ---
 
 ```git
-# make your change
-git add . # or add individual files
+# değişikliği yap
+git add . # veya dosyaları tek tek ekle
 git commit --amend --no-edit
-# now your last commit contains that change!
-# WARNING: never amend public commits
+# ve şimdi son yaptığın commit bu değişikliği de içerecek!
+# UYARI: hiç bir zaman push ettiğin commit'leri amend etme!
 ```
+Bu genelde benim başıma kodu commit ettikten sonra testleri/linter'ları vs. çalıştırdıktan sonra gelir, mesela, aklımı skiyim, bir eşittir işaretinden sonra boşluk koymayı unutmuşumdur. Bu değişikliği yapmanın başka bir yolu da, gerekli düzeltmeyle yeni bir commit oluşturup, `rebase -i` komutuyla ikisini birleştirmektir, ama bu yöntem nerdeyse bir milyon kat daha hızlıdır.
 
-This usually happens to me if I commit, then run tests/linters... and FML, I didn't put a space after an equals sign. You could also make the change as a new commit and then do `rebase -i` in order to squash them both together, but this is about a million times faster. 
-
-*Warning: You should never amend commits that have been pushed up to a public/shared branch! Only amend commits that only exist in your local copy or you're gonna have a bad time.*
+*Uyarı: Kesinlikle public/shared branch'lara push ettiğiniz bir commit'i amend etmemelisiniz! Sadece lokalinizde bulunan bir commit'i amend etmelisiniz, aksi takdirde kötü zamanlar geçirmeye hazır olun.*
