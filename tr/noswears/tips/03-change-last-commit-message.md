@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
+title: Kahretsin, son commit'teki açıklamayı değiştirmem lazım!
 id: change-last-commit-message
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# commit açıklamasını değiştirmek için yönergeleri takip et..
 ```
 
-Stupid commit message formatting requirements.
+Commit açıklamasının aptalca format standartları..

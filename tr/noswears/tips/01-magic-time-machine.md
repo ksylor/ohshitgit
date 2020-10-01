@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I did something terribly wrong, please tell me git has a magic time machine!?!
+title: Kahretsin, çok yanlış bişey yaptım, git'in bunu geri alacak bir zaman makinası var de bana, n'olur!?!
 id: magic-time-machine
 order: 1
 ---
 
 ```git
 git reflog
-# you will see a list of every thing you've 
-# done in git, across all branches!
-# each one has an index HEAD@{index}
-# find the one before you broke everything
+# tüm branch'lar dahil, git'te yaptığın her
+# şeyin bir listesini göreceksin. Her birinin
+# HEAD@{index} şeklinde bir indeksi olacak.
+# yanlışlara başlamadan önceki yeri bul,
 git reset HEAD@{index}
-# magic time machine
+# al sana sihirli zaman makinası.
 ```
 
-You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use `reflog` A LOT. Mega hat tip to the many many many many many people who suggested adding it!
+Bunu yanlışlıkla sildiğin bir şeyi geri almaya, veya reponun çalışmamasına sebep olan bir denemeni kaldırmaya, veya yanlışlıklarla dolu bir merge işleminin ardından kodları tekrar ayağa kaldırmaya, ya da herşeyin çalıştığına emin olduğun bir noktaya tüm sistemi geri almaya kullanabilirsin. Ben `reflog`'u ÇOK SIK kullanırım. Bunu buraya eklememi bana öneren herkese saygıyla şapka çıkartıyorum!

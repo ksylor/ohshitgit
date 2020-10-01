@@ -9,4 +9,4 @@ git commit --amend
 # commit açıklamasını değiştirmek için yönergeleri takip et..
 ```
 
-Skmişim commit açıklaması format standartlarını..
+Skmişim commit açıklamasının format standartlarını..

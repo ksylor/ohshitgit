@@ -1,18 +1,18 @@
 ---
 tags: tip
-title: Dangit, I need to undo my changes to a file!
+title: Kahretsin, bir dosyadaki değişiklikleri geri almam lazım!
 id: undo-a-file
 order: 8
 ---
 
 ```git
-# find a hash for a commit before the file was changed
+# dosya değişmeden önceki bir hash'i bulun
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git checkout [saved hash] -- path/to/file
-# the old version of the file will be in your index
-git commit -m "Wow, you don't have to copy-paste to undo"
+# ok tuşlarını kullanarak geçmişte aşağı/yukarı gezinin
+# commit'i bulduğunuzda, ilgili hash'i bir yere kaydedin
+git checkout [kaydettiğiniz hash] -- dosyanin/yolu/ve/adi
+# dosyanin eski versiyonu şimdi index'inizde görünecek
+git commit -m "Vay be, geri almak için kopyala yapıştıra gerek yokmuş"
 ```
 
-When I finally figured this out it was HUGE. HUGE. H-U-G-E. But seriously though, on what planet does `checkout --` make sense as the best way to undo a file? :shakes-fist-at-linus-torvalds:
+Bunu ilk öğrendiğimde bu benim için MUAZZAM'dı. MUAZZAM. MU-AZ-ZAM. Ama cidden, hangi gezegende `checkout --` kullanarak bir dosyanın geri alınmasının en iyi yolunun bu olduğu mantıklıdır? :shakes-fist-at-linus-torvalds:

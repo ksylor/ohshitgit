@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Dangit, I tried to run a diff but nothing happened?!
+title: Kahretsin, iki saattir diff yapmaya çalışıyorum, ama sonuç vermiyor?!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-If you know that you made changes to files, but `diff` is empty, you probably `add`-ed your files to staging and you need to use a special flag.
+Dosyaları değiştirdiğinizi biliyorsunuz, ama `diff` komutu size sonuç vermiyorsa, muhtemelen dosyaları `add`'lemişsiniz ve bu yüzden özel bir flag kullanmanız gerekecek.
 
 ```git
 git diff --staged
 ```
 
-File under &macr;\\\_(ツ)\_/&macr; (yes, I know this is a feature, not a bug, but it's baffling and non-obvious the first time it happens to you!)
+&macr;\\\_(ツ)\_/&macr; kategorisine ekleyin. (aynen, bu bir özellik, bir bug değil, ama baş ağrıtıyor ve ilk defa karşılaşan birisi açıkça ne yapacağını bilmiyor.)

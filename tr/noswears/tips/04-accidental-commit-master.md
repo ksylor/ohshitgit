@@ -1,17 +1,17 @@
 ---
 tags: tip
-title: Dangit, I accidentally committed something to master that should have been on a brand new branch!
+title: Kahretsin, Yanlışlıkla yeni bir branch açıp oraya commitlemem gereken bir şeyi, master branch'ına commitledim!
 id: accidental-commit-master
 order: 4
 ---
 
 ```git
-# create a new branch from the current state of master
+# master'ın şu anki haliyle bir branch alın
 git branch some-new-branch-name
-# remove the last commit from the master branch
+# master'dan son commit'i silin
 git reset HEAD~ --hard
 git checkout some-new-branch-name
-# your commit lives in this branch now :)
+# yeni commit artık bu branch'te yaşayacak :)
 ```
 
-Note: this doesn't work if you've already pushed the commit to a public/shared branch, and if you tried other things first, you might need to `git reset HEAD@{number-of-commits-back}` instead of `HEAD~`. Infinite sadness. Also, many many many people suggested an awesome way to make this shorter that I didn't know myself. Thank you all!
+Not: eğer commit'i çoktan bir public/shared repo'ya push etmişseniz, ve bu çözümü uygulamadan başka şeyleri de denemişseniz, bu çalışmayacaktır, belki de `HEAD~` yerine `git reset HEAD@{birkaç-commit-öncesi}` kullanmanız gerekebilir. Sonsuz mutsuzluk. Benim bildiğimden çok çok daha kısa olan bu yöntemi bana öneren bir çok kişi oldu. Hepsine çok teşekkürler!
