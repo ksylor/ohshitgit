@@ -95,6 +95,11 @@ module.exports = function() {
                 "arialabel": "Pokažite na drugim jezicima"
             },
             {
+                "label": "ภาษาไทย",
+                "code": "th",
+                "arialabel": "ดูในภาษาอื่น"
+            },
+            {
                 "label": "中文",
                 "code": "zh",
                 "arialabel": "其他语言"
@@ -200,6 +205,11 @@ module.exports = function() {
                 "name": "Rahul Dahal",
                 "link": "https://github.com/rahuldahal",
                 "lang": "ne"
+            },
+            {
+                "name": "Kitt Tientanopajai",
+                "link": "https://github.com/kitt-tientanopajai",
+                "lang": "th"
             }
         ],
         "otherhelpers": [
