@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: ช่างหัวมัน ยอมแพ้แล้ว
+title: ช่างแม่ง! กูยอมแพ้แล้ว!
 id: forget-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: แย่แล้ว ฉันสั่ง diff ไป แต่ไม่มีอะไรเกิดขึ้นเลย?!
+title: เวรแล้ว! กูสั่ง diff ไป แต่ไม่มีอะไรขึ้นมาเลย?!
 id: dude-wheres-my-diff
 order: 6
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: แย่แล้ว ฉันอยากยกเลิก commit แถว ๆ 5 commits ก่อนหน้านี้!
+title: เวรแล้ว! กูอยากย้อนกลับมาแถว ๆ 5 commits ก่อนหน้านี้!
 id: undo-a-commit
 order: 7
 ---

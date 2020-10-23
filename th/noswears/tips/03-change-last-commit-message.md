@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: แย่แล้ว  ฉันอยากแก้ไขข้อความของ commit สุดท้าย!
+title: แย่แล้ว! ฉันอยากแก้ข้อความของ commit สุดท้าย!
 id: change-last-commit-message
 order: 3
 ---

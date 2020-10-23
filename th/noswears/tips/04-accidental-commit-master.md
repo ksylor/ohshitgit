@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: แย่แล้ว ฉันเผลอ commit เข้า master แทนที่จะทำ branch ใหม่!
+title: แย่แล้ว! ฉันเผลอ commit เข้า master แทนที่จะทำ branch ใหม่!
 id: accidental-commit-master
 order: 4
 ---

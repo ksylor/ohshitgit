@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: แย่แล้ว ฉันเผลอ commit ผิด branch!
+title: แย่แล้ว! ฉันเผลอ commit ผิด branch!
 id: accidental-commit-wrong-branch
 order: 5
 ---
