@@ -218,7 +218,11 @@ module.exports = function() {
             {
                 "name": "Lucas Larson",
                 "link": "https://github.com/LucasLarson",
-            }
+            },
+	    {
+		"name": "Artem Vorotnikov",
+		"link": "https://github.com/vorot93",
+	    }
         ]
     };
 };
