@@ -95,6 +95,11 @@ module.exports = function() {
                 "arialabel": "Pokažite na drugim jezicima"
             },
             {
+                "label": "swedish",
+                "code": "sv",
+                "arialabel": "Visa på andra språk"
+            },
+            {
                 "label": "ภาษาไทย",
                 "code": "th",
                 "arialabel": "ดูในภาษาอื่น"
@@ -121,6 +126,11 @@ module.exports = function() {
             },
         ],
         "collaborators": [
+            {
+                "name": "Björn Söderqvist",
+                "link": "https://github.com/cybear",
+                "lang": "sv"
+            },
             {
                 "name": "Moritz Stückler",
                 "link": "https://github.com/pReya",
