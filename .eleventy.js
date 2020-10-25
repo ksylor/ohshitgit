@@ -179,6 +179,15 @@ module.exports = function(config) {
   config.addCollection("tips_noswears_sr", function(collection) {
     return getTipCollection(collection, "noswears", "sr");
   });
+
+  // Thai version
+  config.addCollection("tips_swears_th", function(collection) {
+    return getTipCollection(collection, "swears", "th");
+  });
+
+  config.addCollection("tips_noswears_th", function(collection) {
+    return getTipCollection(collection, "noswears", "th");
+  });
   
   // Chinese language version
   config.addCollection("tips_swears_zh", function(collection) {
