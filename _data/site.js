@@ -95,6 +95,11 @@ module.exports = function() {
                 "arialabel": "Pokažite na drugim jezicima"
             },
             {
+                "label": "ภาษาไทย",
+                "code": "th",
+                "arialabel": "ดูในภาษาอื่น"
+            },
+            {
                 "label": "中文",
                 "code": "zh",
                 "arialabel": "其他语言"
@@ -108,7 +113,12 @@ module.exports = function() {
                 "label": "Türkçe",
                 "code": "tr",
                 "arialabel": "Diğer dillerde görüntüle"
-            }
+            },
+            {
+                "label": "한국어",
+                "code": "ko",
+                "arialabel": "다른 언어로 보기"
+            },
         ],
         "collaborators": [
             {
@@ -210,6 +220,16 @@ module.exports = function() {
                 "name": "Taha Paksu",
                 "link": "https://github.com/tpaksu",
                 "lang": "tr"
+            },
+            {
+                "name": "Kitt Tientanopajai",
+                "link": "https://github.com/kitt-tientanopajai",
+                "lang": "th"
+            },
+            {
+                "name": "Gyeongjae Choi",
+                "link": "https://github.com/ryanking13",
+                "lang": "ko"
             }
         ],
         "otherhelpers": [
@@ -228,6 +248,10 @@ module.exports = function() {
             {
                 "name": "Lucas Larson",
                 "link": "https://github.com/LucasLarson",
+            },
+            {
+              "name": "Artem Vorotnikov",
+              "link": "https://github.com/vorot93",
             }
         ]
     };

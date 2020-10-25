@@ -120,6 +120,14 @@ https://ohshitgit.com/sr        https://ohshitgit.com/sr/swears/index.html 200!
 https://dangitgit.com/sr        https://dangitgit.com/sr/noswears/index.html 200!
 #https://dangitgit.com/sr/*      https://dangitgit.com/sr 301!
 
+# thai swears
+https://ohshitgit.com/th        https://ohshitgit.com/th/swears/index.html 200!
+#https://ohshitgit.com/th/*      https://ohshitgit.com/th 301!
+
+# thai no swears
+https://dangitgit.com/th        https://dangitgit.com/th/noswears/index.html 200!
+#https://dangitgit.com/th/*      https://dangitgit.com/th 301!
+
 # chinese swears
 https://ohshitgit.com/zh        https://ohshitgit.com/zh/swears/index.html 200!
 #https://ohshitgit.com/zh/*      https://ohshitgit.com/zh 301!
@@ -166,3 +174,11 @@ https://ohshitgit.com/tr        https://ohshitgit.com/tr/swears/index.html 200!
 # turkish no swears
 https://dangitgit.com/tr        https://dangitgit.com/tr/noswears/index.html 200!
 #https://dangitgit.com/tr/*      https://dangitgit.com/tr 301!
+
+# korean swears
+https://ohshitgit.com/ko        https://ohshitgit.com/ko/swears/index.html 200!
+#https://ohshitgit.com/ko/*      https://ohshitgit.com/ko 301!
+
+# korean no swears
+https://dangitgit.com/ko        https://dangitgit.com/ko/noswears/index.html 200!
+#https://dangitgit.com/ko/*      https://dangitgit.com/ko 301!
