@@ -11,6 +11,8 @@ If you have ideas for new content or thoughts on how to improve existing content
 
 This site is my copyrighted content and my decisions whether or not to make any suggested changes are final. 
 
+I have a very busy full-time job and I'm currently homeschooling my two kids due to COVID, so please be patient if I take a bit to respond. I usually will wait a bit until there are several PRs & Issues pending, then I'll tackle them all once.
+
 # Adding a new language translation
 
 Firstly, THANK YOU for donating your time to help share Oh Shit, Git with folks in your language! It has been wonderful to see so many folks contributing to translations, I appreciate it!
