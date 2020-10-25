@@ -226,11 +226,20 @@ module.exports = function(config) {
   });
 
   // Nepali language version
-    config.addCollection('tips_swears_ne', function(collection) {
+  config.addCollection('tips_swears_ne', function(collection) {
       return getTipCollection(collection, "swears", "ne");
   });
 
   config.addCollection('tips_noswears_ne', function(collection) {
       return getTipCollection(collection, "noswears", "ne");
+  });
+
+  // Korean language version
+  config.addCollection('tips_swears_ko', function(collection) {
+    return getTipCollection(collection, "swears", "ko");
+  });
+
+  config.addCollection('tips_noswears_ko', function(collection) {
+      return getTipCollection(collection, "noswears", "ko");
   });
 };
