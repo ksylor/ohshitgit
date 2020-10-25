@@ -110,6 +110,11 @@ module.exports = function() {
                 "arialabel": "Lihat di bahasa lain"
             },
             {
+                "label": "Türkçe",
+                "code": "tr",
+                "arialabel": "Diğer dillerde görüntüle"
+            },
+            {
                 "label": "한국어",
                 "code": "ko",
                 "arialabel": "다른 언어로 보기"
@@ -212,6 +217,11 @@ module.exports = function() {
                 "lang": "ne"
             },
             {
+                "name": "Taha Paksu",
+                "link": "https://github.com/tpaksu",
+                "lang": "tr"
+            },
+            {
                 "name": "Kitt Tientanopajai",
                 "link": "https://github.com/kitt-tientanopajai",
                 "lang": "th"
@@ -239,10 +249,10 @@ module.exports = function() {
                 "name": "Lucas Larson",
                 "link": "https://github.com/LucasLarson",
             },
-	    {
-		"name": "Artem Vorotnikov",
-		"link": "https://github.com/vorot93",
-	    }
+            {
+              "name": "Artem Vorotnikov",
+              "link": "https://github.com/vorot93",
+            }
         ]
     };
 };
