@@ -134,7 +134,7 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_he', function (collection) {
       return getTipCollection(collection, "noswears", "he");
   });
-  
+
   // Spanish language version
   config.addCollection("tips_swears_es", function(collection) {
     return getTipCollection(collection, "swears", "es");
@@ -179,6 +179,15 @@ module.exports = function(config) {
   config.addCollection("tips_noswears_sr", function(collection) {
     return getTipCollection(collection, "noswears", "sr");
   });
+
+  // Thai version
+  config.addCollection("tips_swears_th", function(collection) {
+    return getTipCollection(collection, "swears", "th");
+  });
+
+  config.addCollection("tips_noswears_th", function(collection) {
+    return getTipCollection(collection, "noswears", "th");
+  });
   
   // Chinese language version
   config.addCollection("tips_swears_zh", function(collection) {
@@ -197,7 +206,7 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_cs', function(collection) {
     return getTipCollection(collection, "noswears", "cs");
   });
-  
+
   // Bahasa Indonesia version
   config.addCollection('tips_swears_id', function(collection) {
       return getTipCollection(collection, "swears", "id");
@@ -217,7 +226,7 @@ module.exports = function(config) {
   });
 
   // Nepali language version
-    config.addCollection('tips_swears_ne', function(collection) {
+  config.addCollection('tips_swears_ne', function(collection) {
       return getTipCollection(collection, "swears", "ne");
   });
 
@@ -228,11 +237,27 @@ module.exports = function(config) {
   // Swedish language version
   config.addCollection('tips_swears_sv', function(collection) {
     return getTipCollection(collection, "swears", "sv");
-});
+  });
 
-config.addCollection('tips_noswears_sv', function(collection) {
-    return getTipCollection(collection, "noswears", "sv");
-});
+  config.addCollection('tips_noswears_sv', function(collection) {
+      return getTipCollection(collection, "noswears", "sv");
+  });
 
+  // Turkish language version
+  config.addCollection('tips_swears_tr', function(collection) {
+    return getTipCollection(collection, "swears", "tr");
+  });
 
+  config.addCollection('tips_noswears_tr', function(collection) {
+    return getTipCollection(collection, "noswears", "tr");
+  });
+  
+  // Korean language version
+  config.addCollection('tips_swears_ko', function(collection) {
+    return getTipCollection(collection, "swears", "ko");
+  });
+
+  config.addCollection('tips_noswears_ko', function(collection) {
+      return getTipCollection(collection, "noswears", "ko");
+  });
 };
