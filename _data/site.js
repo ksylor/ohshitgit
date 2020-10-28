@@ -36,7 +36,7 @@ module.exports = function() {
             },
             {
                 "label": "हिन्दी",
-                "code": "hin",
+                "code": "hi",
                 "arialabel": "अन्य भाषाओं में देखें"
             },
             {
@@ -209,7 +209,7 @@ module.exports = function() {
             {
                 "name": "Aryan Sarkar",
                 "link": "https://github.com/aryansarkar13",
-                "lang": "hin"
+                "lang": "hi"
             }	
         ],
         "otherhelpers": [

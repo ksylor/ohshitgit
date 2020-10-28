@@ -225,11 +225,11 @@ module.exports = function(config) {
       return getTipCollection(collection, "noswears", "ne");
   });
   //Hindi language version
-    config.addCollection('tips_swears_hin', function(collection) {
-      return getTipCollection(collection, "swears", "hin");
+    config.addCollection('tips_swears_hi', function(collection) {
+      return getTipCollection(collection, "swears", "hi");
   });
 
-    config.addCollection('tips_noswears_hin', function(collection) {
-      return getTipCollection(collection, "noswears", "hin");
+    config.addCollection('tips_noswears_hi', function(collection) {
+      return getTipCollection(collection, "noswears", "hi");
   });
 };

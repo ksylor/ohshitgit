@@ -160,9 +160,9 @@ https://dangitgit.com/ne        https://dangitgit.com/ne/noswears/index.html 200
 #https://dangitgit.com/ne/*      https://dangitgit.com/ne 301!
 
 # hindi swears
-https://ohshitgit.com/hin        https://ohshitgit.com/fr/swears/index.html 200!
-#https://ohshitgit.com/fr/*      https://ohshitgit.com/fr 301!
+https://ohshitgit.com/hi        https://ohshitgit.com/hi/swears/index.html 200!
+#https://ohshitgit.com/hi/*      https://ohshitgit.com/hi 301!
 
 # hindi no swears
-https://dangitgit.com/hin        https://dangitgit.com/hin/noswears/index.html 200!
-#https://dangitgit.com/hin/*      https://dangitgit.com/hin 301!
+https://dangitgit.com/hi        https://dangitgit.com/hi/noswears/index.html 200!
+#https://dangitgit.com/hi/*      https://dangitgit.com/hi 301!
