@@ -124,6 +124,11 @@ module.exports = function() {
                 "code": "ko",
                 "arialabel": "다른 언어로 보기"
             },
+            {
+                "label": "kazakh",
+                "code": "kz",
+                "arialabel": "Басқа тілді таңдау"
+            }
         ],
         "collaborators": [
             {
@@ -240,6 +245,11 @@ module.exports = function() {
                 "name": "Gyeongjae Choi",
                 "link": "https://github.com/ryanking13",
                 "lang": "ko"
+            },
+            {
+                "name": "Myrzabek Azil",
+                "link": "https://github.com/mvrzvbvk",
+                "lang": "kz"
             }
         ],
         "otherhelpers": [

@@ -260,4 +260,13 @@ module.exports = function(config) {
   config.addCollection('tips_noswears_ko', function(collection) {
       return getTipCollection(collection, "noswears", "ko");
   });
+
+  // Kazakh language version
+  config.addCollection('tips_swears_kz', function(collection) {
+    return getTipCollection(collection, "swears", "kz");
+  });
+
+  config.addCollection('tips_noswears_kz', function(collection) {
+      return getTipCollection(collection, "noswears", "kz");
+  });
 };

@@ -190,3 +190,11 @@ https://ohshitgit.com/ko        https://ohshitgit.com/ko/swears/index.html 200!
 # korean no swears
 https://dangitgit.com/ko        https://dangitgit.com/ko/noswears/index.html 200!
 #https://dangitgit.com/ko/*      https://dangitgit.com/ko 301!
+
+# kazakh swears
+https://ohshitgit.com/kz        https://ohshitgit.com/kz/swears/index.html 200!
+#https://ohshitgit.com/kz/*      https://ohshitgit.com/kz 301!
+
+# kazakh no swears
+https://dangitgit.com/kz        https://dangitgit.com/kz/noswears/index.html 200!
+#https://dangitgit.com/kz/*      https://dangitgit.com/kz 301!
