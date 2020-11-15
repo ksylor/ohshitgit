@@ -138,6 +138,11 @@ module.exports = {
             code: "kk",
             arialabel: "Басқа тілді таңдау",
         },
+        {
+            label: "persian",
+            code: "fa",
+            arialabel: "در زبان های دیگر ببینید"
+        },
     ],
     collaborators: [
         {
@@ -269,6 +274,11 @@ module.exports = {
             name: "Zhunisali Shanabek",
             link: "https://github.com/zshanabek",
             lang: "kk",
+        },
+        {
+            name: "Hamid Moheb",
+            link: "https://github.com/hamidmoheb1",
+            lang: "fa"
         },
     ],
     otherhelpers: [
