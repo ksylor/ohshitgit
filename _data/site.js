@@ -143,6 +143,11 @@ module.exports = {
             code: "fa",
             arialabel: "در زبان های دیگر ببینید",
         },
+        {
+            label: 'suomi',
+            code: 'fi',
+            arialabel: 'Valitse kieli',
+        },
     ],
     collaborators: [
         {
@@ -279,6 +284,11 @@ module.exports = {
             name: "Hamid Moheb",
             link: "https://github.com/hamidmoheb1",
             lang: "fa",
+        },
+        {
+            name: 'Senja Jarva',
+            link: 'https://github.com/sjarva',
+            lang: 'fi',
         },
     ],
     otherhelpers: [
