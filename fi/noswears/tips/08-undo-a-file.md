@@ -15,4 +15,4 @@ git checkout [tallennettu hash] -- polku/tiedostoon
 git commit -m "Vau, ei tarvii kopioida-ja-liittää tiedoston muutoksia"
 ```
 
-Kun viimein löysin tämän, se oli HUIKEAA. HUIKEAA. HUI-KE-AA. Mutta vakavasti ottaen, miten ihmeessä `checkout --` komento on mukamas järkevin tapa peruuttaa tiedoston muutokset? :pui-nyrkkiä-linus-torvaldsille:
+Kun viimein löysin tämän, se oli HUIKEAA. HUIKEAA. HUI-KE-AA. Mutta vakavasti ottaen, miten ihmeessä `checkout --` on mukamas järkevin komento peruuttaa tiedoston muutokset? :pui-nyrkkiä-linus-torvaldsille:

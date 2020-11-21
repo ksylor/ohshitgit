@@ -15,7 +15,7 @@ cd typerä-git-repo-kansio
 
 Kiitokset Eric V:lle tästä. Kaikki valitukset `sudo`-komennon käyttämisestä voi ohjata hänelle. 
 
-Mutta oikeasti, jos haarasi on niin sekaisin että ainoa vaihtoehto on nollata reposi tila samaan tilanteeseen kuin repon remote-versio, ja haluat tehdä tämän "git-hyväksytyllä" tavalla, kokeilet tätä. Mutta muista että seuraukset ovat tuhoisat ja peruuttamattomat!
+Mutta oikeasti, jos haarasi on niin sekaisin että ainoa vaihtoehto on nollata reposi tila samaan tilanteeseen kuin repon remote-versio, ja haluat tehdä tämän "git-hyväksytyllä" tavalla, kokeile tätä. Mutta muista että seuraukset ovat tuhoisat ja peruuttamattomat!
 
 ```git
 # haetaan origin-haaran uusin tila

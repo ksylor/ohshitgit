@@ -15,7 +15,7 @@ git revert [tallennettu hash]
 # seuraa ohjeita muokataksesi commit-viestiä 
 # tai vain tallenna ja committaa
 ```
-TODO
+
 Kävi ilmi että ei tarvisekaan kopioida ja liittää tiedoston vanhaa sisältöä muokataksesi tehtyjä muutoksia! Jos olet tehnyt bugin, voit peruuttaa commitissa olevat muutokset kerralla käyttämällä `revert`-komentoa.
 
 Voit myös käyttää `revert`-komentoa yhteen tiedostoon yhden commitin sijaan! Mutta tietenkin, git-mäiseen tapaan, sen tekeminen onkin sitten aivan eri komentosarja...
