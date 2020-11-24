@@ -2,7 +2,7 @@
 <html lang="{{locale}}">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>{{title}}</title>
 	<meta name="lolz" content="My git site brings all the mansplainers to the yard." />
     <!-- hi this is coming from netlify & 11ty-->
@@ -12,46 +12,102 @@
     {% include "partials/ga.njk" %}
 </head>
 <body>
-    {% if contentType == "swears" %}
-        {% set banner = locale + "/" + contentType + "/" + "partials/banner.njk" %}
-        {% include banner %}
-    {% endif %}
+    <div class="prevent-safari-overflow-scroll">
+        {% if contentType == "swears" %}
+            {% set banner = locale + "/" + contentType + "/" + "partials/banner.njk" %}
+            {% include banner %}
+        {% endif %}
 
-    {% include "partials/langpicker.njk" %}
+        {% include "partials/langpicker.njk" %}
 
-    <div class="max-width">
-        <header class="spaced">
-            <h1 class="centered">{{title}}</h1>
-        </header>
+        <div class="max-width">
+            <header class="spaced">
+                <h1 class="centered">{{title}}</h1>
+            </header>
 
-        <main>
-            <section class="intro">
-                {% include "partials/carbonads.njk" %}
-                {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
-                {% include intro %}
-            </section>
-
-            {% set tips = collections["tips_" + contentType + "_" + locale] %}
-            {% for tip in tips %}
-                <section class="spaced">
-                    <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{ tip.data.title | safe }}</a></h2>
-                    {{ tip.templateContent | safe }}
+            <main>
+                <section class="intro">
+                    {% include "partials/carbonads.njk" %}
+                    {% set intro = locale + "/" + contentType + "/" + "partials/intro.njk" %}
+                    {% include intro %}
                 </section>
-            {% endfor %}
 
-            <section class="spaced">
-                {% set outro = locale + "/" + contentType + "/" + "partials/outro.njk" %}
-                {% include outro %}
-            </section>
+                {% set tips = collections["tips_" + contentType + "_" + locale] %}
+                {% for tip in tips %}
+                    <section class="spaced">
+                        <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{ tip.data.title | safe }}</a></h2>
+                        {{ tip.templateContent | safe }}
+                    </section>
+                {% endfor %}
 
-            <section class="spaced top-lined">
-                {% set thanks = locale + "/" + contentType + "/" + "partials/thanks.njk" %}
-                {% include thanks %}
-            </section>
-        </main>
+                <section class="spaced">
+                    {% set outro = locale + "/" + contentType + "/" + "partials/outro.njk" %}
+                    {% include outro %}
+                </section>
+
+                <section class="spaced top-lined">
+                    {% set thanks = locale + "/" + contentType + "/" + "partials/thanks.njk" %}
+                    {% include thanks %}
+                </section>
+            </main>
+        </div>
+        {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
+        {% include footer %}
+
     </div>
-    {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
-    {% include footer %}
-    <script src="/prism.js"></script>
+
+    <script src="/prism.js" async></script>
+    <script async>
+        function setupLangPicker() {
+            // passive event listener polyfill
+            // Test via a getter in the options object to see if the passive property is accessed
+            var supportsPassive = false;
+            try {
+              var opts = Object.defineProperty({}, 'passive', {
+                get: function() {
+                  supportsPassive = true;
+                }
+              });
+              window.addEventListener("testPassive", null, opts);
+              window.removeEventListener("testPassive", null, opts);
+            } catch (e) {}
+
+            var picker = document.getElementById('picker');
+            var pickerText = document.getElementById('picker-text');
+            var pickerList = document.getElementById('picker-list');
+            var pickerBtn = document.getElementById('picker-btn');
+            var isOpen = false;
+
+            function toggle() {
+                if (!isOpen) {
+                    pickerList.style.width = pickerText.scrollWidth + 'px';
+                }
+                pickerBtn.classList.toggle('open');
+                isOpen = !isOpen;
+            }
+            // handle button clicks
+            pickerBtn.addEventListener('click', toggle);
+
+            // close open picker via outside clicks
+            document.addEventListener('click', function(evt) {
+                if (isOpen && !evt.target.closest('#picker')) {
+                    toggle();
+                }
+            }, supportsPassive ? { passive: true } : false);
+
+            // if user tabs into list, open it
+            pickerList.addEventListener('focusin', function(evt) {
+                if (!isOpen) {
+                    toggle();
+                }
+            });
+            pickerList.addEventListener('focusout', function(evt) {
+                if (isOpen) {
+                    toggle();
+                }
+            });
+        }
+        setupLangPicker();
+    </script>
 </body>
 </html>
