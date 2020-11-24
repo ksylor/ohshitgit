@@ -56,14 +56,40 @@
     <script src="/prism.js" async></script>
     <script async>
         function setupLangPicker() {
-            const pickerText = document.getElementById('picker-text');
-            const pickerList = document.getElementById('picker-list');
-            const pickerBtn = document.getElementById('picker-btn');
+            // passive event listener polyfill
+            // Test via a getter in the options object to see if the passive property is accessed
+            var supportsPassive = false;
+            try {
+              var opts = Object.defineProperty({}, 'passive', {
+                get: function() {
+                  supportsPassive = true;
+                }
+              });
+              window.addEventListener("testPassive", null, opts);
+              window.removeEventListener("testPassive", null, opts);
+            } catch (e) {}
 
-            pickerBtn.addEventListener('click', function(evt){
-                pickerList.style.width = pickerText.offsetWidth + 'px';
+            var picker = document.getElementById('picker');
+            var pickerText = document.getElementById('picker-text');
+            var pickerList = document.getElementById('picker-list');
+            var pickerBtn = document.getElementById('picker-btn');
+            var isOpen = false;
+
+            function toggle() {
+                if (!isOpen) {
+                    pickerList.style.width = pickerText.scrollWidth + 'px';
+                }
                 pickerBtn.classList.toggle('open');
-            });
+                isOpen = !isOpen;
+            }
+
+            pickerBtn.addEventListener('click', toggle);
+
+            document.addEventListener('click', function(evt) {
+                if (isOpen && !evt.target.closest('#picker')) {
+                    toggle();
+                }
+            }, supportsPassive ? { passive: true } : false);
         }
         setupLangPicker();
     </script>

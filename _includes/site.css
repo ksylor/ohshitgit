@@ -4,6 +4,7 @@ body {
     background-color: #fff;
     line-height: 1.4;
     margin: 0;
+    overflow-x: hidden;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -57,8 +58,8 @@ p {
 .langpicker-text {
     display: inline-block;
     white-space: nowrap;
-    padding-left: .5em;
-    min-width: 10.5em;
+    padding-left: 0.5em;
+    min-width: 10em;
     text-align: left;
 }
 .langpicker-list {
@@ -75,7 +76,7 @@ p {
     border-top: none;
     position: absolute;
     min-height: 100%;
-    min-width: 10.5em;
+    width: 10em;
     z-index: 1000;
 }
 .langpicker-button.open + .langpicker-list {
