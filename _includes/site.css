@@ -49,6 +49,12 @@ p {
     position: relative;
     padding: 0.5em;
     border-right: none;
+    text-align: left;
+    -webkit-appearance: none;
+    position: relative;
+    left: 1px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
 .langpicker-icon{
     height: 2em;
@@ -60,7 +66,7 @@ p {
     white-space: nowrap;
     padding-left: 0.5em;
     min-width: 10em;
-    text-align: left;
+
 }
 .langpicker-list {
     list-style-type:none;
