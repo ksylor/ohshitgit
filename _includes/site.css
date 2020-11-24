@@ -29,35 +29,67 @@ p {
     color: white;
 }
 .langpicker {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0.5em;
-  margin-left: 0.5em;
+    float: right;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    overflow: hidden;
 }
-.langpicker-icon {
-  height: 1.5em;
+.langpicker * {
+    box-sizing: border-box;
 }
-.langpicker a {
-  display: inline-block;
-  padding: 0 0.5em;
-  color: #222;
+.langpicker-button {
+    border: 2px solid #222;
+    background: none;
+    font-size: 1em;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    height: 2.5em;
+    position: relative;
+    padding: 0.5em;
+    border-right: none;
 }
-.langpicker ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.langpicker-icon{
+    height: 2em;
+    width: 1.5em;
+    background: white;
 }
-.langpicker li {
-  display: inline-block;
+.langpicker-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: .5em;
+    min-width: 10.5em;
+    text-align: left;
 }
-.langpicker li:after {
-  content: "|";
+.langpicker-list {
+    list-style-type:none;
+    margin: 0;
+    padding: 0 0 2em 0.5em;
+    transform: translateX(100%);
+    transition: .2s ease-out;
+    top: 0;
+    right: 0;
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #222;
+    border-top: none;
+    position: absolute;
+    min-height: 100%;
+    min-width: 10.5em;
 }
-.langpicker li:last-child:after {
-  content: none;
+.langpicker-button.open + .langpicker-list {
+    transform: translateX(0);
+}
+.langpicker-list li {
+    padding: 0.5em;
+}
+.langpicker-list a {
+    display: inline-block;
+    color: #fff;
 }
 .max-width {
     margin: 1em;
+    clear: both;
 }
 @media screen and (min-width: 680px) {
     .max-width {

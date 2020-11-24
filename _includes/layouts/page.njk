@@ -52,6 +52,20 @@
     </div>
     {% set footer = locale + "/" + contentType + "/" + "partials/footer.njk" %}
     {% include footer %}
-    <script src="/prism.js"></script>
+
+    <script src="/prism.js" async></script>
+    <script async>
+        function setupLangPicker() {
+            const pickerText = document.getElementById('picker-text');
+            const pickerList = document.getElementById('picker-list');
+            const pickerBtn = document.getElementById('picker-btn');
+
+            pickerBtn.addEventListener('click', function(evt){
+                pickerList.style.width = pickerText.offsetWidth + 'px';
+                pickerBtn.classList.toggle('open');
+            });
+        }
+        setupLangPicker();
+    </script>
 </body>
 </html>
