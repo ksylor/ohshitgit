@@ -76,6 +76,7 @@ p {
     position: absolute;
     min-height: 100%;
     min-width: 10.5em;
+    z-index: 1000;
 }
 .langpicker-button.open + .langpicker-list {
     transform: translateX(0);
