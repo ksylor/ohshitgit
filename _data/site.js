@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = function () {
     return {
         "url_swears": "https://ohshitgit.com",
         "url_noswears": "https://dangitgit.com",
@@ -177,9 +177,9 @@ module.exports = function() {
                 "lang": "gr"
             },
             {
-              "name": "Martijn ten Heuvel",
-              "link": "https://github.com/MartijntenHeuvel",
-              "lang": "nl"
+                "name": "Martijn ten Heuvel",
+                "link": "https://github.com/MartijntenHeuvel",
+                "lang": "nl"
             },
             {
                 "name": "Elad Leev",
@@ -247,8 +247,8 @@ module.exports = function() {
                 "lang": "ko"
             },
             {
-                "name": "Myrzabek Azil",
-                "link": "https://github.com/mvrzvbvk",
+                "name": "Zhunisali Shanabek",
+                "link": "https://github.com/zshanabek",
                 "lang": "kz"
             }
         ],
@@ -270,8 +270,12 @@ module.exports = function() {
                 "link": "https://github.com/LucasLarson",
             },
             {
-              "name": "Artem Vorotnikov",
-              "link": "https://github.com/vorot93",
+                "name": "Artem Vorotnikov",
+                "link": "https://github.com/vorot93",
+            },
+            {
+                "name": "Myrzabek Azil",
+                "link": "https://github.com/mvrzvbvk"
             }
         ]
     };
