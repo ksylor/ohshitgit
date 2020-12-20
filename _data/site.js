@@ -276,6 +276,10 @@ module.exports = function () {
             {
                 "name": "Myrzabek Azil",
                 "link": "https://github.com/mvrzvbvk"
+            },
+            {
+                "name": "Aigerim Tulegenova",
+                "link": "https://github.com/atulegenova"
             }
         ]
     };
