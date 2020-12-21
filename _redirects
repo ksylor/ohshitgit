@@ -16,6 +16,14 @@ https://ohshitgit.com/de        https://ohshitgit.com/de/swears/index.html 200!
 https://dangitgit.com/de        https://ohshitgit.com/de/noswears/index.html 200!
 #https://dangitgit.com/de/*      https://dangitgit.com/de 301!
 
+# afrikaans swears
+https://ohshitgit.com/af        https://ohshitgit.com/af/swears/index.html 200!
+#https://ohshitgit.com/af/*      https://ohshitgit.com/af 301!
+
+# afrikaans no swears
+https://dangitgit.com/af        https://ohshitgit.com/af/noswears/index.html 200!
+#https://dangitgit.com/af/*      https://dangitgit.com/af 301!
+
 # russian swears
 https://ohshitgit.com/ru        https://ohshitgit.com/ru/swears/index.html 200!
 #https://ohshitgit.com/ru/*      https://ohshitgit.com/ru 301!
