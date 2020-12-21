@@ -5,6 +5,11 @@ module.exports = function() {
         "copyright": "&copy; 2016-2020 Katie Sylor-Miller",
         "languages": [
             {
+                "label": "afrikaans",
+                "code": "af",
+                "arialabel": "Sien die webblad in ander tale"
+            },
+            {
                 "label": "বাংলা",
                 "code": "bn",
                 "arialabel": "অন্যান্য ভাষায় দেখুন"
@@ -132,6 +137,11 @@ module.exports = function() {
                 "lang": "sv"
             },
             {
+                "name": "Michael Botha",
+                "link": "https://github.com/michaeljabotha",
+                "lang": "af"
+            },
+            {
                 "name": "Moritz Stückler",
                 "link": "https://github.com/pReya",
                 "lang": "de"
@@ -172,9 +182,9 @@ module.exports = function() {
                 "lang": "gr"
             },
             {
-              "name": "Martijn ten Heuvel",
-              "link": "https://github.com/MartijntenHeuvel",
-              "lang": "nl"
+                "name": "Martijn ten Heuvel",
+                "link": "https://github.com/MartijntenHeuvel",
+                "lang": "nl"
             },
             {
                 "name": "Elad Leev",
