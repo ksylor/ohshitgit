@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: A u pičku materinu, sjebo sam nešto i to dobro, molim te reci mi da git ima čarobnu vremeplov mašinu!?!
+title: A u pičku materinu, sjebo sam nešto i to dobro, molim te reci mi da git ima čarobnu vremeplov mašinu‽
 id: magicna-vremeplov-masina
 order: 1
 ---

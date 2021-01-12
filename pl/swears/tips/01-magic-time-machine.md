@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: O kurwa, coś poszło bardzo nie tak, powiedz że Git ma jakiś magiczny wehikuł czasu!?!
+title: O kurwa, coś poszło bardzo nie tak, powiedz że Git ma jakiś magiczny wehikuł czasu‽
 id: magic-time-machine
 order: 1
 ---

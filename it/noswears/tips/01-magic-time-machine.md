@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Dangit, ho fatto una cosa sbagliatissima, ti prego dimmi che git ha una macchina del tempo!?!
+title: Dangit, ho fatto una cosa sbagliatissima, ti prego dimmi che git ha una macchina del tempo‽
 id: macchina-del-tempo
 order: 1
 ---

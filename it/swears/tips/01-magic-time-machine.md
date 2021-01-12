@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, ho fatto una gran cazzata, ti prego dimmi che git ha una macchina del tempo!?!
+title: Oh shit, ho fatto una gran cazzata, ti prego dimmi che git ha una macchina del tempo‽
 id: macchina-del-tempo
 order: 1
 ---

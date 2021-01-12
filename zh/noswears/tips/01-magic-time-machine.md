@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: 噢，糟了，我刚才好像犯了个大错，能不能给我台时光机啊!?!
+title: 噢，糟了，我刚才好像犯了个大错，能不能给我台时光机啊‽
 id: magic-time-machine
 order: 1
 ---

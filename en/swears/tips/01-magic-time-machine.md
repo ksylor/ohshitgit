@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I did something terribly wrong, please tell me git has a magic time machine!?!
+title: Oh shit, I did something terribly wrong, please tell me git has a magic time machine‽
 id: magic-time-machine
 order: 1
 ---

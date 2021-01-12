@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Bokte, napravio sam nešto veoma pogrešno, molim te reci mi da git ima čarobnu vremeplov mašinu!?!
+title: Bokte, napravio sam nešto veoma pogrešno, molim te reci mi da git ima čarobnu vremeplov mašinu‽
 id: magicna-vremeplov-masina
 order: 1
 ---

@@ -1,6 +1,6 @@
-# The official home of Oh Shit, Git!?!
+# The official home of Oh Shit, Git‽
 https://ohshitgit.com/
-(and the swear-free version at Dangit, Git!?!
+(and the swear-free version at Dangit, Git‽
 https://dangitgit.com/
 
 # Contributing guidelines

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oeps, ik maakte het enorm kapot, alsjeblieft, zeg me dat git een teletijdmachine heeft!?!
+title: Oeps, ik maakte het enorm kapot, alsjeblieft, zeg me dat git een teletijdmachine heeft‽
 id: magic-time-machine
 order: 1
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, ich habe etwas komplett verkackt! Bitte sag mir, dass git eine magische Zeitmaschine eingebaut hat!?!
+title: Oh shit, ich habe etwas komplett verkackt! Bitte sag mir, dass git eine magische Zeitmaschine eingebaut hat‽
 id: magische-zeitmaschine
 order: 1
 ---

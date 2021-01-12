@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: För sjuttsingen, jag gjorde något riktigt dåligt, snälla säg att git har en magisk tidsmaskin!?!
+title: För sjuttsingen, jag gjorde något riktigt dåligt, snälla säg att git har en magisk tidsmaskin‽
 id: magic-time-machine
 order: 1
 ---

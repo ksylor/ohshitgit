@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Merda, eu caguei tudo. Por favor, me diz que o git tem uma máquina do tempo mágica?!?!
+title: Merda, eu caguei tudo. Por favor, me diz que o git tem uma máquina do tempo mágica?‽
 id: maquina-do-tempo-magica
 order: 1
 ---

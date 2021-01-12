@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Pisici, am făcut ceva foarte prost, te rog spune-mi că gitul are o mașină magică a timpului!?!
+title: Pisici, am făcut ceva foarte prost, te rog spune-mi că gitul are o mașină magică a timpului‽
 id: magic-time-machine
 order: 1
 ---

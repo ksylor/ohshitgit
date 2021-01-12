@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Zut, j'ai fait un truc horrible, par pitié dites-moi que git peut voyager dans le temps&nbsp;!?!
+title: Zut, j'ai fait un truc horrible, par pitié dites-moi que git peut voyager dans le temps&nbsp;‽
 id: magic-time-machine
 order: 1
 ---

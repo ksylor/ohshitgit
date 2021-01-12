@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Kut, alles is kapot, alsjeblieft, zeg me dat git een teletijdmachine heeft!?!
+title: Kut, alles is kapot, alsjeblieft, zeg me dat git een teletijdmachine heeft‽
 id: magic-time-machine
 order: 1
 ---

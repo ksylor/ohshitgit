@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Dangit, hice algo terriblemente mal, por favor dime que git tiene una maquina del tiempo mágica!?!
+title: Dangit, hice algo terriblemente mal, por favor dime que git tiene una maquina del tiempo mágica‽
 id: maquina-del-tiempo-magica
 order: 1
 ---

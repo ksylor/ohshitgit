@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Kahretsin, çok yanlış bişey yaptım, git'in bunu geri alacak bir zaman makinası var de bana, n'olur!?!
+title: Kahretsin, çok yanlış bişey yaptım, git'in bunu geri alacak bir zaman makinası var de bana, n'olur‽
 id: magic-time-machine
 order: 1
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Hassktir, çok boktan bişey yaptım, git'in bunu geri alacak bir zaman makinası var de bana, n'olur!?!
+title: Hassktir, çok boktan bişey yaptım, git'in bunu geri alacak bir zaman makinası var de bana, n'olur‽
 id: magic-time-machine
 order: 1
 ---

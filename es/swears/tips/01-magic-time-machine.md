@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, hice algo terriblemente mal, por favor dime que git tiene una maquina del tiempo mágica!?!
+title: Oh shit, hice algo terriblemente mal, por favor dime que git tiene una maquina del tiempo mágica‽
 id: maquina-del-tiempo-magica
 order: 1
 ---

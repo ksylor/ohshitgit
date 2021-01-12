@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Waduh, Saya telah melakukan hal yang teramat salah, tolong beri tahu Saya kalau git memiliki mesin waktu ajaib!?!
+title: Waduh, Saya telah melakukan hal yang teramat salah, tolong beri tahu Saya kalau git memiliki mesin waktu ajaib‽
 id: mesin-waktu-ajaib
 order: 1
 ---
