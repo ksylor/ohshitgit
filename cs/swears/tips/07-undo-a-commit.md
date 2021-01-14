@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Do hajzlu, potřebuju vrátit zpět zpět 5 minut starý commit!
+title: Do hajzlu, potřebuju vrátit zpět 5 minut starý commit!
 id: undo-a-commit
 order: 7
 ---
