@@ -5,7 +5,7 @@ module.exports = function(config) {
     return new CleanCSS({}).minify(code).styles;
   });
 
-  config.addPassthroughCopy({ assets: "/" });
+  config.addPassthroughCopy({ "_assets": "/" });
   config.addPassthroughCopy("_redirects");
 
   /** get the aria label for the language picker for the current locale **/
