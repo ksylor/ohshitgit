@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #222;
     background-color: #fff;
     line-height: 1.4;
@@ -13,8 +13,13 @@ body {
     overflow-x: hidden;
     position: relative;
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
 h1 {
@@ -27,18 +32,20 @@ h2 {
 p {
     margin: 1em 0;
 }
-.notice, footer {
+.notice,
+footer {
     padding: 1em;
     background: #222;
     color: white;
     text-align: center;
 }
-.notice a, footer a {
+.notice a,
+footer a {
     color: white;
 }
 .langpicker {
     float: right;
-    margin-top: .5em;
+    margin-top: 0.5em;
     margin-bottom: 2em;
     overflow: hidden;
 }
@@ -50,7 +57,7 @@ p {
     background: none;
     font-size: 1em;
     display: flex;
-    align-items:center;
+    align-items: center;
     cursor: pointer;
     height: 2.5em;
     position: relative;
@@ -61,9 +68,9 @@ p {
     position: relative;
     left: 2px;
     text-align: left;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
-.langpicker-icon{
+.langpicker-icon {
     height: 2em;
     width: 1.5em;
     transition: 0.2s transform;
@@ -78,14 +85,13 @@ p {
     white-space: nowrap;
     padding-left: 0.5em;
     min-width: 10em;
-
 }
 .langpicker-list {
-    list-style-type:none;
+    list-style-type: none;
     margin: 0;
     padding: 0 0 2em 0.5em;
     transform: translateX(100%);
-    transition: .2s ease-out;
+    transition: 0.2s ease-out;
     top: 0;
     right: 0;
     background-color: #222;
@@ -165,12 +171,12 @@ p {
 .twitter-icon {
     height: 13px;
     vertical-align: middle;
-    margin-left: .25em;
+    margin-left: 0.25em;
 }
 .github-icon {
     height: 16px;
     vertical-align: middle;
-    margin-right: .25em;
+    margin-right: 0.25em;
 }
 footer {
     display: flex;
@@ -184,82 +190,83 @@ footer {
     .copyright {
         order: 0;
     }
-    .contact, .twitter {
+    .contact,
+    .twitter {
         order: 1;
         margin-left: 1em;
     }
 }
 
 #carbonads {
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  margin-left: -160px;
-  max-width: 130px;
-  text-align: right;
-  font-size: 14px;
-  line-height: 1.5;
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    margin-left: -160px;
+    max-width: 130px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
 }
 #carbonads a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 #carbonads a:hover {
-  color: inherit;
+    color: inherit;
 }
 #carbonads span {
-  display: block;
-  overflow: hidden;
+    display: block;
+    overflow: hidden;
 }
 .carbon-img {
-  display: block;
-  margin: 0 auto 8px;
-  line-height: 1;
+    display: block;
+    margin: 0 auto 8px;
+    line-height: 1;
 }
 .carbon-text {
-  display: block;
-  margin-bottom: 8px;
+    display: block;
+    margin-bottom: 8px;
 }
 .carbon-poweredby {
-  display: block;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 10px;
-  line-height: 1;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10px;
+    line-height: 1;
 }
 @media only screen and (min-width: 320px) and (max-width: 679px) {
-  #carbonads {
-    position: relative;
-    float: none;
-    margin: 0 auto;
-    padding: 10px;
-    max-width: 330px;
-    border: solid 1px #8f8f8f;
-    text-align: left;
-  }
-  #carbonads span {
-    position: relative;
-  }
-  #carbonads > span {
-    max-width: none;
-  }
-  .carbon-img {
-    float: left;
-    margin: 0 1em 0 0;
-  }
-  .carbon-text {
-    float: left;
-    margin-bottom: 0;
-    max-width: calc(100% - 130px - 1em);
-  }
-  .carbon-poweredby {
-    position: absolute;
-    bottom: 0;
-    left: 144px;
-    display: block;
-  }
+    #carbonads {
+        position: relative;
+        float: none;
+        margin: 0 auto;
+        padding: 10px;
+        max-width: 330px;
+        border: solid 1px #8f8f8f;
+        text-align: left;
+    }
+    #carbonads span {
+        position: relative;
+    }
+    #carbonads > span {
+        max-width: none;
+    }
+    .carbon-img {
+        float: left;
+        margin: 0 1em 0 0;
+    }
+    .carbon-text {
+        float: left;
+        margin-bottom: 0;
+        max-width: calc(100% - 130px - 1em);
+    }
+    .carbon-poweredby {
+        position: absolute;
+        bottom: 0;
+        left: 144px;
+        display: block;
+    }
 }
 
 .rtl {
-  direction: rtl;
+    direction: rtl;
 }
