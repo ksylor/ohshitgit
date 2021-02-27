@@ -78,7 +78,7 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 .token.prolog,
 .token.doctype,
 .token.cdata {
-	color: hsl(0, 0%, 47%); /* #777777 */
+	color: hsl(0, 0%, 60%); 
 }
 
 .token.punctuation {
