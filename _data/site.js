@@ -35,6 +35,11 @@ module.exports = function() {
                 "arialabel": "Choisir une autre langue"
             },
             {
+                "label": "हिन्दी",
+                "code": "hi",
+                "arialabel": "अन्य भाषाओं में देखें"
+            },
+            {
                 "label": "italiano",
                 "code": "it",
                 "arialabel": "Vedi in altre lingue"
@@ -225,6 +230,11 @@ module.exports = function() {
                 "name": "Rahul Dahal",
                 "link": "https://github.com/rahuldahal",
                 "lang": "ne"
+            },
+            {
+                "name": "Aryan Sarkar",
+                "link": "https://github.com/aryansarkar13",
+                "lang": "hi"
             },
             {
                 "name": "Taha Paksu",
