@@ -94,20 +94,7 @@ The following commands will all need to be run in a terminal/command line prompt
 ],
 ```
 
-9. Now this next part is kinda shitty and I want to make it so you don't have to do this manually! But, for now, the final thing we need to do is add the new language tip collection to the `.eleventy.js` configuration file. This is what tells Eleventy which files to group together for display on the main page. We'll need to add two new collections, one for the swear-filled version, and another for the non-swears version. Make sure you add the following lines inside the `module.exports(function(config) { ... });` block - replace the uses of `en` with your language code!
-
-```
-// replace uses of "en" with your language code!
-config.addCollection('tips_swears_en', function(collection) {
-    return getTipCollection(collection, "swears", "en");
-});
-
-config.addCollection('tips_noswears_en', function(collection) {
-    return getTipCollection(collection, "noswears", "en");
-});
-```
-
-10. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
+9. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
 
 11. Add 4 new redirect rules to the `_redirects` file that will tell Netlify the proper file to load for each language code in the URL, and then redirect any other paths to the main url. Yours should go underneath the other redirects and in this same format:
 
