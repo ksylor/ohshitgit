@@ -1,8 +1,17 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #222;
+    background-color: #fff;
     line-height: 1.4;
     margin: 0;
+    min-height: 100%;
+    position: relative;
+}
+.prevent-safari-overflow-scroll {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -28,35 +37,79 @@ p {
     color: white;
 }
 .langpicker {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0.5em;
-  margin-left: 0.5em;
+    float: right;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    overflow: hidden;
 }
-.langpicker-icon {
-  height: 1.5em;
+.langpicker * {
+    box-sizing: border-box;
 }
-.langpicker a {
-  display: inline-block;
-  padding: 0 0.5em;
-  color: #222;
+.langpicker-button {
+    border: 2px solid #222;
+    background: none;
+    font-size: 1em;
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    height: 2.5em;
+    position: relative;
+    padding: 0.5em;
+    border-right: none;
+    text-align: left;
+    -webkit-appearance: none;
+    position: relative;
+    left: 2px;
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }
-.langpicker ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.langpicker-icon{
+    height: 2em;
+    width: 1.5em;
+    transition: 0.2s transform;
 }
-.langpicker li {
-  display: inline-block;
+.langpicker-button:hover .langpicker-icon,
+.langpicker-button:active .langpicker-icon,
+.langpicker-button:focus .langpicker-icon {
+    transform: rotate(135deg);
 }
-.langpicker li:after {
-  content: "|";
+.langpicker-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 0.5em;
+    min-width: 10em;
+
 }
-.langpicker li:last-child:after {
-  content: none;
+.langpicker-list {
+    list-style-type:none;
+    margin: 0;
+    padding: 0 0 2em 0.5em;
+    transform: translateX(100%);
+    transition: .2s ease-out;
+    top: 0;
+    right: 0;
+    background-color: #222;
+    color: #fff;
+    border: 2px solid #222;
+    border-top: none;
+    position: absolute;
+    min-height: 100%;
+    width: 10em;
+    z-index: 1000;
+}
+.langpicker-button.open + .langpicker-list {
+    transform: translateX(0);
+}
+.langpicker-list li {
+    padding: 0.5em;
+}
+.langpicker-list a {
+    display: inline-block;
+    color: #fff;
 }
 .max-width {
     margin: 1em;
+    clear: both;
 }
 @media screen and (min-width: 680px) {
     .max-width {

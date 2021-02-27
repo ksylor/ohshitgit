@@ -1,0 +1,23 @@
+# Contributing
+
+Thank you for your interest in contributing to Oh, Shit, Git! 
+
+Note that I will only accept PRs for language translations (e.g. translating the site into a new language) or fixes to typos. 
+
+If you have ideas for new content or thoughts on how to improve existing content, please open an Issue first so that we can discuss it. 
+
+This site is my copyrighted content and my decisions whether or not to make any suggested changes are final. 
+
+## Pull Request Process for Language Translations
+
+1. Once your PR is submitted, Netlify will auto-generate a deploy preview where you can confirm your changes, please make sure that everything is in order for both the swears and noswears versions.
+2. I will review the PR and confirm that everything is in order in the deploy preview, and request any changes if necessary.
+3. I will merge in the PR once all comments and changes are addressed.
+
+## Code of Conduct
+
+Please follow the guidelines for acceptable behavior as outlined in the [Contributor Covenant][homepage], version 1.4,
+available at [http://contributor-covenant.org/version/1/4][version]
+
+[homepage]: http://contributor-covenant.org
+[version]: http://contributor-covenant.org/version/1/4/
