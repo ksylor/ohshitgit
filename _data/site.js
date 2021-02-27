@@ -134,6 +134,11 @@ module.exports = function() {
                 "code": "ko",
                 "arialabel": "다른 언어로 보기"
             },
+            {
+                "label": "kazakh",
+                "code": "kk",
+                "arialabel": "Басқа тілді таңдау"
+            }
         ],
         "collaborators": [
             {
@@ -260,6 +265,11 @@ module.exports = function() {
                 "name": "Gyeongjae Choi",
                 "link": "https://github.com/ryanking13",
                 "lang": "ko"
+            },
+            {
+                "name": "Zhunisali Shanabek",
+                "link": "https://github.com/zshanabek",
+                "lang": "kk"
             }
         ],
         "otherhelpers": [
@@ -280,8 +290,12 @@ module.exports = function() {
                 "link": "https://github.com/LucasLarson",
             },
             {
-              "name": "Artem Vorotnikov",
-              "link": "https://github.com/vorot93",
+                "name": "Artem Vorotnikov",
+                "link": "https://github.com/vorot93",
+            },
+            {
+                "name": "Myrzabek Azil",
+                "link": "https://github.com/mvrzvbvk"
             }
         ]
     };
