@@ -10,9 +10,10 @@ This site is my copyrighted content and my decisions whether or not to make any 
 
 ## Pull Request Process for Language Translations
 
-1. Once your PR is submitted, Netlify will auto-generate a deploy preview where you can confirm your changes, please make sure that everything is in order for both the swears and noswears versions.
-2. I will review the PR and confirm that everything is in order in the deploy preview, and request any changes if necessary.
-3. I will merge in the PR once all comments and changes are addressed.
+1. Follow the instructions in the [README](https://github.com/ksylor/ohshitgit/blob/master/README.md) to create a new language, then open a PR.
+2. Once your PR is submitted, Netlify will auto-generate a deploy preview where you can confirm your changes, please make sure that everything is in order for both the swears and noswears versions.
+3. I will review the PR and confirm that everything is in order in the deploy preview, and request any changes if necessary.
+4. I will merge in the PR once all comments and changes are addressed.
 
 ## Code of Conduct
 
