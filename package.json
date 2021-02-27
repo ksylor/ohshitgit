@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ksylor/ohshitgit#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0"
+    "@11ty/eleventy": "^0.11.1"
   },
   "dependencies": {
     "clean-css": "^4.2.1"
