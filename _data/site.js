@@ -1,4 +1,4 @@
-module.exports = function () {
+module.exports = function() {
     return {
         "url_swears": "https://ohshitgit.com",
         "url_noswears": "https://dangitgit.com",
@@ -131,7 +131,7 @@ module.exports = function () {
             },
             {
                 "label": "kazakh",
-                "code": "kz",
+                "code": "kk",
                 "arialabel": "Басқа тілді таңдау"
             }
         ],
@@ -259,7 +259,7 @@ module.exports = function () {
             {
                 "name": "Zhunisali Shanabek",
                 "link": "https://github.com/zshanabek",
-                "lang": "kz"
+                "lang": "kk"
             }
         ],
         "otherhelpers": [
@@ -286,10 +286,6 @@ module.exports = function () {
             {
                 "name": "Myrzabek Azil",
                 "link": "https://github.com/mvrzvbvk"
-            },
-            {
-                "name": "Aigerim Tulegenova",
-                "link": "https://github.com/atulegenova"
             }
         ]
     };
