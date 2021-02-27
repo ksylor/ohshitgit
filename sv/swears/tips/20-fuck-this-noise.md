@@ -16,7 +16,7 @@ cd dumma-git-repo-katalog
 Tack till Eric V. för denna. Alla klagomål om `sudo` i detta skämtet kan riktas mot honom. 
 
 
-Men allvarligt talat, om din branch är sååå trasig att du behöver nollställa ditt repos tillstånd till att bli smamma som repot som är remote på ett "git-godkänt" sätt, försök med detta, men bemärk att dessa är destruktiva och oåterkalleliga kommandon!
+Men allvarligt talat, om din branch är sååå trasig att du behöver nollställa ditt repos tillstånd till att bli samma som repot som är remote på ett "git-godkänt" sätt, försök med detta, men bemärk att dessa är destruktiva och oåterkalleliga kommandon!
 
 ```git
 # hämta senaste tillstånd från origin

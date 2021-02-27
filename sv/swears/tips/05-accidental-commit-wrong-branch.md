@@ -12,7 +12,8 @@ git stash
 # flytta till rätt branch
 git checkout namnet-av-rätt-branch
 git stash pop
-git add . # eller lägg till individuella filer
+git add . 
+# eller lägg till individuella filer
 git commit -m "ditt meddelande här"
 # nu finns dina ändringar på rätt branch
 ```
