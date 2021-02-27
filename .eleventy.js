@@ -63,6 +63,15 @@ module.exports = function(config) {
     return getTipCollection(collection, "noswears", "de");
   });
 
+  // Afrikaans language version
+  config.addCollection("tips_swears_af", function(collection) {
+    return getTipCollection(collection, "swears", "af");
+  });
+
+  config.addCollection('tips_noswears_af', function (collection) {
+    return getTipCollection(collection, "noswears", "af");
+  });
+
   // Russian language version
   config.addCollection('tips_swears_ru', function(collection) {
       return getTipCollection(collection, "swears", "ru");
