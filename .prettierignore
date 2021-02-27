@@ -1,0 +1,6 @@
+package.json
+node_modules
+_site
+_assets
+*.md
+*.html
