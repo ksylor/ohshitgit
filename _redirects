@@ -1,216 +1,217 @@
 # english swears
 https://ohshitgit.com/          https://ohshitgit.com/en/swears/index.html 200!
 https://ohshitgit.com/en        https://ohshitgit.com/en/swears/index.html 200!
-#https://ohshitgit.com/en/*      https://ohshitgit.com/en 301!
+https://ohshitgit.com/          302  Language=en
 
 # english no swears
 https://dangitgit.com/          https://ohshitgit.com/en/noswears/index.html 200!
 https://dangitgit.com/en        https://ohshitgit.com/en/noswears/index.html 200!
-#https://dangitgit.com/en/*      https://dangitgit.com/en 301!
+https://dangitgit.com/          302  Language=en
 
 # german swears
 https://ohshitgit.com/de        https://ohshitgit.com/de/swears/index.html 200!
-#https://ohshitgit.com/de/*      https://ohshitgit.com/de 301!
+https://ohshitgit.com/de        302  Language=de
 
 # german no swears
 https://dangitgit.com/de        https://ohshitgit.com/de/noswears/index.html 200!
-#https://dangitgit.com/de/*      https://dangitgit.com/de 301!
+https://dangitgit.com/de        302  Language=de
 
 # afrikaans swears
 https://ohshitgit.com/af        https://ohshitgit.com/af/swears/index.html 200!
-#https://ohshitgit.com/af/*      https://ohshitgit.com/af 301!
+https://ohshitgit.com/af        302  Language=af
 
 # afrikaans no swears
 https://dangitgit.com/af        https://ohshitgit.com/af/noswears/index.html 200!
-#https://dangitgit.com/af/*      https://dangitgit.com/af 301!
+https://dangitgit.com/af        302  Language=af
 
 # russian swears
 https://ohshitgit.com/ru        https://ohshitgit.com/ru/swears/index.html 200!
-#https://ohshitgit.com/ru/*      https://ohshitgit.com/ru 301!
+https://ohshitgit.com/ru        302  Language=ru
 
 # russian no swears
 https://dangitgit.com/ru        https://ohshitgit.com/ru/noswears/index.html 200!
-#https://dangitgit.com/ru/*      https://dangitgit.com/ru 301!
+https://dangitgit.com/ru        302  Language=ru
 
 # polish swears
 https://ohshitgit.com/pl        https://ohshitgit.com/pl/swears/index.html 200!
-#https://ohshitgit.com/pl/*      https://ohshitgit.com/pl 301!
+https://ohshitgit.com/pl        302  Language=pl
 
 # polish no swears
 https://dangitgit.com/pl        https://ohshitgit.com/pl/noswears/index.html 200!
-#https://dangitgit.com/pl/*      https://dangitgit.com/pl 301!
+https://dangitgit.com/pl        302  Language=pl
 
 # italian swears
 https://ohshitgit.com/it        https://ohshitgit.com/it/swears/index.html 200!
-#https://ohshitgit.com/it/*      https://ohshitgit.com/it 301!
+https://ohshitgit.com/it        302  Language=it
 
 # italian no swears
 https://dangitgit.com/it        https://dangitgit.com/it/noswears/index.html 200!
-#https://dangitgit.com/it/*      https://dangitgit.com/it 301!
+https://dangitgit.com/it        302  Language=it
 
 # french swears
 https://ohshitgit.com/fr        https://ohshitgit.com/fr/swears/index.html 200!
-#https://ohshitgit.com/fr/*      https://ohshitgit.com/fr 301!
+https://ohshitgit.com/fr        302  Language=fr
 
 # french no swears
 https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200!
-#https://dangitgit.com/fr/*      https://dangitgit.com/fr 301!
+https://dangitgit.com/fr        302  Language=fr
 
 # japanese swears
 https://ohshitgit.com/ja        https://ohshitgit.com/ja/swears/index.html 200!
-#https://ohshitgit.com/ja/*      https://ohshitgit.com/ja 301!
+https://ohshitgit.com/ja        302  Language=ja
 
 # japanese no swears
 https://dangitgit.com/ja        https://dangitgit.com/ja/noswears/index.html 200!
-#https://dangitgit.com/ja/*      https://dangitgit.com/ja 301!
+https://dangitgit.com/ja        302  Language=ja
 
 # greek swears
 https://ohshitgit.com/gr        https://ohshitgit.com/gr/swears/index.html 200!
-#https://ohshitgit.com/gr/*      https://ohshitgit.com/gr 301!
+https://ohshitgit.com/gr        302  Language=gr
 
 # greek no swears
 https://dangitgit.com/gr        https://dangitgit.com/gr/noswears/index.html 200!
-#https://dangitgit.com/gr/*      https://dangitgit.com/gr 301!
+https://dangitgit.com/gr        302  Language=gr
 
 # dutch swears
 https://ohshitgit.com/nl        https://ohshitgit.com/nl/swears/index.html 200!
-#https://ohshitgit.com/nl/*      https://ohshitgit.com/nl 301!
+https://ohshitgit.com/nl        302  Language=nl
 
 # dutch no swears
 https://dangitgit.com/nl        https://dangitgit.com/nl/noswears/index.html 200!
-#https://dangitgit.com/nl/*      https://dangitgit.com/nl 301!
+https://dangitgit.com/nl        302  Language=nl
 
 # hebrew swears
 https://ohshitgit.com/he        https://ohshitgit.com/he/swears/index.html 200!
-#https://ohshitgit.com/he/*      https://ohshitgit.com/he 301!
+https://ohshitgit.com/he        302  Language=he
 
 # hebrew no swears
 https://dangitgit.com/he        https://dangitgit.com/he/noswears/index.html 200!
-#https://dangitgit.com/he/*      https://dangitgit.com/he 301!
+https://dangitgit.com/he        302  Language=hr
 
 # spanish swears
 https://ohshitgit.com/es        https://ohshitgit.com/es/swears/index.html 200!
-#https://ohshitgit.com/es/*      https://ohshitgit.com/es 301!
+https://ohshitgit.com/es        302  Language=es
 
 # spanish no swears
 https://dangitgit.com/es        https://dangitgit.com/es/noswears/index.html 200!
-#https://dangitgit.com/es/*      https://dangitgit.com/es 301!
+https://dangitgit.com/es        302  Language=es
 
 # romanian swears
 https://ohshitgit.com/ro        https://ohshitgit.com/ro/swears/index.html 200!
-#https://ohshitgit.com/ro/*      https://ohshitgit.com/ro 301!
+https://ohshitgit.com/ro        302  Language=ro
 
 # romanian no swears
 https://dangitgit.com/ro        https://dangitgit.com/ro/noswears/index.html 200!
-#https://dangitgit.com/ro/*      https://dangitgit.com/ro 301!
+https://dangitgit.com/ro        302  Language=ro
 
 # ukrainian swears
 https://ohshitgit.com/ua        https://ohshitgit.com/ua/swears/index.html 200!
-#https://ohshitgit.com/ua/*      https://ohshitgit.com/ua 301!
+https://ohshitgit.com/ua        302  Language=ua
 
 # ukrainian no swears
 https://dangitgit.com/ua        https://dangitgit.com/ua/noswears/index.html 200!
-#https://dangitgit.com/ua/*      https://dangitgit.com/ua 301!
+https://dangitgit.com/ua        302  Language=ua
 
-# brazilian portuguese swears
-https://ohshitgit.com/pt_BR        https://ohshitgit.com/pt_BR/swears/index.html 200!
-#https://ohshitgit.com/pt_BR/*      https://ohshitgit.com/pt_BR 301!
+# brazilian portuguese swears - use the country redirect instead of language
+https://ohshitgit.com/pt_BR     https://ohshitgit.com/pt_BR/swears/index.html 200!
+https://ohshitgit.com/pt_BR     302  Country=br
 
 # brazilian portuguese no swears
-https://dangitgit.com/pt_BR        https://dangitgit.com/pt_BR/noswears/index.html 200!
-#https://dangitgit.com/pt_BR/*      https://dangitgit.com/pt_BR 301!
+https://dangitgit.com/pt_BR     https://dangitgit.com/pt_BR/noswears/index.html 200!
+#https://dangitgit.com/pt_BR    302  Country=br
 
 # serbian swears
 https://ohshitgit.com/sr        https://ohshitgit.com/sr/swears/index.html 200!
-#https://ohshitgit.com/sr/*      https://ohshitgit.com/sr 301!
+https://ohshitgit.com/sr        302  Language=sr
 
 # serbian no swears
 https://dangitgit.com/sr        https://dangitgit.com/sr/noswears/index.html 200!
-#https://dangitgit.com/sr/*      https://dangitgit.com/sr 301!
+https://dangitgit.com/sr        302  Language=sr
 
 # thai swears
 https://ohshitgit.com/th        https://ohshitgit.com/th/swears/index.html 200!
-#https://ohshitgit.com/th/*      https://ohshitgit.com/th 301!
+https://ohshitgit.com/th        302  Language=th
 
 # thai no swears
 https://dangitgit.com/th        https://dangitgit.com/th/noswears/index.html 200!
-#https://dangitgit.com/th/*      https://dangitgit.com/th 301!
+https://dangitgit.com/th        302  Language=th
 
 # chinese swears
 https://ohshitgit.com/zh        https://ohshitgit.com/zh/swears/index.html 200!
-#https://ohshitgit.com/zh/*      https://ohshitgit.com/zh 301!
+https://ohshitgit.com/zh        302  Language=zh
 
 # chinese no swears
 https://dangitgit.com/zh        https://dangitgit.com/zh/noswears/index.html 200!
-#https://dangitgit.com/zh/*      https://dangitgit.com/zh 301!
+https://dangitgit.com/zh        302  Language=zh
 
 # czech swears
 https://ohshitgit.com/cs        https://ohshitgit.com/cs/swears/index.html 200!
-#https://ohshitgit.com/cs/*      https://ohshitgit.com/cs 301!
+https://ohshitgit.com/cs        302  Language=cs
 
 # czech no swears
 https://dangitgit.com/cs        https://dangitgit.com/cs/noswears/index.html 200!
-#https://dangitgit.com/cs/*      https://dangitgit.com/cs 301!
+https://dangitgit.com/cs        302  Language=cs
 
 # bahasa indonesia swears
 https://ohshitgit.com/id        https://ohshitgit.com/id/swears/index.html 200!
-#https://ohshitgit.com/id/*      https://ohshitgit.com/id 301!
+https://ohshitgit.com/id        302  Language=id
 
 # bahasa indonesia no swears
 https://dangitgit.com/id        https://dangitgit.com/id/noswears/index.html 200!
+https://dangitgit.com/id        302  Language=id
 
 # bangla swears
 https://ohshitgit.com/bn        https://ohshitgit.com/bn/swears/index.html 200!
-#https://ohshitgit.com/bn/*      https://ohshitgit.com/bn 301!
+https://ohshitgit.com/bn        302  Language=bn
 
 # bangla no swears
 https://dangitgit.com/bn        https://dangitgit.com/bn/noswears/index.html 200!
-#https://dangitgit.com/bn/*      https://dangitgit.com/bn 301!
+https://dangitgit.com/bn        302  Language=bn
 
 # nepali swears
 https://ohshitgit.com/ne        https://ohshitgit.com/ne/swears/index.html 200!
-#https://ohshitgit.com/ne/*      https://ohshitgit.com/ne 301!
+https://ohshitgit.com/ne        302  Language=ne
 
 # nepali no swears
 https://dangitgit.com/ne        https://dangitgit.com/ne/noswears/index.html 200!
-#https://dangitgit.com/ne/*      https://dangitgit.com/ne 301!
+https://dangitgit.com/ne        302  Language=ne
 
 # hindi swears
 https://ohshitgit.com/hi        https://ohshitgit.com/hi/swears/index.html 200!
-#https://ohshitgit.com/hi/*      https://ohshitgit.com/hi 301!
+https://ohshitgit.com/hi        302  Language=hi
 
 # hindi no swears
 https://dangitgit.com/hi        https://dangitgit.com/hi/noswears/index.html 200!
-#https://dangitgit.com/hi/*      https://dangitgit.com/hi 301!
+https://dangitgit.com/hi        302  Language=hi
 
 # swedish swears
 https://ohshitgit.com/sv        https://ohshitgit.com/sv/swears/index.html 200!
-#https://ohshitgit.com/sv/*      https://ohshitgit.com/sv 301!
+https://ohshitgit.com/sv        302  Language=sv
 
 # swedish no swears
 https://dangitgit.com/sv        https://dangitgit.com/sv/noswears/index.html 200!
-#https://dangitgit.com/sv/*      https://dangitgit.com/sv 301!
+https://dangitgit.com/sv        302  Language=sv
 
 # turkish swears
 https://ohshitgit.com/tr        https://ohshitgit.com/tr/swears/index.html 200!
-#https://ohshitgit.com/tr/*      https://ohshitgit.com/tr 301!
+https://ohshitgit.com/tr        302  Language=tr
 
 # turkish no swears
 https://dangitgit.com/tr        https://dangitgit.com/tr/noswears/index.html 200!
-#https://dangitgit.com/tr/*      https://dangitgit.com/tr 301!
+https://dangitgit.com/tr        302  Language=tr
 
 # korean swears
 https://ohshitgit.com/ko        https://ohshitgit.com/ko/swears/index.html 200!
-#https://ohshitgit.com/ko/*      https://ohshitgit.com/ko 301!
+https://ohshitgit.com/ko        302  Language=ko
 
 # korean no swears
 https://dangitgit.com/ko        https://dangitgit.com/ko/noswears/index.html 200!
-#https://dangitgit.com/ko/*      https://dangitgit.com/ko 301!
+https://dangitgit.com/ko        302  Language=ko
 
 # kazakh swears
 https://ohshitgit.com/kk        https://ohshitgit.com/kk/swears/index.html 200!
-#https://ohshitgit.com/kk/*      https://ohshitgit.com/kk 301!
+https://ohshitgit.com/kk        302  Language=kk
 
 # kazakh no swears
 https://dangitgit.com/kk        https://dangitgit.com/kk/noswears/index.html 200!
-#https://dangitgit.com/kk/*      https://dangitgit.com/kk 301!
+https://dangitgit.com/kk        302  Language=kk
