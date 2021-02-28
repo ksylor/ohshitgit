@@ -141,7 +141,7 @@ module.exports = {
         {
             label: "persian",
             code: "fa",
-            arialabel: "در زبان های دیگر ببینید"
+            arialabel: "در زبان های دیگر ببینید",
         },
     ],
     collaborators: [
@@ -278,7 +278,7 @@ module.exports = {
         {
             name: "Hamid Moheb",
             link: "https://github.com/hamidmoheb1",
-            lang: "fa"
+            lang: "fa",
         },
     ],
     otherhelpers: [
