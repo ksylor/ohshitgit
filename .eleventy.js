@@ -55,4 +55,17 @@ module.exports = function (config) {
                 });
         }
     );
+
+    config.addNunjucksFilter("sort_by_language", function (list) {
+        return list.sort(function (a, b) {
+            langA = a.lang || a.code;
+            langB = b.lang || b.code;
+            if (langA < langB) {
+                return -1;
+            }
+            if (langA > langB) {
+                return 1;
+            }
+        });
+    });
 };

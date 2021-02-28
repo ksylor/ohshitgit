@@ -1,5 +1,5 @@
 {% if site.collaborators.length > 0 %}
-    {% for collab in site.collaborators %}
+    {% for collab in site.collaborators | sort(false, false, "lang") %}
         {% collaborator_info collab %}{% if loop.last === false %} &middot; {% endif %}
     {% endfor %}
 {% endif %}
