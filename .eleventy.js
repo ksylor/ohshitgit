@@ -21,7 +21,9 @@ module.exports = function (config) {
     );
 
     config.addNunjucksShortcode("collaborator_info", function (collaborator) {
-        return `<a href="${collaborator.link}">${collaborator.name}</a> (<a href="/${collaborator.lang}">${collaborator.lang}</a>)`;
+        return `<a href="${collaborator.link}">
+          ${collaborator.name}
+          </a> (<a href="/${collaborator.lang}">${collaborator.lang}</a>)`;
     });
 
     config.addNunjucksShortcode("otherhelpers_info", function (helper) {
@@ -38,12 +40,19 @@ module.exports = function (config) {
         return `<a href="https://github.com/ksylor/ohshitgit" class="no-wrap">${svg}GitHub</a>`;
     });
 
-    config.addNunjucksFilter("tips_by_language", function(allTips, contentType, lang){
-      const pathRegex = new RegExp(lang + "/" + contentType + "/tips/.*\.md");
-      return allTips.filter(function(tip){
-        return tip.inputPath.match(pathRegex);
-      }).sort(function(a, b){
-        return a.data.order - b.data.order;
-      });
-    });
+    config.addNunjucksFilter(
+        "tips_by_language",
+        function (allTips, contentType, lang) {
+            const pathRegex = new RegExp(
+                lang + "/" + contentType + "/tips/.*.md"
+            );
+            return allTips
+                .filter(function (tip) {
+                    return tip.inputPath.match(pathRegex);
+                })
+                .sort(function (a, b) {
+                    return a.data.order - b.data.order;
+                });
+        }
+    );
 };
