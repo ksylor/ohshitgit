@@ -13,7 +13,8 @@ git stash
 # به شاخه صحیح انتقال بده
 git checkout name-of-the-correct-branch
 git stash pop
-git add . # or add individual files
+git add . 
+# یا پرونده های منفرد اضافه کنید
 git commit -m "your message here"
 # حالا تغییراتت روی شاخه صحیح هستن
 ```
