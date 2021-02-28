@@ -31,7 +31,7 @@
                     {% include intro %}
                 </section>
 
-                {% set tips = collections["tips_" + contentType + "_" + locale] %}
+                {% set tips = collections.tip | tips_by_language(contentType, locale) %}
                 {% for tip in tips %}
                     <section class="spaced">
                         <h2><a class="permalinked" href="#{{ tip.data.id }}" id="{{ tip.data.id }}">{{ tip.data.title | safe }}</a></h2>

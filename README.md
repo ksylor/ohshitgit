@@ -44,17 +44,17 @@ The following commands will all need to be run in a terminal/command line prompt
 ## Adding a new language
 
 ### There are a few general rules for translation:
-- Don't translate or change the sitenames ohshitgit.com or dangitgit.com.
+- Don't translate or change the urls ohshitgit.com or dangitgit.com.
 - Don't translate or change metadata - e.g. `contentType: swears` is checked in code and needs to be in english. 
 - Don't translate or change file names.
 - Do translate content faithfully and to the best of your ability! Use all the swears you want for the swear-filled content. Remove swears for the noswear content. 
 - Have fun! If I've used english idioms that don't translate well, replace them with funnier ones from your language! 
 
-*Note: Please use the two-letter [ISO-639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). If your content is targeted to a specific country as well, use the format of `pt-BR` using the [ISO-3166 country code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).*
+*IMPORTANT: Please use the correct two-letter [ISO-639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). If your content is targeted to a specific country as well, use the format of `pt-BR` using the [ISO-3166 country code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).*
 
 ### Start by creating the translated content
 
-1. Find the `/en/` folder in the directory and make a copy of it (and all of it's children) renamed with the two-letter [ISO-639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of your language - e.g. `/de/` for German. In this folder you will find copies of the english-language files for the site, broken down into sub-groups of files with `/swears/` and `/noswears/`. 
+1. Find the `/en/` folder in the directory and make a copy of it (and all of it's children) renamed with the correct two-letter [ISO-639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) of your language. In this folder you will find copies of the english-language files for the site, broken down into sub-groups of files with `/swears/` and `/noswears/`. 
 
 2. Each directory contains an `index.html` file which defines some 11ty "front matter" metadata for the language & site version - make sure that this file references the correct language code under the `locale` metadata item. The other metadata should not be updated.
 
@@ -94,22 +94,9 @@ The following commands will all need to be run in a terminal/command line prompt
 ],
 ```
 
-9. Now this next part is kinda shitty and I want to make it so you don't have to do this manually! But, for now, the final thing we need to do is add the new language tip collection to the `.eleventy.js` configuration file. This is what tells Eleventy which files to group together for display on the main page. We'll need to add two new collections, one for the swear-filled version, and another for the non-swears version. Make sure you add the following lines inside the `module.exports(function(config) { ... });` block - replace the uses of `en` with your language code!
+9. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
 
-```
-// replace uses of "en" with your language code!
-config.addCollection('tips_swears_en', function(collection) {
-    return getTipCollection(collection, "swears", "en");
-});
-
-config.addCollection('tips_noswears_en', function(collection) {
-    return getTipCollection(collection, "noswears", "en");
-});
-```
-
-10. If all went well, you should now be able to go to `[localhost]/[your language code]/swears/index.html` and `[localhost]/[your language code]/noswears/index.html`, and you should see your language code link in the upper right of the english page! 
-
-11. Add 4 new redirect rules to the `_redirects` file that will tell Netlify the proper file to load for each language code in the URL, and then redirect any other paths to the main url. Yours should go underneath the other redirects and in this same format:
+10. Add 4 new redirect rules to the `_redirects` file that will tell Netlify the proper file to load for each language code in the URL, and then redirect any other paths to the main url. Yours should go underneath the other redirects and in this same format:
 
 ```
 # french swears
@@ -121,7 +108,7 @@ https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200
 #https://dangitgit.com/fr/*      https://dangitgit.com/fr 301!
 ```
 
-12. Make sure to `git commit` your changes along the way so you don't lose your work :D
+11. Make sure to `git commit` your changes along the way so you don't lose your work :D
 
 ## Preview your changes in Netlify
 
