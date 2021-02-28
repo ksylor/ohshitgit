@@ -144,9 +144,9 @@ module.exports = {
             arialabel: "در زبان های دیگر ببینید",
         },
         {
-            label: 'suomi',
-            code: 'fi',
-            arialabel: 'Valitse kieli',
+            label: "suomi",
+            code: "fi",
+            arialabel: "Valitse kieli",
         },
     ],
     collaborators: [
@@ -286,9 +286,9 @@ module.exports = {
             lang: "fa",
         },
         {
-            name: 'Senja Jarva',
-            link: 'https://github.com/sjarva',
-            lang: 'fi',
+            name: "Senja Jarva",
+            link: "https://github.com/sjarva",
+            lang: "fi",
         },
     ],
     otherhelpers: [
@@ -315,6 +315,10 @@ module.exports = {
         {
             name: "Myrzabek Azil",
             link: "https://github.com/mvrzvbvk",
+        },
+        {
+            name: "Allie Jones",
+            link: "https://github.com/alliejones",
         },
     ],
 };
