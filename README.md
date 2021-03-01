@@ -66,7 +66,7 @@ The following commands will all need to be run in a terminal/command line prompt
 
 6. Then, translate the contents of each `tip` file. Make sure that you keep the markdown formatting in place so that the syntax highlighting on the client can correctly format the output. Code examples should use the same git commands, but you can translate the comments denoted by `#`. 
 
-### Update some plumbing code to get your language displayed on the site correctly
+### IMPORTANT DON'T FORGET! Update some plumbing code to get your language displayed on the site correctly
 
 7. in the `_data` folder, open up `site.js` and add your new language to the list of languages on the site. For example, to add German to the site, use the local word for the language (e.g. not the english word German, but the German word Deutsch), the standard language code, and then a translation of the phrase "View in other languages" which will be used as an `aria-label` for the language picker when that language is selected.
 
@@ -99,13 +99,13 @@ The following commands will all need to be run in a terminal/command line prompt
 10. Add 4 new redirect rules to the `_redirects` file that will tell Netlify the proper file to load for each language code in the URL, and then redirect any other paths to the main url. Yours should go underneath the other redirects and in this same format:
 
 ```
-# french swears
-https://ohshitgit.com/fr        https://ohshitgit.com/fr/swears/index.html 200!
-#https://ohshitgit.com/fr/*      https://ohshitgit.com/fr 301!
+# swedish swears
+https://ohshitgit.com/sv        https://ohshitgit.com/sv/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/sv    302  Language=sv
 
-# french no swears
-https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200!
-#https://dangitgit.com/fr/*      https://dangitgit.com/fr 301!
+# swedish no swears
+https://dangitgit.com/sv        https://dangitgit.com/sv/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/sv    302  Language=sv
 ```
 
 11. Make sure to `git commit` your changes along the way so you don't lose your work :D
