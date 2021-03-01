@@ -5,7 +5,7 @@ id: dude-wheres-my-diff
 order: 6
 ---
 
-Pokud víš, že jsi udělal změny, ale `diff` je prázdný, pak sis pravěpodobně přidal(`add`) soubory do staging stavu a proto budeš potřebovat použít speciální příznak.
+Pokud víš, že jsi udělal změny, ale `diff` je prázdný, pak sis pravděpodobně přidal(`add`) soubory do staging stavu a proto budeš potřebovat použít speciální příznak.
 
 ```git
 git diff --staged
