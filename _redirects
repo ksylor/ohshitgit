@@ -213,3 +213,19 @@ https://ohshitgit.com/          https://ohshitgit.com/kk    302  Language=kk
 # kazakh no swears
 https://dangitgit.com/kk        https://dangitgit.com/kk/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/kk    302  Language=kk
+
+# finnish swears
+https://ohshitgit.com/fi        https://ohshitgit.com/fi/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/fi    302  Language=fi
+
+# finnish no swears
+https://dangitgit.com/fi        https://dangitgit.com/fi/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/fi    302  Language=fi
+
+# persian swears
+https://ohshitgit.com/fa        https://ohshitgit.com/fa/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/fa    302  Language=fa
+
+# persian no swears
+https://dangitgit.com/fa        https://dangitgit.com/fa/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/fa    302  Language=fa
