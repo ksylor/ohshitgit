@@ -1,1 +1,9 @@
-<aside class="ads"><script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=ohshitgitcom" id="_carbonads_js"></script></aside>
+<aside class="ads">
+{% if contentType === "swears" %}
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CK7DTKQE&placement=ohshitgitcom" id="_carbonads_js"></script>
+{% endif %}
+
+{% if contentType === "noswears" %}
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CEBIK2JJ&placement=dangitgitcom" id="_carbonads_js"></script>
+{% endif %}
+</aside>
