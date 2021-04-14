@@ -14,4 +14,4 @@ git checkout [nanpa] -- nimi/lipu
 git commit -m "pona!"
 ```
 
-mi kama sona e ni la ona li pona SULI. SULI. S-U-L-I. lon la, mun seme la toki `checkout --` li nasa ala tawa weka ante? :mi-tawa-e-luka-tawa-jan-Linu-Towa:
+mi kama sona e ni la ni li pona SULI. SULI. S-U-L-I. lon la, mun seme la toki `checkout --` li nasa ala tawa weka ante? :mi-tawa-e-luka-tawa-jan-Linu-Towa:

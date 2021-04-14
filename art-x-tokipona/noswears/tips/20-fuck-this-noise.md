@@ -15,14 +15,14 @@ cd lipu-git-pakala
 
 jan Eric V. li pana e nasin ni. sina pona! sina pilin ike tan ilo `sudo` lon musi ni la, o toki tawa ona.
 
-musi ala la, nasin pali sina li pakala mute, sina ken ijo pi ilo ante e ijo pi ilo sina kepeken nasin ni. taso, o sona e ni: nasin ni li ken pakala e ijo pona! pakala li kama tan nasin ni la ona li ken ala kama pona!
+musi ala la, nasin pali sina li pakala mute la, nasin ni li ken sama e ijo pi ilo sina tawa ijo pi ilo ante. taso, o sona e ni: nasin ni li ken pakala e ijo pona! pakala li kama tan nasin ni la ona li ken ala kama pona!
 
 ```git
 # o kama jo e ijo pi ilo ante pi tenpo ni
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# o weka mute e ijo ni: ilo git li sona ala e lon ona
+# o weka mute e ijo ni: ilo Git li sona ala e lon ona
 git clean -d --force
 # o pali sin e nasin ni tawa nasin pali pakala ale
 ```
