@@ -229,3 +229,9 @@ https://ohshitgit.com/          https://ohshitgit.com/fa    302  Language=fa
 # persian no swears
 https://dangitgit.com/fa        https://dangitgit.com/fa/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/fa    302  Language=fa
+
+# toki pona (no separate swears/no-swears version)
+https://ohshitgit.com/art-x-tokipona    https://ohshitgit.com/art-x-tokipona/noswears/index.html 200!
+https://ohshitgit.com/                  https://ohshitgit.com/art-x-tokipona    302 Language=art-x-tokipona
+https://dangitgit.com/art-x-tokipona    https://dangitgit.com/art-x-tokipona/noswears/index.html 200!
+https://dangitgit.com/                  https://dangitgit.com/art-x-tokipona    302 Language=art-x-tokipona
