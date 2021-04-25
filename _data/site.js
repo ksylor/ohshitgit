@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "Tiếng Việt",
+            code: "vi",
+            arialabel: "Xem bằng ngôn ngữ khác",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Meigyoku Thmn",
+            link: "https://github.com/Meigyoku-Thmn",
+            lang: "vi",
         },
     ],
     otherhelpers: [
