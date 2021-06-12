@@ -12,8 +12,8 @@ git stash
 # 去返啱嘅 branch
 git checkout name-of-the-correct-branch
 git stash pop
-git add . # or add individual files
-git commit -m "your message here";
+git add . # 或者逐個快撈噉加
+git commit -m "你嘅訊息";
 # 而家你改咗嘅嘢喺返啱嘅 branch
 ```
 

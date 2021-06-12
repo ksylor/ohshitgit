@@ -1,16 +1,16 @@
 ---
 tags: tip
 title: 你好嘢呀 Git，我哋後會有期！
-id: fuck-this-noise
+id: forget-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r stupid-git-repo-dir
+git clone https://some.github.url/stupid-git-repo-dir.git
+cd stupid-git-repo-dir
 ```
 
 多謝哂 Eric V 畀我呢個。喺呢個笑話度算 `sudo` 帳嘅麻煩去揾返佢。

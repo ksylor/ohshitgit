@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Git 氣呀，我做咗件好大齋嘅事，你千祈唔好同我講 git 冇個時光機呀！
+title: 頂，我做咗件好大齋嘅事，你千祈唔好同我講 git 冇個時光機呀！
 id: magic-time-machine
 order: 1
 ---
@@ -8,7 +8,7 @@ order: 1
 ```git
 git reflog
 # 你會見到一個 list 包含哂你喺所有分支做過嘅事。
-# 每一件事都會有個　index HEAD@{index}。
+# 每一件事都會有個 index HEAD@{index}。
 # 搵個出事之前嘅 index 啦。
 git reset HEAD@{index}
 # 魔法時光機
