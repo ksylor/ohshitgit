@@ -8,7 +8,7 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
+rm -rf fucking-git-repo-dir
 git clone https://some.github.url/fucking-git-repo-dir.git
 cd fucking-git-repo-dir
 ```
