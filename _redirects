@@ -229,3 +229,11 @@ https://ohshitgit.com/          https://ohshitgit.com/fa    302  Language=fa
 # persian no swears
 https://dangitgit.com/fa        https://dangitgit.com/fa/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/fa    302  Language=fa
+
+# tamil swears
+https://ohshitgit.com/ta        https://ohshitgit.com/ta/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/ta    302  Language=ta
+
+# tamil no swears
+https://dangitgit.com/ta        https://dangitgit.com/ta/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/ta    302  Language=ta
