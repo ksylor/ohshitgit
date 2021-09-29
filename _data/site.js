@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "tiếng việt",
+            code: "vi",
+            arialabel: "Xem bằng các ngôn ngữ khác",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Anh Nhat Tran",
+            link: "https://github.com/japananh",
+            lang: "vi",
         },
     ],
     otherhelpers: [
