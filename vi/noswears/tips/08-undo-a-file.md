@@ -15,4 +15,4 @@ git checkout [chuỗi hash mà bạn đã ghi nhớ] -- đường/dẫn/tới/fi
 git commit -m "Chu choa, không cóp-dán mà vẫn hoàn tác được nè"
 ```
 
-Khi tôi mãi mới tìm ra được cách này thì cái commit nó TO, TOO, TOOOO LẮMMMM. Nhưng mà nói thiệt chứ, nghĩ sao mà trên đời này cái lệnh `checkout --` lại có chức năng để hoàn tác file hả, ông nội nào nghĩ ra cái trò này vậy hả? `:dứ-nắm-đấm-về-phía-linus-torvalds:`
+Khi tôi mãi mới tìm ra được cách này thì nó VĨ ĐẠI, VĨ ĐẠII, VĨ ĐẠIII LẮMMMM. Nhưng mà nói thiệt chứ, nghĩ sao mà trên đời này cái lệnh `checkout --` lại có chức năng để hoàn tác file hả, ông nội nào nghĩ ra cái trò này vậy hả? `:dứ-nắm-đấm-về-phía-linus-torvalds:`
