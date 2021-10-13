@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed something to master that should have been on a brand new branch!
-id: accidental-commit-master
+title: Oh shit, I accidentally committed something to main that should have been on a brand new branch!
+id: accidental-commit-main
 order: 4
 ---
 
 ```git
-# create a new branch from the current state of master
+# create a new branch from the current state of main
 git branch some-new-branch-name
-# remove the last commit from the master branch
+# remove the last commit from the main branch
 git reset HEAD~ --hard
 git checkout some-new-branch-name
 # your commit lives in this branch now :)
