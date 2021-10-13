@@ -1,7 +1,7 @@
 ---
 tags: tip
 title: Oh shit, I accidentally committed something to main that should have been on a brand new branch!
-id: accidental-commit-main
+id: accidental-commit-master
 order: 4
 ---
 
