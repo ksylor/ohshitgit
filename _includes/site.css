@@ -74,6 +74,7 @@ footer a {
     height: 2em;
     width: 1.5em;
     transition: 0.2s transform;
+    stroke: #222;
 }
 .langpicker-button:hover .langpicker-icon,
 .langpicker-button:active .langpicker-icon,
@@ -194,6 +195,22 @@ footer {
     .twitter {
         order: 1;
         margin-left: 1em;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+        color: #ccc;
+    }
+    .permalinked {
+        color: #ccc;
+    }
+    .langpicker-button {
+        border-color: #ccc;
+        color: #ccc;
+    }
+    .langpicker-icon {
+        stroke: #ccc;
     }
 }
 
