@@ -15,4 +15,4 @@ git checkout [hash salvata] -- path/del/file/in/questione
 git commit -m "Wow, non devi fare copia-incolla per annullare modifiche"
 ```
 
-Quando ho finalmente scoperto questa cosa è stato STUPENDO. STUPENDO. S-T-U-P-E-N-D-O. Ma sul serio peró, su che pianeta `checkout --` ha senso come metodo migliore per annullare le modifiche su un file? :shakes-fist-at-linus-torvalds:
+Quando ho finalmente scoperto questa cosa è stato STUPENDO. STUPENDO. S-T-U-P-E-N-D-O. Ma sul serio però, su che pianeta `checkout --` ha senso come metodo migliore per annullare le modifiche su un file? :shakes-fist-at-linus-torvalds:
