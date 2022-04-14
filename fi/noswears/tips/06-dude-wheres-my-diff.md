@@ -5,7 +5,7 @@ id: dude-wheres-my-diff
 order: 6
 ---
 
-Jos tiedät että olet tehnyt muutoksia tiedostoihin, muuta `diff`-komennon tuloste näyttää tyhjää, olet luultavasti siirtänyt tiedostot jo `add`-komentolla valmistelualueelle (staging), ja nähdäkseksesi muutokset, joudut lisäämään erityisen option.
+Jos tiedät että olet tehnyt muutoksia tiedostoihin, mutta `diff`-komennon tuloste näyttää tyhjää, olet luultavasti siirtänyt tiedostot jo `add`-komennolla valmistelualueelle (staging), ja nähdäkseksesi muutokset, joudut lisäämään erityisen option.
 
 ```git
 git diff --staged
