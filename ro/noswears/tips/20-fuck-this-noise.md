@@ -8,9 +8,9 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r git-repo-dir-stupid
-git clone https://some.github.url/git-repo-dir-stupid.git
-cd git-repo-dir-stupid
+sudo rm -r git-repo-dir-annoying
+git clone https://some.github.url/git-repo-dir-annoying.git
+cd git-repo-dir-annoying
 ```
 
 Mulțumesc lui Eric V. pentru asta. Toate plângerile despre folosirea lui `sudo` în această glumă îi pot fi adresate lui.
