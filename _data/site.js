@@ -191,6 +191,11 @@ module.exports = {
             lang: "fr",
         },
         {
+            name: "David Huggins-Daines",
+            link: "https://github.com/dhuggins",
+            lang: "fr_CA",
+        },
+        {
             name: "Andriy Sultanov",
             link: "https://github.com/LastGenius-edu",
             lang: "ua",
