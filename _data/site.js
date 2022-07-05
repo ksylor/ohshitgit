@@ -39,6 +39,11 @@ module.exports = {
             arialabel: "Choisir une autre langue",
         },
         {
+            label: "français canadien",
+            code: "fr_CA",
+            arialabel: "Choisir une autre langue",
+        },
+        {
             label: "हिन्दी",
             code: "hi",
             arialabel: "अन्य भाषाओं में देखें",
