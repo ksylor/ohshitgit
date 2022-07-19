@@ -15,4 +15,9 @@ git reset HEAD@{index}
 # git est magique
 ```
 
-Ça sert pour récupérer une suppression accidentelle, ou annuler des tentatives qui ont cassé le dépôt, ou s'en sortir après une mauvaise fusion, ou simplement revenir en arrière à un point où les choses fonctionnaient correctement. J'utilise BEAUCOUP `reflog`. Chapeau trèèèès bas aux nombreuuuuuuses personnes qui m'ont suggéré cette technique&nbsp;!
+Ça sert pour récupérer une suppression accidentelle, ou annuler des
+tentatives qui ont magané ton repository , ou s'en sortir après une
+mauvaise fusion, ou simplement revenir en arrière à un point où les
+choses fonctionnaient correctement. J'utilise BEAUCOUP
+`reflog`. Chapeau trèèèès bas aux nombreuuuuuuses personnes qui m'ont
+suggéré cette technique&nbsp;!

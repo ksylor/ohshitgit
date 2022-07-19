@@ -17,7 +17,9 @@ git commit -m "votre message ici";
 # maintenant vos modifications sont sur la bonne branche
 ```
 
-Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là, donc à vous de faire votre choix et d'utiliser ce qui vous semble le plus logique&nbsp;!
+Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là,
+donc à vous de faire votre choix et d'utiliser ce qui vous semble le
+plus logique&nbsp;!
 
 ```git
 # passer sur la bonne branche

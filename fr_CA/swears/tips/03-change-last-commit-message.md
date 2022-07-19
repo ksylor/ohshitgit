@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Maudite osti d'crisse, je veux corriger le message de mon dernier commit&nbsp;!
+title: Maudit osti d'crisse, je veux corriger le message de mon dernier commit&nbsp;!
 id: corriger-dernier-message-commit
 order: 3
 ---

@@ -13,11 +13,13 @@ git stash
 git checkout nom-de-la-branche-correcte
 git stash pop
 git add . # ou ajouter les fichiers un à un
-git commit -m "votre message ici";
-# maintenant vos modifications sont sur la bonne branche
+git commit -m "ton message ici";
+# maintenant tes modifications sont sur la bonne branche
 ```
 
-Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là, donc à vous de faire votre choix et d'utiliser ce qui vous semble le plus logique&nbsp;!
+Pas mal de gens ont conseillé d'utiliser `cherry-pick` dans ce cas-là,
+donc à toi de choisir (entre la peste ou le choléra) et d'utiliser ce
+qui vous semble le plus logique&nbsp;!
 
 ```git
 # passer sur la bonne branche

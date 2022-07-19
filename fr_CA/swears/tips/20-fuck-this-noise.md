@@ -13,9 +13,9 @@ git clone https://some.github.url/depot-git-foireux.git
 cd depot-git-foireux
 ```
 
-Merci à Eric V. pour ce conseil. Par conséquent, en cas de réclamation à cause du `sudo`, voyez-ça directement avec lui...
+Merci à Eric V. pour ce conseil. Par conséquent, en cas de réclamation à cause du `sudo`, c'est avec lui qu'il faut parler...
 
-Plus sérieusement, quand votre branche est devenue tellement foireuse que le plus simple c'est de revenir à l'état d'origine du dépôt distant, essayez cette méthode "homologuée git". Mais attention, c'est ferme et définitif&nbsp;: impossible de revenir en arrière&nbsp;!
+Plus sérieusement, quand ta branche est devenue tellement foireuse que le plus simple c'est de revenir à l'état d'origine du dépôt distant, essayez cette méthode "homologuée git". Mais attention, c'est ferme et définitif&nbsp;: impossible de revenir en arrière&nbsp;!
 
 ```git
 # obtenir la dernière version du serveur

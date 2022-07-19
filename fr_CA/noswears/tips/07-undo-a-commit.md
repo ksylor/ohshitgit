@@ -16,6 +16,11 @@ git revert [hash mémorisé]
 # ou contentez-vous d'enregistrer et valider
 ```
 
-Il s'avère que vous n'avez pas besoin de chercher l'ancien fichier puis copier-coller son contenu dans le fichier actuel pour annuler ce qui a été modifié&nbsp;! Si vous avez commité un bug, vous pouvez annuler votre livraison d'un seul coup avec `revert`.
+Mais non, vous n'avezpas besoin de chercher l'ancien fichier puis
+copier-coller son contenu dans le fichier actuel pour annuler ce qui a
+été modifié&nbsp;! Si vous avezcommité un bug, tu peux annuler votre
+livraison d'un seul coup avec `revert`.
 
-Vous pouvez aussi annuler un seul fichier plutôt que le commit complet&nbsp;! Mais bien entendu, ça ne serait pas vraiment du git si cela n'impliquait pas un jeu de commandes complètement différentes...
+Vous pouvez aussi annuler un seul fichier plutôt que le commit
+complet&nbsp;! Mais bien entendu, ça ne serait pas vraiment du git si
+cela n'impliquait pas un jeu de commandes complètement différentes...
