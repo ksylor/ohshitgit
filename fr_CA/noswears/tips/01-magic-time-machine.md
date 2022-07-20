@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Ayoye, j'ai fait quelque chose de pas correcte pantoute, par pitié dites-moi que git peut voyager dans le temps&nbsp;!?!
+title: Ayoye, j'ai fait quelque chose de pas correct pantoute, par pitié dites-moi que git peut voyager dans le temps&nbsp;!?!
 id: magic-time-machine
 order: 1
 ---
