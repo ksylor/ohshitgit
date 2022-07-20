@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Ouate de phoque, je veux annuler un truc genre 5 commits en arrière&nbsp;!
+title: Ouate de phoque, j'ai besoin annuler quelque chose j'ai fait genre 5 commits en arrière&nbsp;!
 id: annuler-un-commit
 order: 7
 ---
@@ -18,7 +18,7 @@ git revert [hash mémorisé]
 
 Il s'avère que tu n'as pas besoin de chercher l'ancien fichier puis
 copier-coller son contenu dans le fichier actuel pour annuler ce qui a
-été modifié&nbsp;! Si t'as commité un bug, tu peux annuler votre
+été modifié&nbsp;! Si t'as commité une bogue, tu peux annuler votre
 livraison d'un seul coup avec `revert`.
 
 Tu peux aussi annuler un seul fichier plutôt que le commit

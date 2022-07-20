@@ -16,9 +16,9 @@ git revert [hash mémorisé]
 # ou contentez-vous d'enregistrer et valider
 ```
 
-Mais non, vous n'avezpas besoin de chercher l'ancien fichier puis
+Mais non, vous n'avez pas besoin de chercher l'ancien fichier puis
 copier-coller son contenu dans le fichier actuel pour annuler ce qui a
-été modifié&nbsp;! Si vous avezcommité un bug, tu peux annuler votre
+été modifié&nbsp;! Si vous avez commité une bogue, tu peux annuler votre
 livraison d'un seul coup avec `revert`.
 
 Vous pouvez aussi annuler un seul fichier plutôt que le commit
