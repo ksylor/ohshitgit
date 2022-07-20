@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Ouate de phoque, j'ai besoin annuler quelque chose j'ai fait genre 5 commits en arrière&nbsp;!
+title: Ouate de phoque, j'ai besoin d'annuler quelque chose j'ai fait genre 5 commits en arrière&nbsp;!
 id: annuler-un-commit
 order: 7
 ---
