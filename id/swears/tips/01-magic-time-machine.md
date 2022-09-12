@@ -15,4 +15,4 @@ git reset HEAD@{index}
 # mesin waktu ajaib
 ```
 
-Lo bisa pake ini untuk barang-barang yang lo hapus secara gak sengaja, atau hilangin barang-barang yang lo cobain tapi malah ngerusak repo, atau balikin bad merge, atau cuman buat kembali ke waktu semuanya lancar jaya. Gue pake `reflog` SERING BANGET. Makasih banyak buat lo lo lo lo lo semua yang udah ngasih tau gue!
+Lo bisa pake ini buat balikin yang udah kehapus, atau ngilangin yang malah ngerusak repo, atau balikin repo abis bad merge, atau cuman buat balik ke waktu semuanya lancar jaya. Gue SERING BANGET make `reflog`. Makasih banyak buat lo lo lo lo lo semua yang udah ngasih tau gue!
