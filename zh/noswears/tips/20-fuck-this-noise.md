@@ -8,9 +8,9 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r annoying-git-repo-dir
+git clone https://some.github.url/annoying-git-repo-dir.git
+cd annoying-git-repo-dir
 ```
 
 感谢 Eric V. 提供了这个事例，如果对 `sudo` 的使用有什么的质疑的话，可以去向他提出。
