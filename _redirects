@@ -54,6 +54,14 @@ https://ohshitgit.com/          https://ohshitgit.com/fr    302  Language=fr
 https://dangitgit.com/fr        https://dangitgit.com/fr/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/fr    302  Language=fr
 
+# canadian french swears
+https://ohshitgit.com/fr_CA     https://ohshitgit.com/fr_CA/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/fr_CA 302  Language=fr_CA
+
+# canadian french no swears
+https://dangitgit.com/fr_CA     https://dangitgit.com/fr_CA/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/fr_CA 302  Language=fr_CA
+
 # japanese swears
 https://ohshitgit.com/ja        https://ohshitgit.com/ja/swears/index.html 200!
 https://ohshitgit.com/          https://ohshitgit.com/ja    302  Language=ja
