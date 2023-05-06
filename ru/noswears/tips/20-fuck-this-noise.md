@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: К чёрту всё, я сдаюсь.
+title: В манду всё это, я здаюсь.
 id: к-чёрту-всё
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
