@@ -148,8 +148,18 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "தமிழ்",
+            code: "ta",
+            arialabel: "பிற மொழிகளில் பார்க்கவும்",
+        },
     ],
     collaborators: [
+        {
+            name: "Anbuselvan Rocky",
+            link: "https://github.com/anburocky3",
+            lang: "ta",
+        },
         {
             name: "Björn Söderqvist",
             link: "https://github.com/cybear",
