@@ -9,7 +9,7 @@ order: 20
 ```git
 cd ..
 sudo rm -r saatanan-git-repo-kansio
-git clone https://joku.github.url/typerä-git-repo-kansio.git
+git clone https://joku.github.url/saatanan-git-repo-kansio.git
 cd saatanan-git-repo-kansio
 ```
 
