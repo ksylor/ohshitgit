@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, ich habe schon commited und dann gemerkt dass ich eine kleine Änderung vergessen habe!
+title: Oh shit, ich habe schon commited und dann gemerkt, dass ich eine kleine Änderung vergessen habe!
 id: letzten-commit-aendern
 order: 2
 ---
