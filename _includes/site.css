@@ -43,16 +43,18 @@ footer {
 footer a {
     color: white;
 }
-.langpicker {
+.langpicker,
+.master-main-switch {
     float: right;
     margin-top: 0.5em;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
     overflow: hidden;
 }
 .langpicker * {
     box-sizing: border-box;
 }
-.langpicker-button {
+.langpicker-button,
+.master-main-switch {
     border: 2px solid #222;
     background: none;
     font-size: 1em;
@@ -112,6 +114,30 @@ footer a {
 .langpicker-list a {
     display: inline-block;
     color: #fff;
+}
+.master-main-switch {
+    clear: right;
+    margin-top: 0;
+    margin-bottom: 2em;
+    height: auto;
+    padding: 0;
+    align-items: center;
+}
+.master-main-switch code {
+    display: block;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+.master-main-switch input {
+    display: none;
+}
+.master-main-switch input:checked + code {
+    background: black;
+    color: white;
 }
 .max-width {
     margin: 1em;
