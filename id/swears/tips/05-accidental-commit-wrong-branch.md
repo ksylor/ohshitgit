@@ -17,7 +17,7 @@ git commit -m "message lo di sini";
 # sekarang changes lo ada di branch yang bener
 ```
 
-Banyak yang ngasih tau gue pake `cherry-pick` kalo lo ngadepin masalah kayak gini, jadi terserah lo deh mau pake yang mana!
+Banyak yang ngasih tau gue pake `cherry-pick` kalo lo ngadepin masalah kayak gini, jadi terserah lo mau pake yang mana!
 
 ```git
 git checkout nama-branch-yang-bener
