@@ -134,13 +134,13 @@ https://ohshitgit.com/          https://ohshitgit.com/th    302  Language=th
 https://dangitgit.com/th        https://dangitgit.com/th/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/th    302  Language=th
 
-# chinese swears
-https://ohshitgit.com/zh        https://ohshitgit.com/zh/swears/index.html 200!
-https://ohshitgit.com/          https://ohshitgit.com/zh    302  Language=zh
+# simplified chinese swears
+https://ohshitgit.com/zh_CN     https://ohshitgit.com/zh_CN/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/zh_CN 302  Language=zh_CN
 
-# chinese no swears
-https://dangitgit.com/zh        https://dangitgit.com/zh/noswears/index.html 200!
-https://dangitgit.com/          https://dangitgit.com/zh    302  Language=zh
+# simplified chinese no swears
+https://dangitgit.com/zh_CN     https://dangitgit.com/zh_CN/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/zh_CN 302  Language=zh_CN
 
 # czech swears
 https://ohshitgit.com/cs        https://ohshitgit.com/cs/swears/index.html 200!
@@ -229,3 +229,19 @@ https://ohshitgit.com/          https://ohshitgit.com/fa    302  Language=fa
 # persian no swears
 https://dangitgit.com/fa        https://dangitgit.com/fa/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/fa    302  Language=fa
+
+# cantonese swears
+https://ohshitgit.com/zh_HK     https://ohshitgit.com/zh_HK/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/zh_HK 302  Language=zh_HK
+
+# cantonese no swears
+https://dangitgit.com/zh_HK     https://dangitgit.com/zh_HK/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/zh_HK 302  Language=zh_HK
+
+# traditional chinese swears
+https://ohshitgit.com/zh_TW     https://ohshitgit.com/zh_TW/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/zh_TW 302  Language=zh_TW
+
+# traditional chinese no swears
+https://dangitgit.com/zh_TW     https://dangitgit.com/zh_TW/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/zh_TW 302  Language=zh_TW
