@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "正體中文",
+            code: "zh-TW",
+            arialabel: "其他語言",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Shiro Kyo",
+            link: "https://github.com/TSOTSI1",
+            lang: "zh-TW",
         },
     ],
     otherhelpers: [
