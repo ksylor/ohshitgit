@@ -10,7 +10,7 @@ order: 5
 git reset HEAD~ --soft
 git stash
 # move to the correct branch
-git checkout name-of-the-correct-branch
+git switch name-of-the-correct-branch
 git stash pop
 git add . # or add individual files
 git commit -m "your message here"
@@ -20,10 +20,10 @@ git commit -m "your message here"
 A lot of people have suggested using `cherry-pick` for this situation too, so take your pick on whatever one makes the most sense to you!
 
 ```git
-git checkout name-of-the-correct-branch
+git switch name-of-the-correct-branch
 # grab the last commit to master
 git cherry-pick master
 # delete it from master
-git checkout master
+git switch master
 git reset HEAD~ --hard
 ```
