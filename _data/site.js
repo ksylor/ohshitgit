@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "norsk bokmål",
+            code: "no_NB",
+            arialabel: "Se på andre språk",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Trond Kjetil Bremnes",
+            link: "https://tk.bremnes.online",
+            lang: "no_NB",
         },
     ],
     otherhelpers: [
