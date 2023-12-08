@@ -1,22 +1,22 @@
 ---
 tags: tip
-title: Åt fanders med detta, jag ger upp.
+title: Nu får det va nog, jag ger upp.
 id: forget-this-noise
-note: den här måste alltid vara sist, så sätter ordningen till 20 så jag inte behöver byta namn / sortera om den
+note: den här måste alltid vara sist, numrerar den till 20 så jag inte behöver byta namn / sortera om den
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r dumma-git-repo-katalog
-git clone https://någon.github.url/dumma-git-repo-katalog.git
-cd dumma-git-repo-katalog
+sudo rm -r dumma-git-repo
+git clone https://någon.github.url/dumma-git-repo.git
+cd dumma-git-repo
 ```
 
-Tack till Eric V. för denna. Alla klagomål om `sudo` i detta skämtet kan riktas mot honom. 
+Tack till Eric V. för den här. Alla klagomål om `sudo` i det här skämtet kan riktas mot honom. 
 
 
-Men allvarligt talat, om din branch är sååå trasig att du behöver nollställa ditt repos tillstånd till att bli samma som repot som är remote på ett "git-godkänt" sätt, försök med detta, men bemärk att dessa är destruktiva och oåterkalleliga kommandon!
+Men allvarligt talat, om din branch är så sönder att du måste nollställa ditt repos tillstånd till samma som remote på ett "git-godkänt" sätt, försök med följande, men observera att de här är destruktiva och oåterkalleliga kommandon!
 
 ```git
 # hämta senaste tillstånd från origin

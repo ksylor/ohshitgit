@@ -1,14 +1,14 @@
 ---
 tags: tip
-title: För sjuttsingen, jag försökte köra en diff men inget hände?!
+title: Förmårrat, jag försökte köra git diff men ingenting syns?!
 id: dude-wheres-my-diff
 order: 6
 ---
 
-Om du vet att du har gjort ändringar i filer, men `diff` är tom, då har du förmodligen `add`:at dina filer till staging och behöver använda en speciell flagga.
+Om du vet att du har gjort ändringar i filer, men `diff` inte visar något, då har du antagligen `add`:at dina filer till staging och behöver använda flaggan `--staged` för att se ändringarna.
 
 ```git
 git diff --staged
 ```
 
-Spara detta tips under &macr;\\\_(ツ)\_/&macr; (ja, jag vet att detta är en feature och inte en bugg, men den är förbluffande och icke-uppenbar första gången det händer dig!)
+Spara det här tipset under &macr;\\\_(ツ)\_/&macr; (joo, jag vet att det här är en feature och inte en bugg, men det är jätte förvirrande och inte alls självklart första gången det händer dig!)

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: För sjuttsingen, jag måste byta meddelandet på min senaste commit!
+title: Förmårrat, jag måste ändra på meddelandet på min senaste commit!
 id: change-last-commit-message
 order: 3
 ---
@@ -9,4 +9,4 @@ git commit --amend
 # följ instruktionerna för att ändra meddelandet för committen
 ```
 
-Dumma commitmeddelandeformateringsregler.
+Tråkiga commitmeddelandeformateringsregler.
