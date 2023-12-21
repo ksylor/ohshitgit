@@ -232,8 +232,8 @@ https://dangitgit.com/          https://dangitgit.com/fa    302  Language=fa
 
 # swiss-german swears
 https://ohshitgit.com/de_CH        https://ohshitgit.com/de_CH/swears/index.html 200!
-https://ohshitgit.com/          https://ohshitgit.com/de-CH    302  Language=de-CH
+https://ohshitgit.com/          https://ohshitgit.com/de_CH    302  Language=de_CH
 
 # swiss-german no swears
 https://dangitgit.com/de_CH        https://ohshitgit.com/de_CH/noswears/index.html 200!
-https://dangitgit.com/          https://dangitgit.com/de-CH    302  Language=de-CH
+https://dangitgit.com/          https://dangitgit.com/de_CH    302  Language=de_CH
