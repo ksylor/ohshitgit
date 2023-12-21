@@ -105,8 +105,8 @@ module.exports = {
         },
         {
             label: "Schwiizerdütsch",
-            code: "de-CH",
-            arialabel: "In ere ander Sprooch aazeige",
+            code: "de_CH",
+            arialabel: "In ere andere Sprooch aazeige",
         },
         {
             label: "swedish",
@@ -298,7 +298,7 @@ module.exports = {
         {
             name: "SpeedyGo55",
             link: "https://github.com/speedygo55",
-            lang: "de-CH",
+            lang: "de_CH",
         },
     ],
     otherhelpers: [
