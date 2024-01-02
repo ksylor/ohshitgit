@@ -6,7 +6,7 @@ order: 4
 ---
 
 ```git
-# skap ny brach fra nåværende tilstand til main
+# skap ny branch fra nåværende tilstand til main
 git branch nytt-branch-navn
 # fjern siste commit fra main-branchen
 git reset HEAD~ --hard
