@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
+title: İçini sikim bezdim, başını buraxıram.
 id: fuck-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
@@ -8,22 +8,22 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r osduraq-git
+git clone https://some.github.url/osduraq-git.git
+cd osduraq-git
 ```
 
-Thanks to Eric V. for this one. All complaints about the use of `sudo` in this joke can be directed to him. 
+Bu misala görə Eric V.-ə təşəkkür edirəm. Bu zarafatda `sudo` istifadəsinə dair bütün şikayətlər ona ünvanlana bilər.
 
+Amma həqiqətən, əgər local branch'ın götü dağılıbsa, və bu vəziyyəti remote repo'daki son halına "git-approved" bir şəkildə geri qaytarmaq istiyirsinizsə, bunu eliyin, amma diqqətli olun, bu proses dağıdıcı və geri dönülməyən bir yoldur.
 
-For real though, if your branch is sooo borked that you need to reset the state of your repo to be the same as the remote repo in a "git-approved" way, try this, but beware these are destructive and unrecoverable actions!
 
 ```git
-# get the lastest state of origin
+# origin'in son vəziyyəti
 git fetch origin
 git checkout master
 git reset --hard origin/master
-# delete untracked files and directories
+# izlənilməyən faylları və qovluqları silin
 git clean -d --force
-# repeat checkout/reset/clean for each borked branch
+# bütün sikik branch'lar üçün bunu təkrar edin
 ```
