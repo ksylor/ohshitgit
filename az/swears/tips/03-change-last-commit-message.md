@@ -1,12 +1,12 @@
 ---
 tags: tip
-title: Oh shit, I need to change the message on my last commit!
+title: Ay sikim, axırıncı commit'dəki mesajı dəyişməliyəm!
 id: change-last-commit-message
 order: 3
 ---
 ```git
 git commit --amend
-# follow prompts to change the commit message
+# commit mesajını dəyişdirmək üçün göstərişlərə əməl edin
 ```
 
-Stupid commit message formatting requirements.
+Soxduğumux commit mesaj format tələbləri.
