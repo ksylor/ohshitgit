@@ -9,6 +9,11 @@ module.exports = {
             arialabel: "Sien die webblad in ander tale",
         },
         {
+            label: "Azərbaycanca",
+            code: "az",
+            arialabel: "Başqa dillərdə oxuyun",
+        },
+        {
             label: "বাংলা",
             code: "bn",
             arialabel: "অন্যান্য ভাষায় দেখুন",
@@ -159,6 +164,11 @@ module.exports = {
             name: "Michael Botha",
             link: "https://github.com/michaeljabotha",
             lang: "af",
+        },
+        {
+            name: "Zaman Kazimov",
+            link: "https://github.com/kazimovzaman2",
+            lang: "az",
         },
         {
             name: "Moritz Stückler",
