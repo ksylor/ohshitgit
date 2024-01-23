@@ -12,7 +12,7 @@ git stash
 # düzgün branch'a keç
 git checkout düzgün-branch-adı
 git stash pop
-git add . # və ya faylları bir bir adını yazın
+git add . # və ya faylların bir bir adını yazın
 git commit -m "mesajın";
 # indi dəyişikliklərin düzgün branch'a keçdi
 ```

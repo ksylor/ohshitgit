@@ -5,7 +5,7 @@ id: dude-wheres-my-diff
 order: 6
 ---
 
-Faylları dəyiştirdiyinizi bilirsiniz, amma `diff` komandası sizə nəticə vermirsə, böyük ehtimal faylları `add`'ləmişsiniz və sizə lazım olan xüsusi flag istifadə etməlisiniz.
+Fayllarda dəyişlik etdiyinizi bilirsiniz, amma `diff` komandası sizə nəticə vermirsə, böyük ehtimal faylları `add`'ləmişsiniz və sizə lazım olan xüsusi flag istifadə etməlisiniz.
 
 ```git
 git diff --staged
