@@ -7,7 +7,7 @@ order: 2
 
 ```git
 # dəyişikliyinizi edin
-git add . # və ya faylları vir bir adını yazın
+git add . # və ya faylları bir bir adını yazın
 git commit --amend --no-edit
 # və son commit bu dəyişiklikləri də içinə alacaq!
 # XƏBƏRDARLIQ: heç vaxt push etdiyiniz commit'ləri amend etməyin!
