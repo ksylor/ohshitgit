@@ -14,4 +14,4 @@ git checkout some-new-branch-name
 # yeni commit artıq bu branch'da yaşıyacaq :)
 ```
 
-Qeyd: əgər commit'i çoxdan public/shared repo'ya push etmisinizsə, və əvvəlcə başla şeyləri yoxlamısınızsa, bu işə yaramıyacaq, onun yerinə də `HEAD~` əvəzinə `git reset HEAD@{1-2-commit-əvvəl}` yoxluyun. Sonsuz qəm-kədər. Mənim bildiyimdən çox çox daha qısa yolları mənə məsləhət görən bir çox adam oldu. Hamısına çox təşəkkürlər!
+Qeyd: əgər commit'i çoxdan public/shared repo'ya push etmisinizsə, və əvvəlcə başqa şeyləri yoxlamısınızsa, bu işə yaramıyacaq, onun yerinə də `HEAD~` əvəzinə `git reset HEAD@{1-2-commit-əvvəl}` yoxlayın. Sonsuz qəm-kədər. Mənim bildiyimdən çox çox daha qısa yolları mənə məsləhət görən bir çox adam oldu. Hamısına çox təşəkkürlər!

@@ -1,21 +1,21 @@
 ---
 tags: tip
-title: Dangit, I need to undo a commit from like 5 commits ago!
+title: İçinə zibil, 5-6 commit əvvəl qeyd olunan commit'i geri almalıyam!
 id: undo-a-commit
 order: 7
 ---
 
 ```git
-# find the commit you need to undo
+# geri alınacaq commit'i tapın
 git log
-# use the arrow keys to scroll up and down in history
-# once you've found your commit, save the hash
-git revert [saved hash]
-# git will create a new commit that undoes that commit
-# follow prompts to edit the commit message 
-# or just save and commit
+# ox düymələrini istifadə edərək keçmişdə yuxarı/aşağı gəzinin
+# commit'i tapanda, hash'ni kopyalayın
+git revert [kopyalanan hash]
+# git sizin üçün bunu geri alan bir commit yaradacaq
+# commit mesajını göstərişləri edin
+# və ya sadəcə saxlayın və commit'ləyin
 ```
 
-Turns out you don't have to track down and copy-paste the old file contents into the existing file in order to undo changes! If you committed a bug, you can undo the commit all in one go with `revert`.
+Bir dəyişikliyi geri almaq üçün dəyişən yerləri tapıb bir bir yeni fayllara kopyalamaq lazım deyilmiş! Əgər səhvən bug'ı commit etmisinizsə, `revert` ilə commit'i geri ala bilərsiniz.
 
-You can also revert a single file instead of a full commit! But of course, in true git fashion, it's a completely different set of commands...
+Hətta, tüm bir commit'i geri almaq əvəzinə, tək bir fayl da geri ala bilərsiz! A düzdü, həqiqi git metoduna görə, hər funksiyanın fərqli komandası var...

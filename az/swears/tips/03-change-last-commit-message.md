@@ -9,4 +9,4 @@ git commit --amend
 # commit mesajını dəyişdirmək üçün göstərişlərə əməl edin
 ```
 
-Soxduğumun commit mesajının format tələbləri.
+Soxduğumun commit mesajının format tələbləri...
