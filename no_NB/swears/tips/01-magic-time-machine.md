@@ -15,4 +15,4 @@ git reset HEAD@{index}
 # magisk tidsmaskin
 ```
 
-Du kan bruke dette for å hente tilbake ting du sletta ved et uhell, eller bare fjerne ting du teste som endte opp med å kræsje repoet, eller for å hente deg inn etter en dårlig merge, eller bare returnere til et tidspunkt hvor ting faktisk funka. Jeg bruker `reflog` MASSE. Supertusen takk til de mange mange mange mange mange som foreslo å legge det til!
+Du kan bruke dette for å hente tilbake ting du sletta ved et uhell, eller bare fjerne ting du testa som endte opp med å kræsje repoet, eller for å hente deg inn etter en dårlig merge, eller bare returnere til et tidspunkt hvor ting faktisk funka. Jeg bruker `reflog` MASSE. Supertusen takk til de mange mange mange mange mange som foreslo å legge det til!

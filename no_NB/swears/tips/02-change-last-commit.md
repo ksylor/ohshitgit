@@ -6,7 +6,7 @@ order: 2
 ---
 
 ```git
-# gjør din enddring
+# gjør din endring
 git add . # eller legg til enkeltfiler
 git commit --amend --no-edit
 # siste commit inneholder nå endringa
