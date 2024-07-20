@@ -103,12 +103,12 @@ https://dangitgit.com/ro        https://dangitgit.com/ro/noswears/index.html 200
 https://dangitgit.com/          https://dangitgit.com/ro    302  Language=ro
 
 # ukrainian swears
-https://ohshitgit.com/ua        https://ohshitgit.com/ua/swears/index.html 200!
-https://ohshitgit.com/          https://ohshitgit.com/ua    302  Language=ua
+https://ohshitgit.com/uk        https://ohshitgit.com/uk/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/uk    302  Language=uk
 
 # ukrainian no swears
-https://dangitgit.com/ua        https://dangitgit.com/ua/noswears/index.html 200!
-https://dangitgit.com/          https://dangitgit.com/ua    302  Language=ua
+https://dangitgit.com/uk        https://dangitgit.com/uk/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/uk    302  Language=uk
 
 # brazilian portuguese swears - use the country redirect instead of language
 https://ohshitgit.com/pt_BR     https://ohshitgit.com/pt_BR/swears/index.html 200!

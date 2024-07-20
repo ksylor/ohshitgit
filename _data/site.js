@@ -70,7 +70,7 @@ module.exports = {
         },
         {
             label: "українська",
-            code: "ua",
+            code: "uk",
             arialabel: "Переглянути на інших мовах",
         },
         {
@@ -188,7 +188,7 @@ module.exports = {
         {
             name: "Andriy Sultanov",
             link: "https://github.com/LastGenius-edu",
-            lang: "ua",
+            lang: "uk",
         },
         {
             name: "Meiko Hori",
