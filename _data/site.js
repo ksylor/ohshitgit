@@ -69,6 +69,11 @@ module.exports = {
             arialabel: "Посмотреть на других языках",
         },
         {
+            label: "беларуская",
+            code: "by",
+            arialabel: "Паглядзець на іншых мовах",
+        },
+        {
             label: "українська",
             code: "ua",
             arialabel: "Переглянути на інших мовах",
@@ -169,6 +174,11 @@ module.exports = {
             name: "Daniil Golubev",
             link: "https://github.com/dadyarri",
             lang: "ru",
+        },
+        {
+            name: "Anton Stankevich",
+            link: "https://github.com/Antoha-94",
+            lang: "by",
         },
         {
             name: "Łukasz Wójcik",
