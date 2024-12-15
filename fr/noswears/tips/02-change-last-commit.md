@@ -15,4 +15,4 @@ git commit --amend --no-edit
 
 Cela m'arrive généralement quand je commite puis lance des tests/lints... et ouille, j'ai oublié un espace après une virgule. Vous pouvez aussi faire le changement via un nouveau commit puis faire `rebase -i` afin de fusionner les deux commits, mais c'est minimum un million de fois plus rapide.
 
-*Avertissement&nbsp;: Ne jamais faire un `amend` sur des commits déjà poussés vers une branche publique/partagée&nbsp;! Uniquement ceux qui n'existent que dans votre copie locale ou vous irez au-devant de gros ennuis...*
+*Avertissement&nbsp;: Ne jamais faire un `amend` sur des commits déjà poussés vers une branche publique/partagée&nbsp;! Uniquement ceux qui n'existent que dans votre copie locale ou vous vous exposerez à de gros ennuis...*
