@@ -1,7 +1,7 @@
 module.exports = {
     url_swears: "https://ohshitgit.com",
     url_noswears: "https://dangitgit.com",
-    copyright: "&copy; 2016-2021 Katie Sylor-Miller",
+    copyright: "&copy; 2016-2025 Katie Sylor-Miller",
     languages: [
         {
             label: "afrikaans",
