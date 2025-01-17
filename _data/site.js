@@ -104,6 +104,11 @@ module.exports = {
             arialabel: "Pokažite na drugim jezicima",
         },
         {
+            label: "Schwiizerdütsch",
+            code: "de_CH",
+            arialabel: "In ere andere Sprooch aazeige",
+        },
+        {
             label: "swedish",
             code: "sv",
             arialabel: "Visa på andra språk",
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "SpeedyGo55",
+            link: "https://github.com/speedygo55",
+            lang: "de_CH",
         },
     ],
     otherhelpers: [
