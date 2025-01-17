@@ -30,6 +30,14 @@ https://ohshitgit.com/          https://ohshitgit.com/ru    302  Language=ru
 https://dangitgit.com/ru        https://ohshitgit.com/ru/noswears/index.html 200!
 https://dangitgit.com/          https://dangitgit.com/ru    302  Language=ru
 
+# belorussian swears
+https://ohshitgit.com/by        https://ohshitgit.com/by/swears/index.html 200!
+https://ohshitgit.com/          https://ohshitgit.com/by    302  Language=by
+
+# belorussian no swears
+https://dangitgit.com/by        https://ohshitgit.com/by/noswears/index.html 200!
+https://dangitgit.com/          https://dangitgit.com/by    302  Language=by
+
 # polish swears
 https://ohshitgit.com/pl        https://ohshitgit.com/pl/swears/index.html 200!
 https://ohshitgit.com/          https://ohshitgit.com/pl    302  Language=pl
