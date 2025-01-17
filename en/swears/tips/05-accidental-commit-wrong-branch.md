@@ -21,9 +21,9 @@ A lot of people have suggested using `cherry-pick` for this situation too, so ta
 
 ```git
 git checkout name-of-the-correct-branch
-# grab the last commit to master
-git cherry-pick master
-# delete it from master
-git checkout master
+# grab the last commit to main
+git cherry-pick main
+# delete it from main
+git checkout main
 git reset HEAD~ --hard
 ```

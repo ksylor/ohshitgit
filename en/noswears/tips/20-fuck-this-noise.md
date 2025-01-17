@@ -21,7 +21,7 @@ For real though, if your branch is sooo borked that you need to reset the state 
 ```git
 # get the lastest state of origin
 git fetch origin
-git checkout master
+git checkout main
 git reset --hard origin/master
 # delete untracked files and directories
 git clean -d --force
