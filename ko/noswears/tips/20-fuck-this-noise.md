@@ -1,16 +1,16 @@
 ---
 tags: tip
 title: 아 몰라 됐어, 다 포기할래.
-id: fuck-this-noise
+id: dangit-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20
 ---
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r stupid-git-repo-dir
+git clone https://some.github.url/stupid-git-repo-dir.git
+cd stupid-git-repo-dir
 ```
 
 Eric V. 가 이 방법(장난)을 알려줬다. 그러니 `sudo`를 쓰는 것에 대해서 불평하고 싶다면 부디 그에게 하기를.
