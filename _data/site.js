@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            "label": "toki pona",
+            "code": "art-x-tokipona",
+            "arialabel": "o lukin e lipu kepeken toki ante"
+        }
     ],
     collaborators: [
         {
@@ -290,6 +295,11 @@ module.exports = {
             link: "https://github.com/sjarva",
             lang: "fi",
         },
+        {
+            "name": "Theodore Dubois",
+            "link": "https://github.com/tbodt",
+            "lang": "art-x-tokipona"
+        }
     ],
     otherhelpers: [
         {
