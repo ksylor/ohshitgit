@@ -44,6 +44,11 @@ module.exports = {
             arialabel: "अन्य भाषाओं में देखें",
         },
         {
+            label: "magyar",
+            code: "hu",
+            arialabel: "Megjelenítés más nyelven",
+        },
+        {
             label: "italiano",
             code: "it",
             arialabel: "Vedi in altre lingue",
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Bánfi, Bendegúz",
+            link: "https://github.com/bendibanfi",
+            lang: "hu",
         },
     ],
     otherhelpers: [
