@@ -16,7 +16,7 @@ cd kurva-git-konyvtar
 Ezért köszönet illeti Eric V.-t, mindenki, aki panaszkodik a `sudo` használatára neki tegye!
 
 
-De most komolyan. Ha a branched olyan mértékben van széttrollkodva, hogy már vissza kell az eredeti állapotot állítanod a törzskönyvtár alapján, akkor próbáld ki ezt, de vigyázzz, mert ez destruktív és visszafordíthatatlan lépés.
+De most komolyan. Ha a branched olyan mértékben van széttrollkodva, hogy már vissza kell az eredeti állapotot állítanod a törzskönyvtár alapján, akkor próbáld ki ezt, de vigyázz, mert ez destruktív és visszafordíthatatlan lépés.
 
 ```git
 # az origin legutóbbi változatának lekérése
