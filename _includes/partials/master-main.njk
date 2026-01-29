@@ -1,0 +1,36 @@
+<div class="master-main-switch">
+    <label>
+        <input type="radio" name="master-main" value="master" checked="checked"/>
+        <code>master</code>
+    </label>
+    <label>
+        <input type="radio" name="master-main" value="main"/>
+        <code>main</code>
+    </label>
+</div>
+<script async="async">
+    function changeMainBranch(branch) {
+        const branchWas = branch === 'main'
+            ? /\bmaster\b/g
+            : /\bmain\b/g;
+        const nodes = [];
+        const treeWalker = document.createTreeWalker(document.querySelector('main'), NodeFilter.SHOW_TEXT);
+        while (treeWalker.nextNode()) {
+            const node = treeWalker.currentNode;
+            if (node.nodeType === Node.TEXT_NODE && node.textContent.match(branchWas)) {
+                nodes.push(node);
+            }
+        };
+        nodes.forEach(function (node) {
+            node.textContent = node.textContent.replace(branchWas, branch);
+        });
+    }
+    addEventListener('DOMContentLoaded', function () {
+        console.log('DOMContentLoaded');
+        document.querySelectorAll('.master-main-switch [type="radio"]').forEach(function (radio) {
+            radio.addEventListener('change', function () {
+                changeMainBranch(radio.value);
+            });
+        });
+    });
+</script>
