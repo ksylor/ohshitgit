@@ -9,6 +9,11 @@ module.exports = {
             arialabel: "Sien die webblad in ander tale",
         },
         {
+            label: "العربية",
+            code: "ar",
+            arialabel: "اختر لغة أخرى",
+        },
+        {
             label: "বাংলা",
             code: "bn",
             arialabel: "অন্যান্য ভাষায় দেখুন",
@@ -159,6 +164,11 @@ module.exports = {
             name: "Michael Botha",
             link: "https://github.com/michaeljabotha",
             lang: "af",
+        },
+        {
+            name: "Isra Zughyer",
+            link: "https://github.com/Isracoder",
+            lang: "ar",
         },
         {
             name: "Moritz Stückler",
