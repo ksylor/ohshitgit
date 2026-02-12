@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "finlandssvenska",
+            code: "sv_FI",
+            arialabel: "Välj språk",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Oscar Lindh",
+            link: "https://github.com/lindhoscaa",
+            lang: "sv_FI",
         },
     ],
     otherhelpers: [
