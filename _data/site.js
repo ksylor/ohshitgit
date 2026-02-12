@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "magyar",
+            code: "hu",
+            arialabel: "Megtekintés más nyelveken",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Tamás Balog",
+            link: "https://github.com/picimako",
+            lang: "hu",
         },
     ],
     otherhelpers: [
