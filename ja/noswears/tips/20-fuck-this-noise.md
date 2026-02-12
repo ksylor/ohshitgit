@@ -8,9 +8,9 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r fucking-git-repo-dir
-git clone https://some.github.url/fucking-git-repo-dir.git
-cd fucking-git-repo-dir
+sudo rm -r annoying-git-repo-dir
+git clone https://some.github.url/annoying-git-repo-dir.git
+cd annoying-git-repo-dir
 ```
 
 Eric V、これありがとね。仮にこのジョークを真に受けて *sudo* しちゃったとしても、みんな文句は彼に言うんだよ。

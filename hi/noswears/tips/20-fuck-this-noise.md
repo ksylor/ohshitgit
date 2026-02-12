@@ -8,9 +8,9 @@ order: 20
 
 ```git
 cd ..
-sudo rm -r stupid-git-repo-dir
-git clone https://some.github.url/stupid-git-repo-dir.git
-cd stupid-git-repo-dir
+sudo rm -r annoying-git-repo-dir
+git clone https://some.github.url/annoying-git-repo-dir.git
+cd annoying-git-repo-dir
 ```
 
 इसके लिए एरिक वी को धन्यवाद। इस मजाक में `sudo` के उपयोग की सभी शिकायतें उसे निर्देशित की जा सकती हैं। 
