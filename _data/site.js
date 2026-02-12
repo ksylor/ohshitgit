@@ -39,6 +39,11 @@ module.exports = {
             arialabel: "Choisir une autre langue",
         },
         {
+            label: "français canadien",
+            code: "fr_CA",
+            arialabel: "Choisir une autre langue",
+        },
+        {
             label: "हिन्दी",
             code: "hi",
             arialabel: "अन्य भाषाओं में देखें",
@@ -184,6 +189,11 @@ module.exports = {
             name: "Michel",
             link: "https://github.com/michelc",
             lang: "fr",
+        },
+        {
+            name: "David Huggins-Daines",
+            link: "https://github.com/dhuggins",
+            lang: "fr_CA",
         },
         {
             name: "Andriy Sultanov",
