@@ -9,6 +9,11 @@ module.exports = {
             arialabel: "Sien die webblad in ander tale",
         },
         {
+            label: "العربية",
+            code: "ar",
+            arialabel: "عرض بلغات أخرى",
+        },
+        {
             label: "বাংলা",
             code: "bn",
             arialabel: "অন্যান্য ভাষায় দেখুন",
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Garo Garabed",
+            link: "https://github.com/garogarabed12",
+            lang: "ar",
         },
     ],
     otherhelpers: [
