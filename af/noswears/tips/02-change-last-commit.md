@@ -7,7 +7,7 @@ order: 2
 
 ```git
 # maak jou verandering
-git add . # of voef individuele leêrs by
+git add . # of voeg individuele leêrs by
 git commit --amend --no-edit
 # nou bevat jou laaste commit die verandering!
 # WAARSKUWING: moet nooit openbare commits wysig nie

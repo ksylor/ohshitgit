@@ -7,7 +7,7 @@ order: 4
 
 ```git
 # maak 'n splinter nuwe tak vanuit die huidige 
-# toestand can die meester tak
+# toestand van die meester tak
 git branch nuwe-tak-naam
 # verwyder die commit van die meester tak
 git reset HEAD~ --hard
