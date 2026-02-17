@@ -119,6 +119,11 @@ module.exports = {
             arialabel: "其他语言",
         },
         {
+            label: "繁體中文",
+            code: "zh_TW",
+            arialabel: "其他語言",
+        },
+        {
             label: "bahasa indonesia",
             code: "id",
             arialabel: "Lihat di bahasa lain",
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Yi-Shuo Lin",
+            link: "https://github.com/yishuolin",
+            lang: "zh-TW",
         },
     ],
     otherhelpers: [
