@@ -114,8 +114,8 @@ module.exports = {
             arialabel: "ดูในภาษาอื่น",
         },
         {
-            label: "中文",
-            code: "zh",
+            label: "简体中文",
+            code: "zh_CN",
             arialabel: "其他语言",
         },
         {
@@ -147,6 +147,16 @@ module.exports = {
             label: "suomi",
             code: "fi",
             arialabel: "Valitse kieli",
+        },
+        {
+            label: "繁體中文",
+            code: "zh_TW",
+            arialabel: "其他語言",
+        },
+        {
+            label: "粵語",
+            code: "zh_HK",
+            arialabel: "第啲文",
         },
     ],
     collaborators: [
@@ -233,7 +243,7 @@ module.exports = {
         {
             name: "Tao Jiayuan",
             link: "https://github.com/taojy123",
-            lang: "zh",
+            lang: "zh_CN",
         },
         {
             name: "Eduard Tomek",
@@ -289,6 +299,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "windowsboy111",
+            link: "https://github.com/windowsboy111",
+            lang: "zh_HK",
         },
     ],
     otherhelpers: [
