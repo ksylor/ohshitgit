@@ -148,6 +148,11 @@ module.exports = {
             code: "fi",
             arialabel: "Valitse kieli",
         },
+        {
+            label: "മലയാളം",
+            code: "ml",
+            arialabel: "മറ്റ് ഭാഷകളിൽ കാണുക",
+        },
     ],
     collaborators: [
         {
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "arshad",
+            link: "https://github.com/arshadakl",
+            lang: "ml",
         },
     ],
     otherhelpers: [
