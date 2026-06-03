@@ -34,6 +34,11 @@ module.exports = {
             arialabel: "Mira en otro idioma",
         },
         {
+            label: "اردو",
+            code: "ur",
+            arialabel: "دوسری زبانوں میں دیکھیں",
+        },
+        {
             label: "français",
             code: "fr",
             arialabel: "Choisir une autre langue",
@@ -164,6 +169,11 @@ module.exports = {
             name: "Moritz Stückler",
             link: "https://github.com/pReya",
             lang: "de",
+        },
+        {
+            name: "Muhammad Zulqarnain",
+            link: "https://github.com/Mzaq1559",
+            lang: "ur",
         },
         {
             name: "Daniil Golubev",

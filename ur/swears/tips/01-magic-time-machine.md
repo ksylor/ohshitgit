@@ -1,0 +1,18 @@
+---
+tags: tip
+title: اوہ شٹ، میں نے کچھ بہت غلط کر دیا — کیا git کے پاس ٹائم مشین ہے!?!
+id: magic-time-machine
+order: 1
+---
+
+```git
+git reflog
+# you will see a list of every thing you've 
+# done in git, across all branches!
+# each one has an index HEAD@{index}
+# find the one before you broke everything
+git reset HEAD@{index}
+# magic time machine
+```
+
+You can use this to get back stuff you accidentally deleted, or just to remove some stuff you tried that broke the repo, or to recover after a bad merge, or just to go back to a time when things actually worked. I use `reflog` A LOT. Mega hat tip to the many many many many many people who suggested adding it!
