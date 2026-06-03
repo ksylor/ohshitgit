@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Fuck this noise, I give up.
+title: بس کرو یہ سب، میں نے ہار مان لی۔
 id: fuck-this-noise
 note: this should always be the last one in the list, so setting order to 20 so I don't have to re-name/re-order it
 order: 20

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I tried to run a diff but nothing happened?!
+title: اوہ شٹ، میں نے diff چلایا مگر کچھ نظر نہیں آیا!
 id: dude-wheres-my-diff
 order: 6
 ---

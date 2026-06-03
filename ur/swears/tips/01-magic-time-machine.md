@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I did something terribly wrong, please tell me git has a magic time machine!?!
+title: اوہ شٹ، میں نے کچھ بہت غلط کر دیا — کیا git کے پاس ٹائم مشین ہے!?!
 id: magic-time-machine
 order: 1
 ---

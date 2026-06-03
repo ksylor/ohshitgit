@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed something to master that should have been on a brand new branch!
+title: اوہ شٹ، میں نے غلطی سے master پر commit کر دیا جو نئی branch پر ہونا چاہیے تھا!
 id: accidental-commit-master
 order: 4
 ---

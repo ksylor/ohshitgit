@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I need to undo a commit from like 5 commits ago!
+title: اوہ شٹ، مجھے 5 commits پہلے والا commit واپس لینا ہے!
 id: undo-a-commit
 order: 7
 ---

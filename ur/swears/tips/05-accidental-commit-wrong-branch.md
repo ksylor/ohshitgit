@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I accidentally committed to the wrong branch!
+title: اوہ شٹ، میں نے غلط branch پر commit کر دیا!
 id: accidental-commit-wrong-branch
 order: 5
 ---

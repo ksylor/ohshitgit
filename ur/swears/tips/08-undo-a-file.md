@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Oh shit, I need to undo my changes to a file!
+title: اوہ شٹ، مجھے کسی فائل میں کی گئی تبدیلیاں واپس لینی ہیں!
 id: undo-a-file
 order: 8
 ---

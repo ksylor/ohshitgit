@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Dangit, I committed and immediately realized I need to make one small change!
+title: ارے یار، میں نے ابھی commit کیا اور فوراً ایک چھوٹی سی تبدیلی کرنی پڑ گئی!
 id: change-last-commit
 order: 2
 ---

@@ -1,6 +1,6 @@
 ---
 tags: tip
-title: Dangit, I need to change the message on my last commit!
+title: ارے یار، مجھے اپنے آخری commit کا پیغام بدلنا ہے!
 id: change-last-commit-message
 order: 3
 ---
