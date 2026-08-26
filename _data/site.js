@@ -14,6 +14,11 @@ module.exports = {
             arialabel: "অন্যান্য ভাষায় দেখুন",
         },
         {
+            label: "català",
+            code: "ca",
+            arialabel: "Veure en altres llengües",
+        },
+        {
             label: "česky",
             code: "cs",
             arialabel: "Ostatní jazyky",
@@ -289,6 +294,11 @@ module.exports = {
             name: "Senja Jarva",
             link: "https://github.com/sjarva",
             lang: "fi",
+        },
+        {
+            name: "Alex González Lacasa",
+            link: "https://github.com/aloon",
+            lang: "ca",
         },
     ],
     otherhelpers: [
